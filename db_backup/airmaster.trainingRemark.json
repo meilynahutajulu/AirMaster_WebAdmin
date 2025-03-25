@@ -1,0 +1,91 @@
+[{
+  "_id": " ALARCFIT",
+  "remark": "Approach and Landing Accident Reduction/Controlled Flight Into Terrain",
+  "id": 7,
+  "training_code": "ALAR/CFIT",
+  "__collections__": {}
+},
+{
+  "_id": " AVSEC",
+  "remark": "Aviation Security",
+  "id": 4,
+  "training_code": "AVSEC",
+  "__collections__": {}
+},
+{
+  "_id": " CRM",
+  "remark": "Crew Resource Management",
+  "id": 6,
+  "training_code": "CRM",
+  "__collections__": {}
+},
+{
+  "_id": " DGR",
+  "remark": "Dangerous Goods and Regulations",
+  "id": 3,
+  "training_code": "DGR",
+  "__collections__": {}
+},
+{
+  "_id": " LVO",
+  "remark": "Low Visibility Operation",
+  "id": 11,
+  "training_code": "LVO",
+  "__collections__": {}
+},
+{
+  "_id": " PBN",
+  "remark": "Performance Based Navigation",
+  "id": 8,
+  "training_code": "PBN",
+  "__collections__": {}
+},
+{
+  "_id": " RGT",
+  "remark": "Recurrent Ground Training",
+  "id": 9,
+  "training_code": "RGT",
+  "__collections__": {}
+},
+{
+  "_id": " RHSCHECK",
+  "remark": "Right Hand Seat Check",
+  "id": 12,
+  "training_code": "RHS CHECK ",
+  "__collections__": {}
+},
+{
+  "_id": " RNAVGNSS",
+  "remark": "Required Navigation (GNSS)",
+  "id": 10,
+  "training_code": "RNAV (GNSS)",
+  "__collections__": {}
+},
+{
+  "_id": " RVSM",
+  "remark": "Reduced Vertical Separation Minima",
+  "id": 1,
+  "training_code": "RVSM",
+  "__collections__": {}
+},
+{
+  "_id": " SEP",
+  "remark": "Safety Emergency Procedures",
+  "id": 2,
+  "training_code": "SEP",
+  "__collections__": {}
+},
+{
+  "_id": " SMS",
+  "remark": "Safety Management System",
+  "id": 5,
+  "training_code": "SMS",
+  "__collections__": {}
+},
+{
+  "_id": " UPRT",
+  "remark": "Upset and Recovery Training",
+  "id": 13,
+  "training_code": "UPRT",
+  "__collections__": {}
+}]

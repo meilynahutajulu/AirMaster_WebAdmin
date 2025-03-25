@@ -1,0 +1,72 @@
+[{
+  "_id": "AUD",
+  "training": "AUD",
+  "id": 6,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "COURSE",
+  "is_delete": 0,
+  "__collections__": {}
+},
+{
+  "_id": "CRM",
+  "training": "CRM",
+  "id": 9,
+  "recurrent": "12 MONTH CALENDER",
+  "training_description": "Training",
+  "is_delete": 0,
+  "__collections__": {}
+},
+{
+  "_id": "CSV",
+  "training": "CSV",
+  "id": 5,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "course",
+  "is_delete": 0,
+  "__collections__": {}
+},
+{
+  "_id": "IP",
+  "training": "IP",
+  "id": 8,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "Training",
+  "is_delete": 1,
+  "__collections__": {}
+},
+{
+  "_id": "RVS",
+  "training": "RVS",
+  "id": 9,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "Training",
+  "is_delete": 0,
+  "__collections__": {}
+},
+{
+  "_id": "RVSM",
+  "training": "RVSM",
+  "id": 1,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "test",
+  "is_delete": 0,
+  "__collections__": {}
+},
+{
+  "_id": "SEP",
+  "training": "SEP",
+  "id": 4,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "course",
+  "is_delete": 0,
+  "__collections__": {}
+},
+{
+  "_id": "Testing",
+  "training": "Testing",
+  "id": 3,
+  "recurrent": "6 MONTH CALENDER",
+  "training_description": "Testing",
+  "is_delete": 0,
+  "__collections__": {}
+}]

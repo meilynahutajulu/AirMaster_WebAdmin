@@ -1,0 +1,24 @@
+[{
+  "_id": "ap-1",
+  "period": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1593795600,
+      "_nanoseconds": 0
+    }
+  },
+  "id": "ap-1",
+  "__collections__": {}
+},
+{
+  "_id": "ap-2",
+  "period": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 756353349,
+      "_nanoseconds": 9000000
+    }
+  },
+  "id": "ap-2",
+  "__collections__": {}
+}]

@@ -1,0 +1,26 @@
+[{
+  "_id": "af-1-ap-1",
+  "flight-details": [
+    "Line Oriented Examination. (LOE)",
+    "Operator Proficiency Check (COFT)",
+    "Instrument Rating (IRT)",
+    "Line Oriented Simulation (LOS) / SPOT ",
+    "Low Visibility Operations (LVO)",
+    "ETOPS / MNPS / RVSM / NATS ",
+    "CRP Initial/Recurrent ",
+    "ZFTT / Flight Base Trng",
+    "Fixed Based Simulator/MFTD",
+    "Full Flight Simulator (FFS)",
+    "RHS Initial / Recurrent",
+    "Instructor's Initial / Renewal",
+    "Recurrent ….",
+    "CCQ ",
+    "Std Transition / IOE for Rated Flt Crew",
+    "Remedial Trng / Evaluation",
+    "Command Upgrade",
+    "ISEP",
+    "Airport Qualification",
+    "Other ...."
+  ],
+  "__collections__": {}
+}]

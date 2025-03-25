@@ -1,0 +1,8913 @@
+[{
+  "_id": "242424",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "STATUS": "VALID",
+  "ID NO": 11321012,
+  "NAME": "Josua Siregar",
+  "LOA NO": "21012",
+  "LICENSE NO.": "DEL 11321012",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721062800,
+      "_nanoseconds": 994000000
+    }
+  },
+  "INSTRUCTOR": [
+    "CPTS"
+  ],
+  "PRIVILEGES": [
+    "view-all-assessments"
+  ],
+  "RANK": "Pilot Administrator",
+  "EMAIL": "meilynahutajulu@gmail.com",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocJ4OqrKqZvV2IxwavIb55ygdrFVAkQs_cbpWEB86l0jE7B_VFcN=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "1000100",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "ID NO": 1000001,
+  "LICENCE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": {
+        "$numberLong": "2386551600"
+      },
+      "_nanoseconds": 413000000
+    }
+  },
+  "LICENCE NO.": "A 113",
+  "LOA NO": "",
+  "NAME": "Archico",
+  "RANK": "CAPT",
+  "STATUS": "VALID",
+  "INSTRUCTOR": [
+    "CPTS",
+    "FIA",
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "view-all-assessments",
+    "manage-form-assessment",
+    "create-assessment"
+  ],
+  "EMAIL": "meylina.sah17@gmail.com",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocJgMs4vjplvKxX9b8ltJ5I3yPUG64osH8vJCnj5eYE4EgPhr5U=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "1000372",
+  "ATTRIBUTE": "",
+  "LOA NO": "",
+  "HUB": "CGK",
+  "STATUS": "VALID",
+  "EMAIL": "josuasiregar2701@gmail.com",
+  "ID NO": 11321000,
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocJwd0qowZAmLbG1bWoujvG7e0zvFriYi7uBh3ifXYxK=s96-c",
+  "NAME": "Josua Siregar",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721062800,
+      "_nanoseconds": 184000000
+    }
+  },
+  "LICENSE NO.": "DEL 11321000",
+  "INSTRUCTOR": [
+    "CPTS",
+    "FIA",
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "view-all-assessments",
+    "manage-form-assessment",
+    "create-assessment"
+  ],
+  "RANK": "CAPT",
+  "__collections__": {}
+},
+{
+  "_id": "1000668",
+  "ID NO": 1000668,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5065",
+  "EMAIL": "syarifhidayat@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Syarif Hidayat",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000679",
+  "ID NO": 1000679,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4526",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dennis Hasibuan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "EMAIL": "dennihasibuan@airasia.com",
+  "__collections__": {}
+},
+{
+  "_id": "1000718",
+  "ID NO": 1000718,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4190",
+  "EMAIL": "mochammadnurhidayat@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mochamad Nur Hidayat",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000731",
+  "ID NO": 1000731,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "asnen@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ASNEN",
+  "__collections__": {}
+},
+{
+  "_id": "1000744",
+  "ID NO": 1000744,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3429",
+  "EMAIL": "sudihartodaddy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Sudiharto Daddy",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000785",
+  "ID NO": 1000785,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5374",
+  "EMAIL": "akhmadmaulana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Akhmad Maulana",
+  "INSTRUCTOR": [
+    "CCP"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000788",
+  "ID NO": 1000788,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3582",
+  "EMAIL": "indraningrat@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Indraningrat",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000851",
+  "ID NO": 1000851,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4106",
+  "EMAIL": "chandraandreano@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Chandra Andreano",
+  "INSTRUCTOR": [
+    "CCP"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000852",
+  "ID NO": 1000852,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4128",
+  "EMAIL": "ekachristyanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Eka Christyanto",
+  "INSTRUCTOR": [
+    "CCP"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000853",
+  "ID NO": 1000853,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4104",
+  "EMAIL": "glennandrelusikooy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Glenn Lusikooy",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000854",
+  "ID NO": 1000854,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4129",
+  "EMAIL": "iwansetiawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Iwan Setiawan",
+  "INSTRUCTOR": [
+    "CCP"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000903",
+  "ID NO": 1000903,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4764",
+  "EMAIL": "adityawiryawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Aditya Wiryawan",
+  "INSTRUCTOR": [
+    "CCP"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000975",
+  "ID NO": 1000975,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5096",
+  "EMAIL": "adityahergiantomo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Aditya Hergiantomo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1000983",
+  "ID NO": 1000983,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4974",
+  "EMAIL": "monikaanggreini@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Monika Anggreini",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001000",
+  "ID NO": 1001000,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "rismono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "RISMONO",
+  "__collections__": {}
+},
+{
+  "_id": "1001146",
+  "ID NO": 1001146,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "asihharicahyadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ASIH HARI CAHYADI",
+  "__collections__": {}
+},
+{
+  "_id": "1001149",
+  "ID NO": 1001149,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4570",
+  "EMAIL": "achmadrizal@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Achmad Rizal",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001151",
+  "ID NO": 1001151,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4994",
+  "EMAIL": "heribertusganjar@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Heribertus Ganjar Widodo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001268",
+  "ID NO": 1001268,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "tototwirutomo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "TOTOT WIRUTOMO AGP",
+  "__collections__": {}
+},
+{
+  "_id": "1001323",
+  "ID NO": 1001323,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4694",
+  "EMAIL": "andihusdirkadir@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andi Husdir Kadir",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001477",
+  "ID NO": 1001477,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "allobudiyanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ALLO BUDIYANTO",
+  "__collections__": {}
+},
+{
+  "_id": "1001519",
+  "ID NO": 1001519,
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "nofriandi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "NOFRIANDI",
+  "__collections__": {}
+},
+{
+  "_id": "1001541",
+  "ID NO": 1001541,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3806",
+  "EMAIL": "andidwicahyadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Andi Dwi Cahyadi",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001544",
+  "ID NO": 1001544,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3893",
+  "EMAIL": "achmadsadikin@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Achmad Sadikin",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001547",
+  "ID NO": 1001547,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5340",
+  "EMAIL": "suryanugroho@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Surya Nugroho",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001593",
+  "ID NO": 1001593,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "mochamadruslani@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "MOCHAMAD RUSLANI",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocLn8W1Sg2j61d45-PZtnhTHnd8GTx6Ft6gYDS5soKIcZvOz=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "1001603",
+  "ID NO": 1001603,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "zainoelfikri@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ZAINOEL FIKRI",
+  "__collections__": {}
+},
+{
+  "_id": "1001658",
+  "ID NO": 1001658,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "risharyadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "RISHARYADI",
+  "__collections__": {}
+},
+{
+  "_id": "1001702",
+  "ID NO": 1001702,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9381",
+  "EMAIL": "rezapahlevi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reza Pahlevi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001727",
+  "ID NO": 1001727,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5156",
+  "EMAIL": "djokosatriyo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Djoko Satriyo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001729",
+  "ID NO": 1001729,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4835",
+  "EMAIL": "gunawanrusdyana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Gunawan Rusdyana",
+  "INSTRUCTOR": [
+    "CCP"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001731",
+  "ID NO": 1001731,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4918",
+  "EMAIL": "radityoprimandanu@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Radityo Primandanu Koesoemo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001742",
+  "ID NO": 1001742,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4265",
+  "EMAIL": "boykevikannusajati@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Boyke Vikan Nusajati",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001846",
+  "ID NO": 1001846,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6001",
+  "EMAIL": "afnersyafril@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Afner Syafril",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001849",
+  "ID NO": 1001849,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4340",
+  "EMAIL": "christanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Christanto Dhonomidjojo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001851",
+  "ID NO": 1001851,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5747",
+  "EMAIL": "febiirawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Febi Irawan",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001852",
+  "ID NO": 1001852,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4822",
+  "EMAIL": "ibrahimajiishaq@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ibrahim Aji Ishaq",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001912",
+  "ID NO": 1001912,
+  "ATTRIBUTE": "",
+  "HUB": "KNO",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "afdhalasril@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "AFDHAL ASRIL",
+  "__collections__": {}
+},
+{
+  "_id": "1001938",
+  "ID NO": 1001938,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "ibrahimlatief@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "IBRAHIM LATIEF",
+  "__collections__": {}
+},
+{
+  "_id": "1001956",
+  "ID NO": 1001956,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3442",
+  "EMAIL": "suhandi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Suhandi",
+  "INSTRUCTOR": [
+    "FIA",
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1001991",
+  "ID NO": 1001991,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "adealifitratullah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ADE ALI FITRATULLAH",
+  "__collections__": {}
+},
+{
+  "_id": "1002073",
+  "ID NO": 1002073,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3652",
+  "EMAIL": "gerardusmajela@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gerardus Mboi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002074",
+  "ID NO": 1002074,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6054",
+  "EMAIL": "husinsyarifshahab@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Husin Syarif",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002076",
+  "ID NO": 1002076,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5844",
+  "EMAIL": "ravinthrenvijay@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ravinthren Vijay",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002233",
+  "ID NO": 1002233,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "yodiariffadilah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "YODI ARIF FADILAH",
+  "__collections__": {}
+},
+{
+  "_id": "1002239",
+  "ID NO": 1002239,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "bayuprasetyanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "BAGUS BAYU PRASETYANTO",
+  "__collections__": {}
+},
+{
+  "_id": "1002244",
+  "ID NO": 1002244,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "yudhonobudilaksono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "YUDHONO BUDI LAKSONO",
+  "__collections__": {}
+},
+{
+  "_id": "1002289",
+  "ID NO": 1002289,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3883",
+  "EMAIL": "abdulkadirfaried@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Abdul Kadir Faried",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002291",
+  "ID NO": 1002291,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "Non Flying ",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A3618",
+  "EMAIL": "arifwijaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Arif Wijaya ",
+  "INSTRUCTOR": [
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002292",
+  "ID NO": 1002292,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4146",
+  "EMAIL": "ekosuherwanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Eko Suherwanto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002295",
+  "ID NO": 1002295,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3644",
+  "EMAIL": "iketutsutarja@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "I Ketut Sutarja",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002297",
+  "ID NO": 1002297,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "Sick Leave",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3621",
+  "EMAIL": "prasetyo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Prasetyo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002298",
+  "ID NO": 1002298,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3617",
+  "EMAIL": "sanjayagunawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Sanjaya Gunawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002315",
+  "ID NO": 1002315,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "nurdin@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "NURDIN",
+  "__collections__": {}
+},
+{
+  "_id": "1002316",
+  "ID NO": 1002316,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4614",
+  "EMAIL": "rickytribudilukman@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ricky Tribudi Lukman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002317",
+  "ID NO": 1002317,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3214",
+  "EMAIL": "yohanesferrumaulana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yohanes Ferru Maulanda",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002360",
+  "ID NO": 1002360,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9411",
+  "EMAIL": "suryawansutjitro@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Suryawan Sujitro",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002415",
+  "ID NO": 1002415,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "yuloktavinojulidar@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "YUL OKTAVINO JULIDAR",
+  "__collections__": {}
+},
+{
+  "_id": "1002537",
+  "ID NO": 1002537,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "dwinantonugroho@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DWINANTO NUGROHO",
+  "__collections__": {}
+},
+{
+  "_id": "1002555",
+  "ID NO": 1002555,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5229",
+  "EMAIL": "aepkunaepi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Aep Kunaepi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002559",
+  "ID NO": 1002559,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6179",
+  "EMAIL": "jefryliwan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Jefry Liwan",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002568",
+  "ID NO": 1002568,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6201",
+  "EMAIL": "wicaksono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Wicaksono",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002604",
+  "ID NO": 1002604,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9897",
+  "EMAIL": "nettyseine@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Netty Seine",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002641",
+  "ID NO": 1002641,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "darmawanwawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DARMAWAN",
+  "__collections__": {}
+},
+{
+  "_id": "1002646",
+  "ID NO": 1002646,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "suryadij@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "SURYADI",
+  "__collections__": {}
+},
+{
+  "_id": "1002697",
+  "ID NO": 1002697,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4138",
+  "EMAIL": "trihanggonokharis@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Tri Hanggono",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002719",
+  "ID NO": 1002719,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6475",
+  "EMAIL": "adamkartawijaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adam Kartawijaya",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002720",
+  "ID NO": 1002720,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "Non Flying ",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 6496",
+  "EMAIL": "asterdamayanti@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Aster Damayanti",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002806",
+  "ID NO": 1002806,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3839",
+  "EMAIL": "rosarrydarwis@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Rosarry Darwis",
+  "INSTRUCTOR": [
+    "FIA",
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002818",
+  "ID NO": 1002818,
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "darmantriyatno@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DARMAN TRIYATNO",
+  "__collections__": {}
+},
+{
+  "_id": "1002849",
+  "ID NO": 1002849,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6349",
+  "EMAIL": "yoanesprasetya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yoanes Prasetya Tontey",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002856",
+  "ID NO": 1002856,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5549",
+  "EMAIL": "tisbayuaji@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Tis Banyuaji",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002880",
+  "ID NO": 1002880,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3448",
+  "EMAIL": "achmadyunito@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Achmad Yunito",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002939",
+  "ID NO": 1002939,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9469",
+  "EMAIL": "heruwijanarka@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "R. Heru Wijanarka",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002941",
+  "ID NO": 1002941,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5714",
+  "EMAIL": "djokosihanggoro@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Djoko Sihanggoro",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1002990",
+  "ID NO": 1002990,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "rihardilaras@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "RIHARDI LARAS",
+  "__collections__": {}
+},
+{
+  "_id": "1003079",
+  "ID NO": 1003079,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "Non Flying ",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 32390",
+  "EMAIL": "haryotranggono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Haryo Tranggono",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003082",
+  "ID NO": 1003082,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "meshalwajdiabdat@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "MESHAL WAJDI  ABDAT",
+  "__collections__": {}
+},
+{
+  "_id": "1003102",
+  "ID NO": 1003102,
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "bagusdwisetiawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "BAGUS DWI SETIAWAN",
+  "__collections__": {}
+},
+{
+  "_id": "1003115",
+  "ID NO": 1003115,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6339",
+  "EMAIL": "dennisharis@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dennis haris",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003116",
+  "ID NO": 1003116,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0052",
+  "EMAIL": "joanchandran@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Joan C Sitanggang",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003125",
+  "ID NO": 1003125,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4985",
+  "EMAIL": "jokysanor@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Joky Sanor Lesmana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003126",
+  "ID NO": 1003126,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3739",
+  "EMAIL": "ariefnovan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "M. Arief Novan W",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003156",
+  "ID NO": 1003156,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "Non Flying ",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4641",
+  "EMAIL": "jurrysoeryowiharko@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jurry Soeryo Wiharko",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003177",
+  "ID NO": 1003177,
+  "ATTRIBUTE": "",
+  "HUB": "KNO",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "bimakurniawanputra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "BIMA KURNIAWAN PUTRA",
+  "__collections__": {}
+},
+{
+  "_id": "1003218",
+  "ID NO": 1003218,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3302",
+  "EMAIL": "marifulalimochtar@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Mariful Ali",
+  "INSTRUCTOR": [
+    "FIA",
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003376",
+  "ID NO": 1003376,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "danangsasongkoaji@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DANANG SASONGKO AJI",
+  "__collections__": {}
+},
+{
+  "_id": "1003427",
+  "ID NO": 1003427,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5791",
+  "EMAIL": "dedyirawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dedy Irawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003428",
+  "ID NO": 1003428,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5301",
+  "EMAIL": "devaprasetyowibowo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Deva Prasetyo",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003430",
+  "ID NO": 1003430,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5398",
+  "EMAIL": "wiemaradinugroho@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Wiemar Adi Nugroho",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003459",
+  "ID NO": 1003459,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "deabbiefebrikamisar@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DEABBIE FEBRI KAMISAR",
+  "__collections__": {}
+},
+{
+  "_id": "1003506",
+  "ID NO": 1003506,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "rendisantana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "RENDI SANTANA",
+  "__collections__": {}
+},
+{
+  "_id": "1003546",
+  "ID NO": 1003546,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A4626",
+  "EMAIL": "anindityodamar@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Anindityo Damar S.K",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003581",
+  "ID NO": 1003581,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0106",
+  "EMAIL": "andremananda@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andre Mananda",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003903",
+  "ID NO": 1003903,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9824",
+  "EMAIL": "ratnasetiautami@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ratna Setia Utami",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1003940",
+  "ID NO": 1003940,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "saepulamin@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "SAEFUL AMIN",
+  "__collections__": {}
+},
+{
+  "_id": "1003991",
+  "ID NO": 1003991,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "nandangprianto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "NANDANG PRIANTO",
+  "__collections__": {}
+},
+{
+  "_id": "1004073",
+  "ID NO": 1004073,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0132",
+  "EMAIL": "abisatyasyah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Abisatya Syah Pradhana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1004074",
+  "ID NO": 1004074,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0134",
+  "EMAIL": "julianhendra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Julian hendra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1004102",
+  "ID NO": 1004102,
+  "ATTRIBUTE": "",
+  "HUB": "KNO",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "trihartonojoko@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "TRI HARTONO JOKO WAHYUWONO",
+  "__collections__": {}
+},
+{
+  "_id": "1004121",
+  "ID NO": 1004121,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "bimowiharnako@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "BIMO WIHARNAKO",
+  "__collections__": {}
+},
+{
+  "_id": "1004237",
+  "ID NO": 1004237,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "andifadly@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ANDI FADLY",
+  "__collections__": {}
+},
+{
+  "_id": "1004528",
+  "ID NO": 1004528,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0047",
+  "EMAIL": "williamwirawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "William Wirawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1004704",
+  "ID NO": 1004704,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "muhammadali@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "MUHAMMAD ALI",
+  "__collections__": {}
+},
+{
+  "_id": "1004821",
+  "ID NO": 1004821,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0159",
+  "EMAIL": "allyfhan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Allyfhan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1004824",
+  "ID NO": 1004824,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0097",
+  "EMAIL": "armandasetiawardana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Armanda Setiawardana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1004830",
+  "ID NO": 1004830,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0098",
+  "EMAIL": "erickadityamulia@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Erick Aditya",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005055",
+  "ID NO": 1005055,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0081",
+  "EMAIL": "donnytriaviantony@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Donny Tri Aviantony",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005056",
+  "ID NO": 1005056,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0044",
+  "EMAIL": "nugrohobudiyanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Nugroho Budiyanto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005057",
+  "ID NO": 1005057,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0046",
+  "EMAIL": "widhiwidagdo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Widhi Widagdo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005257",
+  "ID NO": 1005257,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "A 18-0111",
+  "EMAIL": "imadebambang@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "I Made Bambang",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005260",
+  "ID NO": 1005260,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0050",
+  "EMAIL": "pradidohadiwinoto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Pradido Hadiwinoto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005341",
+  "ID NO": 1005341,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 7571",
+  "EMAIL": "nicolausavia@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Nicolaus Avia Bonaventura",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005371",
+  "ID NO": 1005371,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0133",
+  "EMAIL": "agusteguh@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Agus Teguh",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005649",
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "LICENSE NO.": "A112",
+  "EMAIL": "riskachantiniwita@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1701190800,
+      "_nanoseconds": 165000000
+    }
+  },
+  "INSTRUCTOR": [
+    ""
+  ],
+  "NAME": "Riska Chantiniwita",
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocKD0s0_9cU-dqXIpj1h37VKF85-xd5oKi4K97Cu-54kXAg=s96-c",
+  "ID NO": 1005649,
+  "RANK": "CAPT",
+  "__collections__": {}
+},
+{
+  "_id": "1005890",
+  "ID NO": 1005890,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0112",
+  "EMAIL": "bhismabagaskara@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bhisma Bhagaskara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005891",
+  "ID NO": 1005891,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0063",
+  "EMAIL": "gamalabdulnazer@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1735578000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gamal Abdul Nazer",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005892",
+  "ID NO": 1005892,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 7810",
+  "EMAIL": "gilangbonaventura@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gilang Bonaventura Mario",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005894",
+  "ID NO": 1005894,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0046",
+  "EMAIL": "jatiastupratama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jati Astu Pratama",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005896",
+  "ID NO": 1005896,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0110",
+  "EMAIL": "wirafajarpriyandhanu@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Wira Fajar Priyandhanu",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005897",
+  "ID NO": 1005897,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0082",
+  "EMAIL": "yanwirahapphy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yanwira Happhy",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1005898",
+  "ID NO": 1005898,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 8073",
+  "EMAIL": "yostiawanaviandono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yostiawan Aviandono",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006063",
+  "ID NO": 1006063,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5461",
+  "EMAIL": "dewimeilina@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Dewi Meilina",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006129",
+  "ID NO": 1006129,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 7595",
+  "EMAIL": "bayususantoputra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bayu Susanto Putra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006130",
+  "ID NO": 1006130,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0108",
+  "EMAIL": "davidandreasferry@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "David Andreas",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006132",
+  "ID NO": 1006132,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8120",
+  "EMAIL": "ramapandugita@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rama Pandugita",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006189",
+  "ID NO": 1006189,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0043",
+  "EMAIL": "acepdenicahyadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Acep Deni Cahyadi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006196",
+  "ID NO": 1006196,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4267",
+  "EMAIL": "fellias@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Fellias",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006197",
+  "ID NO": 1006197,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4940",
+  "EMAIL": "gumilangkarsajaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gumilang Karsajaya",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006198",
+  "ID NO": 1006198,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5205",
+  "EMAIL": "ivandahlan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ivan Dahlan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006205",
+  "ID NO": 1006205,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4895",
+  "EMAIL": "reynold@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reynold Pardomoan Tambunan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006206",
+  "ID NO": 1006206,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5503",
+  "EMAIL": "royaguspermana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Roy Agus Permana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006511",
+  "ID NO": 1006511,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5082",
+  "EMAIL": "bambangsukotjo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bambang Sukotjo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006607",
+  "ID NO": 1006607,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0107",
+  "EMAIL": "marchioboestami@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Marchio Pratama Gunawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006638",
+  "ID NO": 1006638,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4193",
+  "EMAIL": "dumadidjamatsari@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dumadi Djamatsari",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006643",
+  "ID NO": 1006643,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0109",
+  "EMAIL": "husinabdillah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Husin Abdillah Alaydrus",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006693",
+  "ID NO": 1006693,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0062",
+  "EMAIL": "andyandriyan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andy Andriyan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006727",
+  "ID NO": 1006727,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0108",
+  "EMAIL": "mochammadaudi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mochammad Audi Rahmadani",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006756",
+  "ID NO": 1006756,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 7789",
+  "EMAIL": "deandrypratama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Deandry Pratama Putra R.",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006826",
+  "ID NO": 1006826,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 18-0045",
+  "EMAIL": "davidwibawa@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "David Wibawa Sapulete",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006915",
+  "ID NO": 1006915,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 7799",
+  "EMAIL": "nilaprihandini@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Nila Prihandini",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006921",
+  "ID NO": 1006921,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0048",
+  "EMAIL": "harrisaulianur@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Harris Aulia Nur",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006986",
+  "ID NO": 1006986,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0084",
+  "EMAIL": "achmadnibraska@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Achmad Nibraska Muharrom",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1006990",
+  "ID NO": 1006990,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3781",
+  "EMAIL": "chandrawirawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Chandra Wirawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007261",
+  "ID NO": 1007261,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0106",
+  "EMAIL": "mustikaoka@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mustika Oka Putraka",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007364",
+  "ID NO": 1007364,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 6191",
+  "EMAIL": "hudiansyah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "H. Udiansyah",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007365",
+  "ID NO": 1007365,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5288",
+  "EMAIL": "teddymarthanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Teddy Marthanto",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007453",
+  "ID NO": 1007453,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "syaifullah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "SYAIFULLAH",
+  "__collections__": {}
+},
+{
+  "_id": "1007463",
+  "ID NO": 1007463,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0049",
+  "EMAIL": "bramdirgantaraputra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bram Dirgantara Putra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007468",
+  "ID NO": 1007468,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0047",
+  "EMAIL": "devanatmadhyaksa@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Devan Atma Dhyaksa",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007475",
+  "ID NO": 1007475,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8071",
+  "EMAIL": "muhammadadriansyah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Adriansyah",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007683",
+  "ID NO": 1007683,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3454",
+  "EMAIL": "bambangsukatman@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bambang Sukatman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007716",
+  "ID NO": 1007716,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4307",
+  "EMAIL": "ernestglorio@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ernest Glorio",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007735",
+  "ID NO": 1007735,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0091",
+  "EMAIL": "audiphputera@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Audi Pradhipto H.P Brasali",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007738",
+  "ID NO": 1007738,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0139",
+  "EMAIL": "mwiratamahadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Wiratama Hadi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007742",
+  "ID NO": 1007742,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 8525",
+  "EMAIL": "muhglagahananda@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Glagah Ananda M",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007782",
+  "ID NO": 1007782,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0045",
+  "EMAIL": "adiyantopamungkas@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adiyanto Pamungkas",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007792",
+  "ID NO": 1007792,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "A 5629",
+  "EMAIL": "andangpriambodo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andang Priambodo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007793",
+  "ID NO": 1007793,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "A 5531",
+  "EMAIL": "asringunaldi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Asrin Gunaldi Ali",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007796",
+  "ID NO": 1007796,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4593",
+  "EMAIL": "jeferiherald@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jeferi Herald",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1007994",
+  "ID NO": 1007994,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4896",
+  "EMAIL": "rahadimuhammad@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rahadi Muhammad Mantikno",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1008323",
+  "ID NO": 1008323,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3407",
+  "EMAIL": "adianiskandar@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adian Iskandar",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1008405",
+  "ID NO": 1008405,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3313",
+  "EMAIL": "dwiharsosyahhusodo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dwi Harso Syah Husodo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1008427",
+  "ID NO": 1008427,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3780",
+  "EMAIL": "wuriseptiawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Wuri Septiawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1008575",
+  "ID NO": 1008575,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 17-0135",
+  "EMAIL": "ardilessompotan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ardiles Sompotan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1008583",
+  "ID NO": 1008583,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0039",
+  "EMAIL": "fidyantofadillah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Fidyanto fadillah",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1008601",
+  "ID NO": 1008601,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0055",
+  "EMAIL": "pandusilvanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Pandu Silvanto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009184",
+  "ID NO": 1009184,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "A 3733",
+  "EMAIL": "theresiakoes@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Theresia Koes Soehardiman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009194",
+  "ID NO": 1009194,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 8343",
+  "EMAIL": "armmedibrahim@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Armmed Ibrahim Rachmat",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009197",
+  "ID NO": 1009197,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 8720",
+  "EMAIL": "bayuadityaramadhan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bayu Aditya Ramadhan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009199",
+  "ID NO": 1009199,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8627",
+  "EMAIL": "dhaniaratulong@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dhaniar A Tulong",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009202",
+  "ID NO": 1009202,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 20-0052",
+  "EMAIL": "jessicajanajohan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jessica Jana Johan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009206",
+  "ID NO": 1009206,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 8859",
+  "EMAIL": "muhammadsatria@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "M. Satria Pinandhita",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009208",
+  "ID NO": 1009208,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 8750",
+  "EMAIL": "reyusareffendy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reyusar Effendy",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009211",
+  "ID NO": 1009211,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8274",
+  "EMAIL": "tyasmarisca@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Tyas Marisca Anggarini",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009486",
+  "ID NO": 1009486,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "ariwahyuwinardi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ARI WAHYU WINARDI",
+  "__collections__": {}
+},
+{
+  "_id": "1009492",
+  "ID NO": 1009492,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "LICENSE NO.": "",
+  "EMAIL": "christiandaniel@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "CHRISTIAN DANIEL BERTY TIJOU",
+  "RANK": "CAPT",
+  "__collections__": {}
+},
+{
+  "_id": "1009554",
+  "ID NO": 1009554,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 7576",
+  "EMAIL": "andrewtezyano@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andrew Tezyano",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009559",
+  "ID NO": 1009559,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3250",
+  "EMAIL": "bambangnoerianto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bambang Noerianto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009564",
+  "ID NO": 1009564,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5134",
+  "EMAIL": "reddiyanto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reddiyanto Soenggawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009565",
+  "ID NO": 1009565,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5553",
+  "EMAIL": "robbyhendriawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Robby Hendriawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009870",
+  "ID NO": 1009870,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9091",
+  "EMAIL": "aliefhamkamohammad@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Alief Hamka Mohammad Noor",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009871",
+  "ID NO": 1009871,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 9049",
+  "EMAIL": "cecyliasandryna@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Cecylia Sandryna Mercianto",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009872",
+  "ID NO": 1009872,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 9050",
+  "EMAIL": "danielchristiantong@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Daniel Christian Tong",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009873",
+  "ID NO": 1009873,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9094",
+  "EMAIL": "dimasbimaandhika@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dimas Bima Andhika",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009874",
+  "ID NO": 1009874,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 9052",
+  "EMAIL": "jovanresmanda@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jovan Resmanda",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009875",
+  "ID NO": 1009875,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "C 9057",
+  "EMAIL": "nelsonsimajaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Nelson Simajaya",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1009876",
+  "ID NO": 1009876,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9100",
+  "EMAIL": "ryanmohammadlazuardi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ryan Mohammad Lazuardi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1010898",
+  "ID NO": 1010898,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "ngakanpputuwiraseta@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "NGAKAN PUTU WIRASETA",
+  "__collections__": {}
+},
+{
+  "_id": "1010923",
+  "ID NO": 1010923,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "tezarzulfian@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "TEZAR ZULFIAN DESSIAMING",
+  "__collections__": {}
+},
+{
+  "_id": "1010940",
+  "ID NO": 1010940,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "zuliandrafahri@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ZULIANDRA FAHRI",
+  "__collections__": {}
+},
+{
+  "_id": "1011118",
+  "ID NO": 1011118,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "dandungtriehananto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DANDUNG TRI HANANTO",
+  "__collections__": {}
+},
+{
+  "_id": "1011372",
+  "ID NO": 1011372,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "andirenatodwiputraa@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ANDI RENATO DWIPUTRA",
+  "__collections__": {}
+},
+{
+  "_id": "1011373",
+  "ID NO": 1011373,
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "bagushermawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "BAGUS HERMAWAN",
+  "__collections__": {}
+},
+{
+  "_id": "1011379",
+  "ID NO": 1011379,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "ragilsulistio@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "RAGIL SULISTIO",
+  "__collections__": {}
+},
+{
+  "_id": "1012031",
+  "ID NO": 1012031,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "igedetoro@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "I GEDE TORO MAHENDRA",
+  "__collections__": {}
+},
+{
+  "_id": "1013433",
+  "ID NO": 123,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "LICENSE NO.": "A111",
+  "RANK": "Pilot Administrator",
+  "EMAIL": "andikaragil@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1701190800,
+      "_nanoseconds": 6000000
+    }
+  },
+  "INSTRUCTOR": [
+    ""
+  ],
+  "NAME": "Andika Ragil Anggraini",
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015416",
+  "ID NO": 1015416,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10632",
+  "EMAIL": "almiranurina@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Almira Nurina S. Siregar",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015417",
+  "ID NO": 1015417,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9135",
+  "EMAIL": "bintang@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bintang Baskoro",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015594",
+  "ID NO": 1015594,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9672",
+  "EMAIL": "bungaindah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bunga Indah Pusparani",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015595",
+  "ID NO": 1015595,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9186",
+  "EMAIL": "farianimantaka@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Farian Imantaka",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015596",
+  "ID NO": 1015596,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10207",
+  "EMAIL": "igedeteja@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "I Gede Teja Pratama Yasa",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015597",
+  "ID NO": 1015597,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9888",
+  "EMAIL": "randyaswartha@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Randy Aswartha Chaeran",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1015736",
+  "ID NO": 1015736,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10219",
+  "EMAIL": "valenskawibisono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Valenska Wibisono Putri",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1017095",
+  "ID NO": 1017095,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10730",
+  "EMAIL": "maharsiwilaghassani@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Maharsiwila Ghassani",
+  "INSTRUCTOR": [
+    "GI"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1017097",
+  "ID NO": 1017097,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0259",
+  "EMAIL": "mohammaddenyndra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mohammad Denyndra R",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1017098",
+  "ID NO": 1017098,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9132",
+  "EMAIL": "muhammadandrei@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Andrei Philinov",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1017132",
+  "ID NO": 1017132,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9680",
+  "EMAIL": "feranitagusnaidy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Feranita",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1017578",
+  "ID NO": 1017578,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0083",
+  "EMAIL": "dimasgarindra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dimas Garindra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018457",
+  "ID NO": 1018457,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10696",
+  "EMAIL": "aloysiusadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Aloysius Adi Pamungkas",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018461",
+  "ID NO": 1018461,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10813",
+  "EMAIL": "bagussanda@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bagus Sanda Sulanjana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018464",
+  "ID NO": 1018464,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10527",
+  "EMAIL": "ezargiovanni@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ezar Giovanni Adhila",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018465",
+  "ID NO": 1018465,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10451",
+  "EMAIL": "goldaimamta@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Golda Imamta Adhiyasa",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018466",
+  "ID NO": 1018466,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0458",
+  "EMAIL": "gunadilukas@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gunadi Lukas",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018468",
+  "ID NO": 1018468,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0018",
+  "EMAIL": "kinanluhur@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Kinan Luhur Wirastani",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018473",
+  "ID NO": 1018473,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0489",
+  "EMAIL": "muhammadnaufal@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "M. Naufal Ijlal Iswinda",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1018475",
+  "ID NO": 1018475,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9909",
+  "EMAIL": "panduwiratama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Pandu Wiratama",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019009",
+  "ID NO": 1019009,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10274",
+  "EMAIL": "alexandroaldrino@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Alexandro Aldrino",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019010",
+  "ID NO": 1019010,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10686",
+  "EMAIL": "ariefkurniawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Arief Kurniawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019011",
+  "ID NO": 1019011,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10205",
+  "EMAIL": "ciptawijaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Cipta Wijaya",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019012",
+  "ID NO": 1019012,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10799",
+  "EMAIL": "leonardopohan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Leonardo Pohan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019013",
+  "ID NO": 1019013,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9354",
+  "EMAIL": "marsharaihan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Marsha Raihan Arshadi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019014",
+  "ID NO": 1019014,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 7509",
+  "EMAIL": "randyhendriko@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Randy Hendriko",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019015",
+  "ID NO": 1019015,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0017",
+  "EMAIL": "roziesatria@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rozie Satria",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019016",
+  "ID NO": 1019016,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10318",
+  "EMAIL": "sageadyatama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Sage Adyatama",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019119",
+  "ID NO": 1019119,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8504",
+  "EMAIL": "meidianaeka@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Meidiana Eka Wardani",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019120",
+  "ID NO": 1019120,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8508",
+  "EMAIL": "alinnuza@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "M. Alin Nuza",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019159",
+  "ID NO": 1019159,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9096",
+  "EMAIL": "gelegarpanglima@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gelegar Panglima Nusantara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019213",
+  "ID NO": 1019213,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4053",
+  "EMAIL": "prayudisantoso@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Prayudi Santoso",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019603",
+  "ID NO": 1019603,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4669",
+  "EMAIL": "ismailmadsuro@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ismail Madsuro",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1019627",
+  "ID NO": 1019627,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5343",
+  "EMAIL": "mosesharry@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Harry Karyadhie Arthono",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020245",
+  "ID NO": 1020245,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "A 6699",
+  "EMAIL": "galuhparikesit@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Galuh Parikesit",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020246",
+  "ID NO": 1020246,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0035",
+  "EMAIL": "agungnugraha@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Agung Nugraha Dipa Suryana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020351",
+  "ID NO": 1020351,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0438",
+  "EMAIL": "adhyatmikaokta@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Anak Agung Adhyatmika",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020352",
+  "ID NO": 1020352,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0036",
+  "EMAIL": "abimanyukusumo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Abimanyu Kusumo Putero",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020353",
+  "ID NO": 1020353,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0437",
+  "EMAIL": "adhityaluberizky@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adhitya Luberizky",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020354",
+  "ID NO": 1020354,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0106",
+  "EMAIL": "alfatthanrama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Alfatthan R.S Putra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020355",
+  "ID NO": 1020355,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10877",
+  "EMAIL": "fathannaufal@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Fathan Naufal Setiawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020356",
+  "ID NO": 1020356,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0441",
+  "EMAIL": "febbysatria@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Febby Satria Fuady",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020368",
+  "ID NO": 1020368,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10888",
+  "EMAIL": "ahnafhafizh@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mohammad Ahnaf Hafizh",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020369",
+  "ID NO": 1020369,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0038",
+  "EMAIL": "ikhsan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Ikhsan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020370",
+  "ID NO": 1020370,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0217",
+  "EMAIL": "rivaldyabzhari@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Rivaldy Abzhari",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020371",
+  "ID NO": 1020371,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10861",
+  "EMAIL": "tarishibatur@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Taris Hibatur Rahman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020440",
+  "ID NO": 1020440,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 6310",
+  "EMAIL": "rezafauzy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reza Fauzi Tibuludji",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1020944",
+  "ID NO": 1020944,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "Non Flying ",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 31832",
+  "EMAIL": "djauharisjaban@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "Djauhari Sjahban",
+  "INSTRUCTOR": [
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021505",
+  "ID NO": 1021505,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "adityafirizki@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ADITYA FIRIZKI MUHARAM",
+  "__collections__": {}
+},
+{
+  "_id": "1021525",
+  "ID NO": 1021525,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4082",
+  "EMAIL": "dadanrahadian@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "NAME": "R. Dadan Rahadian",
+  "INSTRUCTOR": [
+    "FIA"
+  ],
+  "PRIVILEGES": [
+    "create-assessment"
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021559",
+  "ID NO": 1021559,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10179",
+  "EMAIL": "achmadaudindra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Achmad Audindra Putra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021560",
+  "ID NO": 1021560,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0037",
+  "EMAIL": "adrydwi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adry Dwi Hertanto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021561",
+  "ID NO": 1021561,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0199",
+  "EMAIL": "adyoasaputra@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adyo Asaputra Kadarisman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021562",
+  "ID NO": 1021562,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0039",
+  "EMAIL": "ananggaaditya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Anangga Aditya Idaman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021564",
+  "ID NO": 1021564,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10262",
+  "EMAIL": "falldhanu@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Falldhanu Farikh Fauzy",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021565",
+  "ID NO": 1021565,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8083",
+  "EMAIL": "herbertdunant@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Herbert Dunant Kristanto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021566",
+  "ID NO": 1021566,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10263",
+  "EMAIL": "jouvanpradifta@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jouvan Pradifta Qinthara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021567",
+  "ID NO": 1021567,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0323",
+  "EMAIL": "muhammadidham@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Idham Kholid",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021568",
+  "ID NO": 1021568,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0081",
+  "EMAIL": "rizkyalhamd@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Rizky Alhamd",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021569",
+  "ID NO": 1021569,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0500",
+  "EMAIL": "radirza@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Radirza Leyndra",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021570",
+  "ID NO": 1021570,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9425",
+  "EMAIL": "raezkyladipta@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Raezky Ladipta",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021571",
+  "ID NO": 1021571,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0219",
+  "EMAIL": "rehandi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rehandi Joseph Mangapul S",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021572",
+  "ID NO": 1021572,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0272",
+  "EMAIL": "reynhart@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reynhart Threevio Johanes",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021573",
+  "ID NO": 1021573,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10845",
+  "EMAIL": "ribkaedrea@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ribka Edrea Serafin",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1021574",
+  "ID NO": 1021574,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10267",
+  "EMAIL": "rifqivanser@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rifqi Vanser Namilano",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1022534",
+  "ID NO": 1022534,
+  "ATTRIBUTE": "",
+  "HUB": "KNO",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "indrapuji@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "INDRA PUJI MARDIANSYAH",
+  "__collections__": {}
+},
+{
+  "_id": "1022883",
+  "ID NO": 1022883,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "mochammadanas@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "MOCHAMMAD ANAS",
+  "__collections__": {}
+},
+{
+  "_id": "1023639",
+  "ID NO": 1023639,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10856",
+  "EMAIL": "armanletedara@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Arman Lemuel Obadja Letedara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023640",
+  "ID NO": 1023640,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0456",
+  "EMAIL": "rehannitibaskara@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rehan Niti Baskara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023654",
+  "ID NO": 1023654,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0112",
+  "EMAIL": "hansalvinwijaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Hans Alvin Wijaya",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023655",
+  "ID NO": 1023655,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9781",
+  "EMAIL": "luckysydney@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Lucky Sydney Pattinaja",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023657",
+  "ID NO": 1023657,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0555",
+  "EMAIL": "prasetyaputerakhari@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Prasetya Putera Kharisma",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023659",
+  "ID NO": 1023659,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0337",
+  "EMAIL": "ryanghifariasyudi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ryan Ghifari Asyudi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocKGqdI0gxw5Q7NwIm8UoYDUbgHXHcoMu8hJ74MuX-RF5g=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "1023661",
+  "ID NO": 1023661,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9377",
+  "EMAIL": "muhamadalifnimaulid@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Alifni Maulidin",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023662",
+  "ID NO": 1023662,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10858",
+  "EMAIL": "claudiustelaumbanua@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Claudius Silwano Telaumbanua",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023663",
+  "ID NO": 1023663,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9928",
+  "EMAIL": "ashilbischamuhammad@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ashil Bischa Muhammad",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023664",
+  "ID NO": 1023664,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0632",
+  "EMAIL": "radityasindasaufika@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Raditya Sinda Saufika",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023665",
+  "ID NO": 1023665,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0572",
+  "EMAIL": "yanwarprasetio@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yanwar Prasetio",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1023666",
+  "ID NO": 1023666,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0074",
+  "EMAIL": "ninggarneswari@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ninggar Ayu Neswari",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1024104",
+  "ID NO": 1024104,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0629",
+  "EMAIL": "bagusauliarahmanard@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bagus Aulia Rahman",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026949",
+  "ID NO": 1026949,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0142",
+  "EMAIL": "ekkypratama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ekky Pratama",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026955",
+  "ID NO": 1026955,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0335",
+  "EMAIL": "carelnathanael@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Carel Nathanael",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026956",
+  "ID NO": 1026956,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 11004",
+  "EMAIL": "panjiarvabomantarah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719680400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Panji Arva Bomantara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026957",
+  "ID NO": 1026957,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0224",
+  "EMAIL": "nadhifraditya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Nadhif Raditya",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026958",
+  "ID NO": 1026958,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10698",
+  "EMAIL": "muhammadrahul@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Rahul",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026960",
+  "ID NO": 1026960,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0513",
+  "EMAIL": "muhammadnevanwibawa@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Nevan Wibawa B",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026961",
+  "ID NO": 1026961,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10844",
+  "EMAIL": "reineralex@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Reiner Alex",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026962",
+  "ID NO": 1026962,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0201",
+  "EMAIL": "beniahchristianto@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Beniah Christanto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026963",
+  "ID NO": 1026963,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0512",
+  "EMAIL": "bryanandrew@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bryan Andrew",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1026964",
+  "ID NO": 1026964,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0481",
+  "EMAIL": "adzmamuhammadputran@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1711818000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adzma Muhammad Putranto",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027005",
+  "ID NO": 1027005,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9099",
+  "EMAIL": "ivanfaustinsetyo@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ivan Faustin Setyo",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027006",
+  "ID NO": 1027006,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0087",
+  "EMAIL": "giovaniyuanparama@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Giovani Yuan Parama",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027019",
+  "ID NO": 1027019,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0665",
+  "EMAIL": "marcellgathsam@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1722358800,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Marcell Gathsam",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027020",
+  "ID NO": 1027020,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0705",
+  "EMAIL": "varrelchristianmott@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1709139600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Varrel Christian Motta",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027437",
+  "ID NO": 1027437,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4746",
+  "EMAIL": "omarfaisal@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Omar Faisal",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027605",
+  "ID NO": 1027605,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5399",
+  "EMAIL": "wormansuklakountul@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Worman Sukla Kountul",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027667",
+  "ID NO": 1027667,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 19-0034",
+  "EMAIL": "okkywibisono@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Okky Kusumo Wibisono",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027668",
+  "ID NO": 1027668,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0072",
+  "EMAIL": "indrakurniawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Indra Kurniawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027669",
+  "ID NO": 1027669,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0683",
+  "EMAIL": "kieferelangalrasyid@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Kiefer Elang Alrasyid",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027670",
+  "ID NO": 1027670,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0206",
+  "EMAIL": "cairnsyuliyanti@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Cairns Yuliyanti",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027671",
+  "ID NO": 1027671,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0440",
+  "EMAIL": "mfakhridirgantara@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhamad Fakhri Dirgantara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027673",
+  "ID NO": 1027673,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0221",
+  "EMAIL": "muhammadhafizhkhair@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Hafizh Khairan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027674",
+  "ID NO": 1027674,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0713",
+  "EMAIL": "giorgireyhanadinenu@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Giorgi Reyhan Adine Nugroho",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027710",
+  "ID NO": 1027710,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0560",
+  "EMAIL": "alfinkresnawicaksan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Alfin Kresna Wicaksana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027723",
+  "ID NO": 1027723,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0517",
+  "EMAIL": "adindaapriliaputri@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Adinda Aprilia Putri",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027728",
+  "ID NO": 1027728,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "P/I",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0447",
+  "EMAIL": "sunuardityasokya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Sunu Arditya Sokya",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027729",
+  "ID NO": 1027729,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0441",
+  "EMAIL": "rizkyhendrapratamaw@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rizky Hendra Pratama",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1027807",
+  "ID NO": 1027807,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 3565",
+  "EMAIL": "dwiyantoambarhidayat@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dwiyanto Ambarhidayat",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028129",
+  "ID NO": 1028129,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10965",
+  "EMAIL": "anastasiarosemeriem@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Anastasia Rosemerie Martin",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028142",
+  "ID NO": 1028142,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 8779",
+  "EMAIL": "sutanafrulsani@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Sutan Afrul Sani",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028143",
+  "ID NO": 1028143,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 9169",
+  "EMAIL": "giovanniputrawiarth@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Giovanni Putra Wiartha",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028144",
+  "ID NO": 1028144,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 11010",
+  "EMAIL": "fachrihudzagr@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Fachri Hud Zagr",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028145",
+  "ID NO": 1028145,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0456",
+  "EMAIL": "ignatiusfernando@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ignatius Fernando",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028146",
+  "ID NO": 1028146,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0132",
+  "EMAIL": "willyalfiantrinanda@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Willy Alfian Trinanda",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028147",
+  "ID NO": 1028147,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 11011",
+  "EMAIL": "josuaerwin@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Josua Erwin",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028148",
+  "ID NO": 1028148,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0676",
+  "EMAIL": "agetaviano@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Aget Aviano",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028149",
+  "ID NO": 1028149,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 16-0247",
+  "EMAIL": "egaanggadhajunior@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ega Anggadha Junior",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028150",
+  "ID NO": 1028150,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0275",
+  "EMAIL": "annisadianarahmahsa@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Annisa Diana Rahmah Sari",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028151",
+  "ID NO": 1028151,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0331",
+  "EMAIL": "yustissianurulafia@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1712682000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yustissia Nurul Afia",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028152",
+  "ID NO": 1028152,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0152",
+  "EMAIL": "erikaalfionita@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Erika Alfionita",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028153",
+  "ID NO": 1028153,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0131",
+  "EMAIL": "thomaspanjihermawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Thomas Panji Hermawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028154",
+  "ID NO": 1028154,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0054",
+  "EMAIL": "mreza@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Muhammad Reza",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028155",
+  "ID NO": 1028155,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0085",
+  "EMAIL": "mariagracellastepha@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Maria Gracella Stephani Soe",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028156",
+  "ID NO": 1028156,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0089",
+  "EMAIL": "andidwikurniawan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1714410000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andi Dwi Kurniawan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028492",
+  "ID NO": 1028492,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "SUB",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4236",
+  "EMAIL": "yudhaarfiananta@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Yudha Arfi Ananta",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028592",
+  "ID NO": 1028592,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 4323",
+  "EMAIL": "chepyjuliadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Chepy Juliadi Kurdi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028623",
+  "ID NO": 1028623,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 7129",
+  "EMAIL": "dhananjayameidriarn@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717088400,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Dhananjaya Meidriarno P",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028878",
+  "ID NO": 1028878,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 5328",
+  "EMAIL": "rioariestaratulona@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1706634000,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Rio Ariesta Ratulona",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028963",
+  "ID NO": 1028963,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0561",
+  "EMAIL": "ihwangustami@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ihwan Gustami",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028964",
+  "ID NO": 1028964,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0274",
+  "EMAIL": "daffaardhana@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Daffa  Ardhana",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028965",
+  "ID NO": 1028965,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0164",
+  "EMAIL": "hamidfatihrazinusam@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Hamid Fatih Razin U",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028966",
+  "ID NO": 1028966,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0220",
+  "EMAIL": "bagusharyonugroho@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bagus Haryo Nugroho",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028967",
+  "ID NO": 1028967,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10820",
+  "EMAIL": "mohriantoroalwi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mohammad Riantoro Alwi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028968",
+  "ID NO": 1028968,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0072",
+  "EMAIL": "andhikaardiyansyah@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Andhika Ardiyansyah",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028969",
+  "ID NO": 1028969,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0232",
+  "EMAIL": "jasminewinduasti@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Jasmine Winduasti",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1028970",
+  "ID NO": 1028970,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0628",
+  "EMAIL": "idabagusketutwidiad@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Ida Bagus Ketut W.K",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029018",
+  "ID NO": 1029018,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0112",
+  "EMAIL": "kevinihsanfassano@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Kevin Ihsan Fassano",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029019",
+  "ID NO": 1029019,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0406",
+  "EMAIL": "madedennyaarimahaya@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Made Dennya Ari M",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029020",
+  "ID NO": 1029020,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0479",
+  "EMAIL": "windaclaudiapattias@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Winda Claudia Pattiasina",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029021",
+  "ID NO": 1029021,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0488",
+  "EMAIL": "mochamadrizaqfariz@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Mochamad Rizaq Fariz",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029022",
+  "ID NO": 1029022,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 11021",
+  "EMAIL": "mariusryannaldi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Marius Ryannaldi",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029023",
+  "ID NO": 1029023,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0327",
+  "EMAIL": "bimorhomdhoniiskand@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Bimo Rhomdhoni Iskandar",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029617",
+  "ID NO": 1029617,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0182",
+  "EMAIL": "twenfririzkiafdhal@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Twenfri Rizki Afdhal",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029618",
+  "ID NO": 1029618,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0478",
+  "EMAIL": "starkyjavelinnelwan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Starky Javelin Nelwan",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029620",
+  "ID NO": 1029620,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0280",
+  "EMAIL": "tajumahadhikara@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Taju Mahadhikara",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029621",
+  "ID NO": 1029621,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0403",
+  "EMAIL": "gdesashenkaalvarowi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gde Sashenka Alvaro W",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029622",
+  "ID NO": 1029622,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0061",
+  "EMAIL": "marschelredebire@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Marschel Redebire",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029644",
+  "ID NO": 1029644,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 17-0394",
+  "EMAIL": "taradevallirestyaka@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Tara Devalli Restyaka",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029645",
+  "ID NO": 1029645,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10969",
+  "EMAIL": "kevinkuant@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Kevin Kuant",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029646",
+  "ID NO": 1029646,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0219",
+  "EMAIL": "prismaanugranasuha@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Prisma Anugra Nasuha",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029652",
+  "ID NO": 1029652,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0169",
+  "EMAIL": "syahrezamajidekopsy@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Syahreza Majid Eko P.",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029653",
+  "ID NO": 1029653,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 10957",
+  "EMAIL": "firhatsatriaperwira@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Firhat Satria Perwira",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1029667",
+  "ID NO": 1029667,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 18-0376",
+  "EMAIL": "gerhananursaharaput@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Gerhana Nur Sahara Putri",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1035109",
+  "ID NO": 1035109,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "mochammadghufranraz@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "MOCHAMMAD GHUFRAN RADJA",
+  "__collections__": {}
+},
+{
+  "_id": "1035110",
+  "ID NO": 1035110,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "anggiputro@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ANGGI PRAMONO PUTRO",
+  "__collections__": {}
+},
+{
+  "_id": "1035112",
+  "ID NO": 1035112,
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "dzikriramadhan@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "DZIKRI RAMADHAN",
+  "__collections__": {}
+},
+{
+  "_id": "1035113",
+  "ID NO": 1035113,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "LOA NO": "",
+  "RANK": "OCC",
+  "LICENSE NO.": "",
+  "EMAIL": "tezarzulfian@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "INSTRUCTOR": [],
+  "NAME": "ALVIAN CHANDRA SAPUTRA",
+  "__collections__": {}
+},
+{
+  "_id": "1038616",
+  "ID NO": 1038616,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "CAPT",
+  "LICENSE NO.": "A 19-0040",
+  "EMAIL": "mtaufikadi@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "MUHAMMAD TAUFIK ADI",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1039866",
+  "ID NO": 1039866,
+  "STATUS": "NOT VALID",
+  "ATTRIBUTE": "TRAINEE",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK": "FO",
+  "LICENSE NO.": "C 20-0145",
+  "EMAIL": "vianiputri@airasia.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 915123600,
+      "_nanoseconds": 0
+    }
+  },
+  "PRIVILEGES": [],
+  "NAME": "Viani Putri",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "__collections__": {}
+},
+{
+  "_id": "1111111",
+  "STATUS": "VALID",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "",
+  "RANK ": "CAPT",
+  "LICENSE NO": "A 1000",
+  "INSTRUCTOR": [
+    "CPTS",
+    "FIA",
+    "FIS"
+  ],
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1724749741,
+      "_nanoseconds": 526000000
+    }
+  },
+  "PRIVILEGES": [
+    "view-all-assessment",
+    "manage-form-assessment",
+    "create_assessment"
+  ],
+  "EMAIL": "vanessaharwanto@airasia.com",
+  "ID NO": 1031904,
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocKoGBNRg8U0VQ_wohlodmcKrN9zXE2gVb_Eqw1Zngmbefh7GQ=s96-c",
+  "NAME": "Vanessa Harwanto",
+  "__collections__": {}
+},
+{
+  "_id": "11321066",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "ID NO": 11321066,
+  "INSTRUCTOR": [
+    ""
+  ],
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721062800,
+      "_nanoseconds": 246000000
+    }
+  },
+  "LICENSE NO.": "DEL 11321066",
+  "LOA NO": "212166",
+  "NAME": "",
+  "PHOTOURL": "",
+  "PRIVILEGES": [
+    ""
+  ],
+  "STATUS": "NOT VALID",
+  "EMAIL": "mucharyumsitinjak@gmail.com",
+  "RANK": "Pilot Administrator",
+  "__collections__": {}
+},
+{
+  "_id": "11321069",
+  "ID NO": 11321069,
+  "ATTRIBUTE": "",
+  "RANK": "CAPT",
+  "EMAIL": "operatorserbabisa123@gmail.com",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721149199,
+      "_nanoseconds": 995000000
+    }
+  },
+  "NAME": "Operator",
+  "PRIVILEGES": [
+    ""
+  ],
+  "STATUS": "VALID",
+  "HUB": "DPS",
+  "LICENSE NO.": "DEL 11321069",
+  "INSTRUCTOR": [
+    "CCP",
+    "FIA",
+    "PGI"
+  ],
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocLIHSe7s83TKqcWB6O93mFr8sO3rNjso4GpabuxTGJiXj0tMA=s96-c",
+  "LOA NO": "202408",
+  "__collections__": {}
+},
+{
+  "_id": "11321070",
+  "ID NO": 11321070,
+  "ATTRIBUTE": "",
+  "HUB": "DPS",
+  "EMAIL": "gibranlex07@gmail.com",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721149199,
+      "_nanoseconds": 142000000
+    }
+  },
+  "LICENSE NO.": "DEL 11321070",
+  "LOA NO": "",
+  "NAME": "Gibran",
+  "PRIVILEGES": [
+    ""
+  ],
+  "RANK": "CAPT",
+  "STATUS": "NOT VALID",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocLXhYqvlM0heueAnfYH0tYmPuf0DE45XmKGSLv-VEV9vCB_yw=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "11321077",
+  "ATTRIBUTE": "",
+  "EMAIL": "nuriatydamanik0@gmail.com",
+  "HUB": "CGK",
+  "ID NO": 11321077,
+  "INSTRUCTOR": [
+    ""
+  ],
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721107830,
+      "_nanoseconds": 583000000
+    }
+  },
+  "LICENSE NO.": "DEL 11321077",
+  "LOA NO": "",
+  "NAME": "",
+  "PHOTOURL": "",
+  "PRIVILEGES": [
+    ""
+  ],
+  "RANK": "CAPT",
+  "STATUS": "NOT VALID",
+  "__collections__": {}
+},
+{
+  "_id": "11420024",
+  "ATTRIBUTE": "\"\"",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1695315600,
+      "_nanoseconds": 738000000
+    }
+  },
+  "LOA NO": "",
+  "HUB": "CGK",
+  "INSTRUCTOR": [],
+  "ID NO": 12321000,
+  "LICENSE NO.": "IAA 12321000",
+  "PRIVILEGES": [
+    "confirm-assessment"
+  ],
+  "STATUS": "VALID",
+  "RANK": "CAPT",
+  "EMAIL": "estopangaribuan@gmail.com",
+  "NAME": "Estomihi Pangaribuan",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocL_z3RB0uGjYcAUW6doTB-5UNKHyXVLA5AxEHsqG71KeV7k5jYS=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "11420025",
+  "ID NO": 11420025,
+  "NAME": "Nesty Gloria",
+  "ATTRIBUTE": "",
+  "PRIVILEGES": [
+    "create-assessment",
+    "view-all-assessments",
+    "create-assessment",
+    "manage-form-assessment"
+  ],
+  "HUB": "CGK",
+  "RANK": "CAPT",
+  "STATUS": "VALID",
+  "INSTRUCTOR": [
+    "CPTS"
+  ],
+  "EMAIL": "nestytampubolon61@gmail.com",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/AAcHTtc0Jl_h2Qq7v6Fudm1e7ctwgQUprVGyN9fwacYScU4YutaS=s96-c",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721062800,
+      "_nanoseconds": 306000000
+    }
+  },
+  "LICENSE NO.": "DEL 11420025",
+  "__collections__": {}
+},
+{
+  "_id": "11420026",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "LOA NO": "TST/1213/UOS",
+  "EMAIL": "wenysihol@gmail.com",
+  "ID NO": 12321001,
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocLWHHc6MLzxe5fgDY3mzZkYGZxMj5wOPcSEc4uM_P6Rdw=s96-c",
+  "NAME": "Weny Sitinjak",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721062800,
+      "_nanoseconds": 209000000
+    }
+  },
+  "LICENSE NO.": "DEL 12321001",
+  "RANK": "CAPT",
+  "INSTRUCTOR": [
+    "CCP",
+    "FIA",
+    "PGI",
+    "FIS"
+  ],
+  "PRIVILEGES": [
+    "create-assessment",
+    "update-assessment",
+    "confirm-assessment"
+  ],
+  "STATUS": "VALID",
+  "__collections__": {}
+},
+{
+  "_id": "11420027",
+  "HUB": "CGK",
+  "EMAIL": "jeremy.nainggolann@gmail.com",
+  "RANK": "CAPT",
+  "LICENSE NO.": "DEL 12321001",
+  "ATTRIBUTE": "",
+  "INSTRUCTOR": [
+    "CCP",
+    "FIA",
+    "PGI",
+    "FIS"
+  ],
+  "STATUS": "VALID",
+  "PRIVILEGES": [
+    "create-assessment",
+    "update-assessment",
+    "confirm-assessment"
+  ],
+  "ID NO": 12321001,
+  "LOA NO": "TST/1213/UOS",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721062800,
+      "_nanoseconds": 209000000
+    }
+  },
+  "NAME": "Jeremy Nainggolan",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocIwkcdfwkMFgo4ieCW9DjVNqFsrlfulM7Us5NlAFDNMWqPdE1Q=s96-c",
+  "__collections__": {}
+},
+{
+  "_id": "11420100",
+  "EMAIL": "nestytampubolon11@gmail.com",
+  "ATTRIBUTE": "",
+  "HUB": "CGK",
+  "ID NO": 11420100,
+  "INSTRUCTOR": [
+    ""
+  ],
+  "PRIVILEGES": [
+    ""
+  ],
+  "RANK": "CAPT",
+  "STATUS": "NOT VALID",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocIKnvF1sNQZdkjZhSt9ghx_wi7eExr4JjjrEDFVWtOH=s96-c",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1718254801,
+      "_nanoseconds": 242000000
+    }
+  },
+  "LOA NO": "212100",
+  "NAME": "Nesty (Trainner)",
+  "LICENSE NO.": "DEL 11420100",
+  "__collections__": {}
+},
+{
+  "_id": "12320053",
+  "ATTRIBUTE": "",
+  "EMAIL": "noelalex01@gmail.com",
+  "PRIVILEGES": [
+    ""
+  ],
+  "RANK": "CAPT",
+  "STATUS": "NOT VALID",
+  "HUB": "CGK",
+  "INSTRUCTOR": [
+    "CCP",
+    "FIA",
+    "PGI"
+  ],
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721106000,
+      "_nanoseconds": 212000000
+    }
+  },
+  "LOA NO": "222200",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocIlikRk2WxRfyCh6SPiZtcTmUrIWc3fDcPeCLFuYX9FMTQ=s96-c",
+  "NAME": "Noel (Instructor)",
+  "LICENSE NO.": "DEL 11420053",
+  "ID NO": 11420053,
+  "__collections__": {}
+},
+{
+  "_id": "12320099",
+  "EMAIL": "nestygloria1@gmail.com",
+  "HUB": "CGK",
+  "ATTRIBUTE": "",
+  "ID NO": 11420099,
+  "PRIVILEGES": [
+    ""
+  ],
+  "STATUS": "NOT VALID",
+  "INSTRUCTOR": [
+    ""
+  ],
+  "RANK": "Pilot Administrator",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocKCWi7_mmJIIPnAsx4RVsyDgczg5B52e9uyF0Zpj_29=s96-c",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1721106003,
+      "_nanoseconds": 531000000
+    }
+  },
+  "LOA NO": "11420",
+  "NAME": "Nesty (Admin)",
+  "LICENSE NO.": "DEL 11420099",
+  "__collections__": {}
+},
+{
+  "_id": "12D1003",
+  "ID NO": 1211003,
+  "ATTRIBUTE": "RHS",
+  "HUB": "CGK",
+  "LICENSE NO": "A 2334",
+  "RANK": "CAPT",
+  "LICENSE EXPIRY": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1708690883,
+      "_nanoseconds": 105000000
+    }
+  },
+  "INSTRUCTOR": {},
+  "NAME": "Jaka Sembung",
+  "PHOTOURL": "https://lh3.googleusercontent.com/a/ACg8ocJ6n4z0pA2j0vlk7tzXqTWaLNSIMMiyt_-udmPJxgXr=s96-c",
+  "EMAIL": "",
+  "__collections__": {}
+}]

@@ -1,0 +1,633 @@
+[{
+  "_id": "0vcCpDS6AuyIzuBNZzlE",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "0vcCpDS6AuyIzuBNZzlE",
+  "device_name": "IAAICT004248",
+  "device_uid": "IAAICT004248",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11420024",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717730682,
+      "_nanoseconds": 925000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-06-07%2010%3A27%3A04.626472.png?alt=media&token=fe8725bb-ce4b-4f04-870a-f3d21e6aab3e",
+  "remarks-handover": "123",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "345",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2F0vcCpDS6AuyIzuBNZzlE%20at%202024-06-07%2010%3A28%3A33.701047.jpg?alt=media&token=7dae40f8-d1d2-4da5-9e04-08c6490db8bb",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717730914,
+      "_nanoseconds": 250000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F0vcCpDS6AuyIzuBNZzlE.png?alt=media&token=0eaa9993-849c-4ecc-9626-b58fb84bdb5a",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "9GmfnTyEDn8XZf7il62c",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "9GmfnTyEDn8XZf7il62c",
+  "device_name": "IAAICT004313",
+  "device_uid": "IAAICT004313",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11420026",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719959378,
+      "_nanoseconds": 414000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2010%3A31%3A56.946933.png?alt=media&token=8b195cf0-c42c-4aef-b9a0-a55d8a98b642",
+  "remarks-handover": "",
+  "return-condition-category": "Good",
+  "return-condition-remarks": "",
+  "statusDevice": "Done",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2F9GmfnTyEDn8XZf7il62c%20at%202024-07-03%2010%3A32%3A41.040241.jpg?alt=media&token=6c86bd7c-629c-44eb-985d-65e9351989ef",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719977647,
+      "_nanoseconds": 699000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F9GmfnTyEDn8XZf7il62c.png?alt=media&token=7b425fb1-9025-4594-9b03-e6412dea09b5",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "LVMoYi8LS2nx3FBr3kWL",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "LVMoYi8LS2nx3FBr3kWL",
+  "device_name": "IAAICT004248",
+  "device_uid": "IAAICT004248",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11420026",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719990395,
+      "_nanoseconds": 948000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "feedbackId": "ENlAW9WTI3FV1L8FpMTL",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2014%3A12%3A48.697159.png?alt=media&token=d07e5b41-14ca-4d8f-8c57-c83e6126d1b9",
+  "remarks-handover": "all staff good",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FLVMoYi8LS2nx3FBr3kWL%20at%202024-07-03%2014%3A14%3A50.666035.jpg?alt=media&token=614892b4-196e-4b63-a2d0-62a29f3c5c69",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719990896,
+      "_nanoseconds": 901000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FLVMoYi8LS2nx3FBr3kWL.png?alt=media&token=985f47c8-1b94-424b-86b1-083fc088b9fc",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "SOORfi2MPSuBDIDSyDVz",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "SOORfi2MPSuBDIDSyDVz",
+  "device_name": "IAAICT004313",
+  "device_uid": "IAAICT004313",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "1000372",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719977762,
+      "_nanoseconds": 637000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2010%3A42%3A12.160984.png?alt=media&token=70c4417e-4358-4fb6-a3f2-596080145ebb",
+  "remarks-handover": "",
+  "return-condition-category": "Good",
+  "return-condition-remarks": "",
+  "statusDevice": "Done",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FSOORfi2MPSuBDIDSyDVz%20at%202024-07-03%2010%3A42%3A36.623744.jpg?alt=media&token=977f57ac-2773-470d-968b-038097507db4",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719978164,
+      "_nanoseconds": 491000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FSOORfi2MPSuBDIDSyDVz.png?alt=media&token=3105ec2e-6a33-478c-8f56-95c844293650",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "VXHhPPajB7JY0niPhlUT",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "VXHhPPajB7JY0niPhlUT",
+  "device_name": "IAAICT004316",
+  "device_uid": "IAAICT004316",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11420026",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719979403,
+      "_nanoseconds": 904000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2014%3A02%3A02.044282.png?alt=media&token=6d596d91-dd58-4489-82f1-2dc404d6204f",
+  "remarks-handover": "",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FVXHhPPajB7JY0niPhlUT%20at%202024-07-03%2014%3A02%3A54.461991.jpg?alt=media&token=57421517-2af9-4daa-b275-4849453efcf1",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719990180,
+      "_nanoseconds": 431000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FVXHhPPajB7JY0niPhlUT.png?alt=media&token=645dfb23-960b-45e8-b37b-a36d489ac347",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "XUJsoYx9vikfLX0QH9Zq",
+  "device_uid2": "IAAICT004313",
+  "initial-condition-remarks2": "",
+  "initial-condition-remarks3": "",
+  "device_uid3": "IAAICT004316",
+  "handover-from": "-",
+  "document_id": "XUJsoYx9vikfLX0QH9Zq",
+  "device_name": "-",
+  "device_name2": "IAAICT004313",
+  "device_uid": "-",
+  "device_name3": "IAAICT004316",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-category2": "Good",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "CGK",
+  "user_uid": "11420024",
+  "initial-condition-category3": "Good",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719954294,
+      "_nanoseconds": 451000000
+    }
+  },
+  "charger_no": "123",
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2004%3A23%3A02.744121.png?alt=media&token=ea25b6e2-ba24-4cc5-8083-e2f7fbc3ed8d",
+  "remarks-handover": "",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FXUJsoYx9vikfLX0QH9Zq%20at%202024-07-03%2014%3A03%3A13.912872.jpg?alt=media&token=18bdc2f4-3daa-4c88-b70c-66106ea6faac",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719990199,
+      "_nanoseconds": 523000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FXUJsoYx9vikfLX0QH9Zq.png?alt=media&token=a5cd02c2-3686-4934-9b31-1c19bb51e2e6",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "YptZYVUGc9pTuc7piQAN",
+  "device_uid2": "IAAICT004313",
+  "initial-condition-remarks2": "",
+  "initial-condition-remarks3": "",
+  "device_uid3": "IAAICT004316",
+  "handover-from": "-",
+  "document_id": "YptZYVUGc9pTuc7piQAN",
+  "device_name": "-",
+  "device_name2": "IAAICT004313",
+  "device_uid": "-",
+  "device_name3": "IAAICT004316",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-category2": "Good",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "CGK",
+  "user_uid": "11420024",
+  "initial-condition-category3": "Good",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719990475,
+      "_nanoseconds": 751000000
+    }
+  },
+  "charger_no": "12345",
+  "occ-on-duty": "242424",
+  "feedbackId": "dBW03iwoq9xtexxlqSn7",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2014%3A13%3A49.312797.png?alt=media&token=187f53d8-f167-4817-804f-6f102e4c9724",
+  "remarks-handover": "good",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FYptZYVUGc9pTuc7piQAN%20at%202024-07-03%2014%3A16%3A41.472825.jpg?alt=media&token=78f24cea-d6d7-46fe-af0f-44558c02a7a5",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719991006,
+      "_nanoseconds": 502000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FYptZYVUGc9pTuc7piQAN.png?alt=media&token=89d451a0-010e-4929-becb-db5c0a2ba128",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "d74RQM3uczTRWvcQYsmr",
+  "device_uid2": "IAAICT004248",
+  "initial-condition-remarks2": "",
+  "initial-condition-remarks3": "",
+  "device_uid3": "IAAICT004249",
+  "handover-from": "-",
+  "document_id": "d74RQM3uczTRWvcQYsmr",
+  "device_name": "-",
+  "device_name2": "IAAICT004248",
+  "device_uid": "-",
+  "device_name3": "IAAICT004249",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-category2": "Good",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "SUB",
+  "user_uid": "1000372",
+  "initial-condition-category3": "Good",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717734603,
+      "_nanoseconds": 471000000
+    }
+  },
+  "charger_no": "123",
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2010%3A13%3A58.951692.png?alt=media&token=618f4bba-7a3f-4241-bf51-3a2c4d29e981",
+  "remarks-handover": "",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2Fd74RQM3uczTRWvcQYsmr%20at%202024-07-03%2010%3A14%3A36.259678.jpg?alt=media&token=5758e4b0-c8a2-49e0-80e7-a9a2baa79fed",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719976478,
+      "_nanoseconds": 979000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2Fd74RQM3uczTRWvcQYsmr.png?alt=media&token=db27cdda-9de6-4600-9ca7-921a36f2c102",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "eNR1ix9s9sjMWdNB9GOA",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "eNR1ix9s9sjMWdNB9GOA",
+  "device_name": "IAAICT004248",
+  "device_uid": "IAAICT004248",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11321070",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1724115556,
+      "_nanoseconds": 440000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-08-27%2009%3A22%3A31.625135.png?alt=media&token=44c3c0c2-79f7-47c9-a4ba-b98fe58e35f2",
+  "remarks-handover": "good",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FeNR1ix9s9sjMWdNB9GOA%20at%202024-08-27%2009%3A23%3A12.614746.jpg?alt=media&token=0229bf4f-d145-4aa4-8a1c-69c189b6dc8a",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1724725397,
+      "_nanoseconds": 507000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FeNR1ix9s9sjMWdNB9GOA.png?alt=media&token=fbd35380-6108-47f0-9b43-a34f07a51d75",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "n1IzQbJJPsEwvaK3yEJD",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "n1IzQbJJPsEwvaK3yEJD",
+  "device_name": "IAAICT004248",
+  "device_uid": "IAAICT004248",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11420026",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719952519,
+      "_nanoseconds": 556000000
+    }
+  },
+  "occ-on-duty": "242424",
+  "feedbackId": "LJRspDIpTjJvzMoeOVso",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-07-03%2004%3A19%3A38.998567.png?alt=media&token=536a59d6-a275-4ac2-aca5-c54b29bb6c5f",
+  "remarks-handover": "",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "good",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2Fn1IzQbJJPsEwvaK3yEJD%20at%202024-07-03%2004%3A31%3A43.552904.jpg?alt=media&token=af6d00d5-eeae-4123-8ff3-82b1a4dc5868",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1719955908,
+      "_nanoseconds": 229000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2Fn1IzQbJJPsEwvaK3yEJD.png?alt=media&token=ac666aa8-a445-473d-af18-2f57eb894165",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "oe1HdtfHR0JUDa1peove",
+  "device_uid2": "IAAICT004248",
+  "initial-condition-remarks2": "",
+  "initial-condition-remarks3": "",
+  "device_uid3": "IAAICT004249",
+  "handover-from": "-",
+  "document_id": "oe1HdtfHR0JUDa1peove",
+  "device_name": "-",
+  "device_name2": "IAAICT004248",
+  "device_uid": "-",
+  "device_name3": "IAAICT004249",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-category2": "Good",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "SUB",
+  "user_uid": "242424",
+  "initial-condition-category3": "Good",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1716176967,
+      "_nanoseconds": 1000000
+    }
+  },
+  "charger_no": "123123",
+  "occ-on-duty": "1000372",
+  "feedbackId": "Y4fu01bN1UPmsuEA8u2a",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-05-20%2013%3A37%3A58.269559.png?alt=media&token=0b606b40-6231-49f5-8a79-f5e70b0b95b7",
+  "remarks-handover": "Good",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2Foe1HdtfHR0JUDa1peove%20at%202024-05-20%2013%3A56%3A02.019621.jpg?alt=media&token=e7251531-7354-4d68-8e16-f6a9063298ee",
+  "occ-accepted-device": "1000372",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1716188166,
+      "_nanoseconds": 661000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2Foe1HdtfHR0JUDa1peove.png?alt=media&token=0e48cfcd-d98d-4eef-85ea-4f82f7a99142",
+  "return-condition-remarks3": "Good",
+  "return-condition-remarks2": "Good",
+  "__collections__": {}
+},
+{
+  "_id": "qXL4x2dzQATbgTDaR4Up",
+  "signature_url_other_crew": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "qXL4x2dzQATbgTDaR4Up",
+  "device_name": "IAAICT004248",
+  "device_uid": "IAAICT004248",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "",
+  "user_uid": "11420024",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1716192002,
+      "_nanoseconds": 273000000
+    }
+  },
+  "occ-on-duty": "1000372",
+  "feedbackId": "FTJDPEOpIPG4oGpS6P2W",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-05-20%2015%3A42%3A40.163471.png?alt=media&token=30f08804-202f-4a90-9300-3c4ab60cc106",
+  "remarks-handover": "Good",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "Good",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "1000372",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2FqXL4x2dzQATbgTDaR4Up%20at%202024-05-20%2015%3A59%3A42.134605.jpg?alt=media&token=585d7a7f-3d48-49d8-8e30-1de276fd280e",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1716195586,
+      "_nanoseconds": 292000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2FqXL4x2dzQATbgTDaR4Up.png?alt=media&token=268977d1-1442-4810-8525-b033444d8f1f",
+  "return-condition-remarks3": "",
+  "return-condition-remarks2": "",
+  "__collections__": {}
+},
+{
+  "_id": "t1ME9IkcabydaG3uY9G0",
+  "device_uid2": "IAAICT004248",
+  "initial-condition-remarks2": "",
+  "initial-condition-remarks3": "",
+  "device_uid3": "IAAICT004249",
+  "handover-from": "-",
+  "document_id": "t1ME9IkcabydaG3uY9G0",
+  "device_name": "-",
+  "device_name2": "IAAICT004248",
+  "device_uid": "-",
+  "device_name3": "IAAICT004249",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-category2": "Good",
+  "remarks": "",
+  "field_hub": "CGK",
+  "field_hub2": "SUB",
+  "user_uid": "1000372",
+  "initial-condition-category3": "Good",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717731167,
+      "_nanoseconds": 743000000
+    }
+  },
+  "charger_no": "123",
+  "occ-on-duty": "242424",
+  "signature_url": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2F2024-06-07%2010%3A35%3A29.990150.png?alt=media&token=f2fbe9df-7a1a-437a-87f6-8d478377a4de",
+  "remarks-handover": "123",
+  "return-condition-category": "Good",
+  "statusDevice": "Done",
+  "return-condition-remarks": "",
+  "return-condition-category2": "Good",
+  "return-condition-category3": "Good",
+  "occ-accepted-device": "242424",
+  "prove_back_to_base": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/camera_images%2Ft1ME9IkcabydaG3uY9G0%20at%202024-06-07%2010%3A36%3A16.923069.jpg?alt=media&token=7bf85f45-02d1-4c32-baa0-87df923dbea1",
+  "date-occ-confirmed": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1717731376,
+      "_nanoseconds": 461000000
+    }
+  },
+  "signature_url_occ": "https://firebasestorage.googleapis.com/v0/b/dev-iaa-ts1.appspot.com/o/signatures%2Ft1ME9IkcabydaG3uY9G0.png?alt=media&token=d4420c8c-5168-4fe9-b666-9924b76314e0",
+  "return-condition-remarks3": "345",
+  "return-condition-remarks2": "345",
+  "__collections__": {}
+},
+{
+  "_id": "tGTuxHf20kekOaUavUwG",
+  "statusDevice": "waiting-confirmation-1",
+  "signature_url_other_crew": "-",
+  "occ-accepted-device": "-",
+  "handover-from": "-",
+  "initial-condition-category": "Good",
+  "document_id": "tGTuxHf20kekOaUavUwG",
+  "device_name": "IAAICT004251",
+  "device_uid": "IAAICT004251",
+  "prove_image_url": "",
+  "handover-to-crew": "-",
+  "initial-condition-remarks": "",
+  "remarks": "",
+  "field_hub": "KNO",
+  "field_hub2": "",
+  "user_uid": "11420027",
+  "timestamp": {
+    "__datatype__": "timestamp",
+    "value": {
+      "_seconds": 1740732221,
+      "_nanoseconds": 124000000
+    }
+  },
+  "__collections__": {}
+}]

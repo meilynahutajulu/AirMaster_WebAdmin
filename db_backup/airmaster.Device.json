@@ -1,0 +1,1413 @@
+[{
+  "_id": "IAAICT004248",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004248",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004249",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004249",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004250",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004250",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004251",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004251",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004253",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004253",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004310",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004310",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004313",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004313",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004316",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004316",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004319",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004319",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004322",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004322",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004335",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004335",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004338",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004338",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004339",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004339",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004340",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004340",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004341",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004341",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004342",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004342",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004343",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004343",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004344",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004344",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004345",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004345",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004346",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004346",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004347",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004347",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004348",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004348",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004349",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004349",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004350",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004350",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004351",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004351",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004352",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004352",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004353",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004353",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004354",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004354",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004355",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004355",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004356",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004356",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004357",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004357",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004358",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004358",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004359",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004359",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004360",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004360",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004361",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004361",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT004621",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT004621",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500020",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500020",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500021",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500021",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500022",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500022",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500023",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500023",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500024",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500024",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500025",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500025",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500026",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500026",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500027",
+  "hub": "",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500027",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500028",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500028",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500029",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500029",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500040",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500040",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500041",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500041",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500042",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500042",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500043",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500043",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500044",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500044",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500045",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500045",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500046",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500046",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500047",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500047",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500048",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500048",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500049",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500049",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500050",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500050",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500051",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500051",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500052",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500052",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500053",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500053",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500054",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500054",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500055",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500055",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500056",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500056",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500057",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500057",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500058",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500058",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500059",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500059",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500060",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500060",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500061",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500061",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500062",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500062",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500063",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500063",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500064",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500064",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500065",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500065",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500066",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500066",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500067",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500067",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500068",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500068",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500069",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500069",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500070",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500070",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500071",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500071",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500072",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500072",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500073",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500073",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500074",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500074",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500075",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500075",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500076",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500076",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500077",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500077",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500078",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500078",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500079",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500079",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500080",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500080",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500081",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500081",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500082",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500082",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500083",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500083",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500084",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500084",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500085",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500085",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500086",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500086",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500087",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500087",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500088",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500088",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500089",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500089",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500090",
+  "hub": "CGK",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500090",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500091",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500091",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500092",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500092",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500093",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500093",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500094",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500094",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500095",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500095",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500096",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500096",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500097",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500097",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500098",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500098",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500099",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500099",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500100",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500100",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500101",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500101",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500102",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500102",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500103",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500103",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500104",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500104",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500105",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500105",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500106",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500106",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500107",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500107",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500108",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500108",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500109",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500109",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500110",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500110",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500111",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500111",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500112",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500112",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500113",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500113",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500114",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500114",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500115",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500115",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500116",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500116",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500117",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500117",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500118",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500118",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500119",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500119",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500120",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500120",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500121",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500121",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500122",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500122",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500123",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500123",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500124",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500124",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500125",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500125",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500126",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500126",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500127",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500127",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500128",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500128",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500129",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500129",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500130",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500130",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500131",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500131",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500132",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500132",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500133",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500133",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500134",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500134",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500135",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500135",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500136",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500136",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500137",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500137",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500138",
+  "hub": "DPS",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500138",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500139",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500139",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500140",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500140",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500141",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500141",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500142",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500142",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500143",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500143",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500144",
+  "hub": "KNO",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.6.1",
+  "deviceno": "IAAICT500144",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+},
+{
+  "_id": "IAAICT500145",
+  "hub": "",
+  "docuversion": "",
+  "iosver": "",
+  "deviceno": "IAAICT500145",
+  "flysmart": "",
+  "lidoversion": ""
+},
+{
+  "_id": "IAAICT500146",
+  "hub": "",
+  "docuversion": "",
+  "iosver": "",
+  "deviceno": "IAAICT500146",
+  "flysmart": "",
+  "lidoversion": ""
+},
+{
+  "_id": "IAAICT500147",
+  "hub": "",
+  "docuversion": "",
+  "iosver": "",
+  "deviceno": "IAAICT500147",
+  "flysmart": "",
+  "lidoversion": ""
+},
+{
+  "_id": "IAAICT500148",
+  "hub": "",
+  "docuversion": "",
+  "iosver": "",
+  "deviceno": "IAAICT500148",
+  "flysmart": "",
+  "lidoversion": ""
+},
+{
+  "_id": "IAAICT500149",
+  "hub": "",
+  "docuversion": "",
+  "iosver": "",
+  "deviceno": "IAAICT500149",
+  "flysmart": "",
+  "lidoversion": ""
+},
+{
+  "_id": "IAAICT500187",
+  "hub": "SUB",
+  "docuversion": "4.7.1 (996)",
+  "iosver": "16.4.1",
+  "deviceno": "IAAICT500187",
+  "flysmart": "EFB23-09A",
+  "lidoversion": "6.3.0.4955"
+}]

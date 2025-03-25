@@ -1,0 +1,650 @@
+[{
+  "_id": "av-1-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "id": "av-1-ap-1",
+  "category": "Flight Preparation",
+  "name": "Preflight /Equip. check",
+  "__collections__": {}
+},
+{
+  "_id": "av-1-ap-2",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-2",
+  "name": "Preflight/ Equip. check",
+  "id": "av-1-ap-2",
+  "category": "Flight Preparation",
+  "__collections__": {}
+},
+{
+  "_id": "av-10-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "ATC Instructions (SID & R/T Proc.)",
+  "id": "av-10-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "__collections__": {}
+},
+{
+  "_id": "av-11-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Climb / Cruise Check",
+  "id": "av-11-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "__collections__": {}
+},
+{
+  "_id": "av-12-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "id": "av-12-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "name": "Predictive Windshear / Windshear",
+  "__collections__": {}
+},
+{
+  "_id": "av-13-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "TCAS-RA Procedures ",
+  "id": "av-13-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "__collections__": {}
+},
+{
+  "_id": "av-14-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "EDTO / RVSM / PBN",
+  "id": "av-14-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "__collections__": {}
+},
+{
+  "_id": "av-15-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Radial / Airway Tracking ",
+  "id": "av-15-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "__collections__": {}
+},
+{
+  "_id": "av-16-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Holding Technique & FM Setup ",
+  "id": "av-16-ap-1",
+  "category": "Flight Maneuvers and Procedure",
+  "__collections__": {}
+},
+{
+  "_id": "av-17-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "CTWO-F (Arrival) Briefing",
+  "id": "av-17-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-18-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Precision Approaches ",
+  "id": "av-18-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-19-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Non-Precision Approaches ",
+  "id": "av-19-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-2-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "id": "av-2-ap-1",
+  "category": "Flight Preparation",
+  "name": "CTWO (Departure) Briefing",
+  "__collections__": {}
+},
+{
+  "_id": "av-20-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "RNP Instrument Approach ",
+  "id": "av-20-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-21-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Visual / Circling Approaches ",
+  "id": "av-21-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-22-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "All Eng G/A at MDA/DH",
+  "id": "av-22-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-23-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "All Eng G/A from Int. App",
+  "id": "av-23-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-24-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Go-Arround with 1 Engine Inop",
+  "id": "av-24-ap-1",
+  "category": "App. & Missed App. Procedures",
+  "__collections__": {}
+},
+{
+  "_id": "av-25-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Manual Handling Quality ",
+  "id": "av-25-ap-1",
+  "category": "Landing",
+  "__collections__": {}
+},
+{
+  "_id": "av-26-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "LDG Technique - 1 Eng. Inop",
+  "id": "av-26-ap-1",
+  "category": "Landing",
+  "__collections__": {}
+},
+{
+  "_id": "av-27-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "LDG Technique - ALL Engine ",
+  "id": "av-27-ap-1",
+  "category": "Landing",
+  "__collections__": {}
+},
+{
+  "_id": "av-28-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Rollout Handling ",
+  "id": "av-28-ap-1",
+  "category": "Landing",
+  "__collections__": {}
+},
+{
+  "_id": "av-29-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Theoratical LVO Knowledge ",
+  "id": "av-29-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-3-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "FMGC Setup & Cross Check ",
+  "id": "av-3-ap-1",
+  "category": "Flight Preparation",
+  "__collections__": {}
+},
+{
+  "_id": "av-30-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Low Visibility Taxi ",
+  "id": "av-30-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-31-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "RTO at Min Authorized RVR ",
+  "id": "av-31-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-32-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "T/Off at Min Authorized RVR ",
+  "id": "av-32-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-33-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "ILS Approach to DH",
+  "id": "av-33-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-34-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Go Around @ Minima ",
+  "id": "av-34-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-35-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Malfunction During Approach ",
+  "id": "av-35-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-36-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Landing with Visual Ref. @ DH",
+  "id": "av-36-ap-1",
+  "category": "LVO Qualification / Checking",
+  "__collections__": {}
+},
+{
+  "_id": "av-37-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Standard Call-Out",
+  "id": "av-37-ap-1",
+  "category": "SOP's",
+  "__collections__": {}
+},
+{
+  "_id": "av-38-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Green Operating Procedures",
+  "id": "av-38-ap-1",
+  "category": "SOP's",
+  "__collections__": {}
+},
+{
+  "_id": "av-39-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "SEP Knowledge ",
+  "id": "av-39-ap-1",
+  "category": "SOP's",
+  "__collections__": {}
+},
+{
+  "_id": "av-4-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "id": "av-4-ap-1",
+  "category": "Flight Preparation",
+  "name": "Eng. Start & Push Back Proc./Limit ",
+  "__collections__": {}
+},
+{
+  "_id": "av-40-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Company Policies Knowledge ",
+  "id": "av-40-ap-1",
+  "category": "SOP's",
+  "__collections__": {}
+},
+{
+  "_id": "av-41-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "EGPWS",
+  "id": "av-41-ap-1",
+  "category": "Advance Maneuvers",
+  "__collections__": {}
+},
+{
+  "_id": "av-42-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": false,
+  "assessment-period-id": "ap-1",
+  "name": "UPRT - Nose High ",
+  "id": "av-42-ap-1",
+  "category": "Advance Maneuvers",
+  "__collections__": {}
+},
+{
+  "_id": "av-43-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": false,
+  "assessment-period-id": "ap-1",
+  "name": "UPRT - Nose Low",
+  "id": "av-43-ap-1",
+  "category": "Advance Maneuvers",
+  "__collections__": {}
+},
+{
+  "_id": "av-44-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": false,
+  "assessment-period-id": "ap-1",
+  "name": "UPRT - Stall",
+  "id": "av-44-ap-1",
+  "category": "Advance Maneuvers",
+  "__collections__": {}
+},
+{
+  "_id": "av-45-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": false,
+  "assessment-period-id": "ap-1",
+  "name": "UPRT - Nose High - Bank ",
+  "id": "av-45-ap-1",
+  "category": "Advance Maneuvers",
+  "__collections__": {}
+},
+{
+  "_id": "av-46-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": false,
+  "assessment-period-id": "ap-1",
+  "name": "UPRT - Nose Low - Bank ",
+  "id": "av-46-ap-1",
+  "category": "Advance Maneuvers",
+  "__collections__": {}
+},
+{
+  "_id": "av-47-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Team Building ",
+  "id": "av-47-ap-1",
+  "category": "Teamwork & Communication",
+  "__collections__": {}
+},
+{
+  "_id": "av-48-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Considerations for Others ",
+  "id": "av-48-ap-1",
+  "category": "Teamwork & Communication",
+  "__collections__": {}
+},
+{
+  "_id": "av-49-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Conflict Management ",
+  "id": "av-49-ap-1",
+  "category": "Teamwork & Communication",
+  "__collections__": {}
+},
+{
+  "_id": "av-5-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Taxi Proc./Consideration ",
+  "id": "av-5-ap-1",
+  "category": "Flight Preparation",
+  "__collections__": {}
+},
+{
+  "_id": "av-50-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Supporting Others",
+  "id": "av-50-ap-1",
+  "category": "Teamwork & Communication",
+  "__collections__": {}
+},
+{
+  "_id": "av-51-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Verbal Communication & Language ",
+  "id": "av-51-ap-1",
+  "category": "Teamwork & Communication",
+  "__collections__": {}
+},
+{
+  "_id": "av-52-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Assertiveness / Use of Authority ",
+  "id": "av-52-ap-1",
+  "category": "Leadership & Task Management",
+  "__collections__": {}
+},
+{
+  "_id": "av-53-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Maintaining Standards",
+  "id": "av-53-ap-1",
+  "category": "Leadership & Task Management",
+  "__collections__": {}
+},
+{
+  "_id": "av-54-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Planning & Coordinating ",
+  "id": "av-54-ap-1",
+  "category": "Leadership & Task Management",
+  "__collections__": {}
+},
+{
+  "_id": "av-55-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Workload Management ",
+  "id": "av-55-ap-1",
+  "category": "Leadership & Task Management",
+  "__collections__": {}
+},
+{
+  "_id": "av-56-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "A/C System Awareness ",
+  "id": "av-56-ap-1",
+  "category": "Situational Awareness",
+  "__collections__": {}
+},
+{
+  "_id": "av-57-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Environment Awareness ",
+  "id": "av-57-ap-1",
+  "category": "Situational Awareness",
+  "__collections__": {}
+},
+{
+  "_id": "av-58-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Monitoring Flt Progress ",
+  "id": "av-58-ap-1",
+  "category": "Situational Awareness",
+  "__collections__": {}
+},
+{
+  "_id": "av-59-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Anticipation(s)",
+  "id": "av-59-ap-1",
+  "category": "Situational Awareness",
+  "__collections__": {}
+},
+{
+  "_id": "av-6-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Takeoff Proc. & Technique ",
+  "id": "av-6-ap-1",
+  "category": "Takeoff",
+  "__collections__": {}
+},
+{
+  "_id": "av-60-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "id": "av-60-ap-1",
+  "category": "Decision Making",
+  "name": "Diagnosis of problem(s)",
+  "__collections__": {}
+},
+{
+  "_id": "av-61-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Generation of Options ",
+  "id": "av-61-ap-1",
+  "category": "Decision Making",
+  "__collections__": {}
+},
+{
+  "_id": "av-62-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Risks Assessment & Options Selection ",
+  "id": "av-62-ap-1",
+  "category": "Decision Making",
+  "__collections__": {}
+},
+{
+  "_id": "av-63-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Threat/Error Management ",
+  "id": "av-63-ap-1",
+  "category": "Decision Making",
+  "__collections__": {}
+},
+{
+  "_id": "av-64-ap-1",
+  "type-of-assessment": "PF/PM",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "PA Content and Clarity ",
+  "id": "av-64-ap-1",
+  "category": "Customer Focus",
+  "__collections__": {}
+},
+{
+  "_id": "av-7-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Rejected takeoff before V1",
+  "id": "av-7-ap-1",
+  "category": "Takeoff",
+  "__collections__": {}
+},
+{
+  "_id": "av-8-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "name": "Engine Fail Between V1 & V2",
+  "id": "av-8-ap-1",
+  "category": "Takeoff",
+  "__collections__": {}
+},
+{
+  "_id": "av-9-ap-1",
+  "type-of-assessment": "Satisfactory",
+  "applicable-for-flight": true,
+  "assessment-period-id": "ap-1",
+  "id": "av-9-ap-1",
+  "category": "Takeoff",
+  "name": "SID / Eng. Out SID / Escape Route",
+  "__collections__": {}
+}]
