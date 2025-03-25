@@ -30,10 +30,11 @@
             }
         </style>
 
-        <title inertia>{{ config('app.name', 'Laravel') }}</title>
+        <title inertia>{{ config('app.name', 'Airmaster Web Admin') }}</title>
 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <link href="{{ asset('assets/icon/logo_airasia.png') }}" rel="icon" type="image/png">
 
         @routes
         @viteReactRefresh
