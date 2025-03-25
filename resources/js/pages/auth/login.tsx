@@ -1,4 +1,4 @@
-import { LoginForm } from '@/layouts/auth/auth-layout';
+import { LoginForm } from '@/layouts/auth/layout';
 import { type SharedData } from '@/types';
 import { Head, Link, usePage } from '@inertiajs/react';
 

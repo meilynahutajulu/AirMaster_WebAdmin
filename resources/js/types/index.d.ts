@@ -31,12 +31,28 @@ export interface SharedData {
 }
 
 export interface User {
-    id: number;
-    name: string;
-    email: string;
-    avatar?: string;
-    email_verified_at: string | null;
-    created_at: string;
-    updated_at: string;
-    [key: string]: unknown; // This allows for additional properties...
+    _id: string;
+    ATTRIBUTE?: string;
+    HUB: string;
+    STATUS: string;
+    ID_NO: number;
+    NAME: string;
+    LOA_NO: string;
+    LICENSE_NO: string;
+    TYPE: string;
+    LICENSE_EXPIRY: {
+        __datatype__: string;
+        value: {
+            _seconds: number;
+            _nanoseconds: number;
+        };
+    };
+    INSTRUCTOR: string[];
+    PRIVILEGES: string[];
+    RANK: string;
+    EMAIL: string;
+    PHOTOURL?: string;
+    __collections__?: Record<string, unknown>;
+    [key: string]: unknown; // Untuk properti tambahan
 }
+
