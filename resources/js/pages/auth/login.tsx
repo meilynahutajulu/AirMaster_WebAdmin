@@ -5,8 +5,8 @@ import { toast } from 'sonner'
 import { Toaster } from "@/components/ui/sonner"
 import { useEffect } from 'react';
 
-export default function Welcome() {
-	const { auth, flash } = usePage<SharedData>().props;
+export default function Login() {
+	const { flash } = usePage<SharedData>().props;
 
 	useEffect(() => {
 		if (flash?.error) {
