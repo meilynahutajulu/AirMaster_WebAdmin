@@ -10,7 +10,7 @@ use App\Models\User;
 class UserController extends Controller
 {
     public function index()
-    {
+    {        
         return Inertia::render('users/data', [
             'users'=> User::all(),
         ]);

@@ -39,10 +39,10 @@ export interface User {
     ATTRIBUTE?: string;
     HUB: string;
     STATUS: string;
-    ID_NO: number;
+    "ID NO": number;
     NAME: string;
-    LOA_NO: string;
-    LICENSE_NO: string;
+    "LOA NO": string;
+    "LICENSE NO.": string;
     TYPE: string;
     LICENSE_EXPIRY: {
         __datatype__: string;
