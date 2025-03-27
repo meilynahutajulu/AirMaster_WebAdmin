@@ -7,8 +7,8 @@ export default function UsersLayout({ children }: PropsWithChildren) {
 
     return (
         <div className="px-4 py-6">
-            <Heading title="Users" description="Manage and view user information" />
             <Separator className="my-6 md:hidden" />
+            <Heading title="Users" description="Manage and view user information" />
 
             {children}
 

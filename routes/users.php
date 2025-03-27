@@ -9,5 +9,5 @@ use Inertia\Inertia;
 Route::middleware('auth')->group(function () {
 
     Route::get('users', [UserController::class,'index']); 
-    Route::get('users/index', [UserController::class,'index']); 
+    Route::get('users/index', [UserController::class,'index']);
 });
