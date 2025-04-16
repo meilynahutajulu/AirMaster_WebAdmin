@@ -26,6 +26,9 @@ import { User } from "@/types";
 import React from "react";
 import { DataTablePagination } from "@/components/table-pagination";
 import { DataTableViewOptions } from "@/components/column";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { toast } from "sonner";
+import { router } from '@inertiajs/react';
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<User, any>[];
@@ -56,6 +59,24 @@ export function DataTable<TData extends User, TValue>({
       columnFilters,
     },
   });
+
+  function handleDelete(id: string | number) {
+    console.log("Deleting ID:", id);
+
+    router.delete(route('users.delete', id), {
+      onSuccess: () => {
+        toast.success("User deleted successfully!");
+      }
+    });
+    toast.error("Failed to delete user.");
+  }
+
+  function handleEdit(id: string | number){
+    console.log("Edit ID: " ,id);
+
+    router.get(route('users.edit',id));
+  }
+
 
   return (
     <>
@@ -110,6 +131,26 @@ export function DataTable<TData extends User, TValue>({
                       )}
                     </TableCell>
                   ))}
+
+                    <div className="flex space-x-1">
+                      <Button
+                        variant="destructive"
+                        className={buttonVariants({ variant: "destructive"})}
+                        onClick={() => handleDelete(row.original["ID NO"])}
+                      >
+                        Delete
+                      </Button>
+
+                      <Button
+                        variant="default"
+                        className={buttonVariants({ variant: "default"})}
+                        onClick={() => handleEdit(row.original["ID NO"])}
+                      >
+                        Edit
+                      </Button>
+
+                    </div>
+
                 </TableRow>
               ))
             ) : (
