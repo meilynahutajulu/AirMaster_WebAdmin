@@ -42,7 +42,7 @@ export interface User {
     "ID NO": number;
     NAME: string;
     "LOA NO": string;
-    "LICENSE NO.": string;
+    "LICENSE NO": string;
     TYPE: string;
     LICENSE_EXPIRY: {
         __datatype__: string;
