@@ -6,7 +6,7 @@ import DataTableRowActions from './row-actions';
 
 interface UserColumnsProps {
   onEdit: (user: User) => void;
-  onDelete: (user: User) => void;
+  onDelete: (user: User) => Promise<void>;
 }
 
 export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<User>[] => [
@@ -63,6 +63,6 @@ export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<U
   {
     header: "Actions",
     id: "actions",
-    cell: ({ row }) => <DataTableRowActions row={row} onEdit={onEdit} onDelete={onDelete} />,
+    cell: ({ row }) => <DataTableRowActions row={row} onEdit={onEdit} onDelete={async (user) => await onDelete(user)} />,
   }
 ]

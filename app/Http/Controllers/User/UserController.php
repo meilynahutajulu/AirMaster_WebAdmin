@@ -45,29 +45,31 @@ class UserController extends Controller
         User::create($validated);
 
 
-        return redirect()->route('users')->with('message', 'User berhasil disimpan');
+        return redirect('users')->with('success', 'User has been successfully saved');
     }
 
-    public function delete($email)
+    public function delete($id)
     {
-        $user = User::where("EMAIL", $email)->first();
+        $user = User::where("id", $id)->first();
         if (!$user) {
-            return redirect()->route('users')->with('error', 'User tidak ditemukan');
+            return redirect('users')->with('error', 'User not found');
         }
         $user->delete();
 
-        return redirect()->route('users')->with('message', 'User berhasil dihapus');
+        return redirect('users')->with('success', 'User successfully deleted');
     }
 
     public function edit($id)
     {
-        $encrypted = $id;
-        $key = "1234567890123456";
-        $iv = "abcdef9876543210";
+        $key = env('ENCRYPTION_KEY', '1234567890123456');
+        $iv = env('ENCRYPTION_IV', 'abcdef9876543210');
 
-        $ciphertext_raw = base64_decode($encrypted);
-
+        $ciphertext_raw = base64_decode(strtr($id, '-_', '+/'));
         $decrypted = openssl_decrypt($ciphertext_raw, 'AES-128-CBC', $key, OPENSSL_RAW_DATA, $iv);
+
+        if (!$decrypted || !is_numeric($decrypted)) {
+            abort(404);
+        }
 
         $user = DB::table('users')->where('id', '=', $decrypted)->first();
 

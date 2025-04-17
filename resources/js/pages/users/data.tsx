@@ -8,48 +8,73 @@ import { buttonVariants } from '@/components/ui/button';
 import { User2Icon } from 'lucide-react';
 import { useCallback, useMemo } from 'react';
 import CryptoJS from 'crypto-js';
+import { toast } from 'sonner'
+import { Toaster } from "@/components/ui/sonner"
+import { useEffect } from 'react';
 
 const breadcrumbs: BreadcrumbItem[] = [
-    {
-        title: 'Users Data',
-        href: '/users/index',
-    },
+	{
+		title: 'Users Data',
+		href: '/users/index',
+	},
 ];
 
 export default function UserData() {
-    const { users } = usePage<{ users: User[] }>().props;
+	const { flash } = usePage<SharedData>().props;
+	const { users } = usePage<{ users: User[] }>().props;
 
-    const key = CryptoJS.enc.Utf8.parse('1234567890123456');
-    const iv = CryptoJS.enc.Utf8.parse('abcdef9876543210');
+	useEffect(() => {
+		if (flash?.error) {
+			toast.error(flash.error);
+		}
+		if (flash?.success) {
+			toast.success(flash.success);
+		}
+	}, [flash])
 
-    const onDelete = useCallback(
-        (user: User) => console.log(`Delete ${user.EMAIL}`),
-        [],
-    );
 
-    const onEdit = useCallback(
-        (user: User) => {
-            const message = user['ID NO'].toString();
-            const encrypted = CryptoJS.AES.encrypt(message, key, {
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                padding: CryptoJS.pad.Pkcs7
-            }).toString(); 
+	const key = CryptoJS.enc.Utf8.parse('1234567890123456');
+	const iv = CryptoJS.enc.Utf8.parse('abcdef9876543210');
 
-            // console.log(`Edit ${encrypted}`);
-            router.visit(`/users/edit/${encodeURIComponent(encrypted)}`);
-        },
-        [],
-    );
+	const onDelete = useCallback(
+		async (user: User) => {
+			console.log(user['ID NO']);
+			await router.post(`/users/delete/${user['ID NO']}`);
+		},
+		[],
+	);
 
-    const columns = useMemo(() => userColumns({ onEdit, onDelete }), []);
-    return (
-        <AppLayout breadcrumbs={breadcrumbs}>
-            <Head title="Users Data" />
-            <UsersLayout>
-                <Link className={buttonVariants({ variant: "default", className: "mb-2" })} href={'users/add'}><User2Icon />Add User</Link>
-                <DataTable columns={columns} data={users} />
-            </UsersLayout>
-        </AppLayout>
-    );
+	const base64UrlEncode = (base64: string) =>
+		base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+
+	const onEdit = useCallback(
+		(user: User) => {
+			const message = user['ID NO'].toString();
+			const encrypted = CryptoJS.AES.encrypt(message, key, {
+				iv: iv,
+				mode: CryptoJS.mode.CBC,
+				padding: CryptoJS.pad.Pkcs7
+			}).toString();
+
+			const urlSafeEncrypted = base64UrlEncode(encrypted);
+
+			console.log(`Edit ${urlSafeEncrypted}`);
+			router.visit(`/users/edit/${urlSafeEncrypted}`);
+		},
+		[],
+	);
+
+
+	const columns = useMemo(() => userColumns({ onEdit, onDelete }), []);
+
+	return (
+		< AppLayout breadcrumbs={breadcrumbs} >
+			<Head title="Users Data" />
+			<UsersLayout>
+				<Toaster position="bottom-right" richColors />
+				<Link className={buttonVariants({ variant: "default", className: "mb-2" })} href={'users/add'}><User2Icon />Add User</Link>
+				<DataTable columns={columns} data={users} />
+			</UsersLayout>
+		</AppLayout >
+	);
 }
