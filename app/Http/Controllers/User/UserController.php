@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
+use DB;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
@@ -11,16 +12,16 @@ use Illuminate\Support\Facades\Log;
 class UserController extends Controller
 {
     public function index()
-    {        
+    {
         return Inertia::render('users/data', [
-            'users'=> User::all(),
+            'users' => User::all(),
         ]);
     }
 
     public function create(Request $request)
     {
         return Inertia::render('users/create', [
-            'users'=> User::all(),
+            'users' => User::all(),
         ]);
     }
 
@@ -40,16 +41,16 @@ class UserController extends Controller
             'NAME' => 'required|string',
             'EMAIL' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
         ]);
-    
+
         User::create($validated);
 
 
         return redirect()->route('users')->with('message', 'User berhasil disimpan');
     }
 
-    public function delete($id)
+    public function delete($email)
     {
-        $user = User::where("ID NO", $id)->first();
+        $user = User::where("EMAIL", $email)->first();
         if (!$user) {
             return redirect()->route('users')->with('error', 'User tidak ditemukan');
         }
@@ -60,10 +61,18 @@ class UserController extends Controller
 
     public function edit($id)
     {
-        $user = User::where("ID NO", $id)->first(); 
+        $encrypted = $id;
+        $key = "1234567890123456";
+        $iv = "abcdef9876543210";
+
+        $ciphertext_raw = base64_decode($encrypted);
+
+        $decrypted = openssl_decrypt($ciphertext_raw, 'AES-128-CBC', $key, OPENSSL_RAW_DATA, $iv);
+
+        $user = DB::table('users')->where('id', '=', $decrypted)->first();
 
         return Inertia::render('users/edit', [
             'user' => $user,
         ]);
-    }   
+    }
 }

@@ -72,7 +72,7 @@ export function InputForm() {
       },
     });
   }
-  
+
 
   const inputField = (name: keyof z.infer<typeof FormSchema>, label: string, placeholder: string) => (
     <FormField

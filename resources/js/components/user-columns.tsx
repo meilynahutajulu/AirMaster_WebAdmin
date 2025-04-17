@@ -2,8 +2,14 @@ import { User } from '@/types';
 import { ColumnDef } from '@tanstack/react-table';
 import { ArrowUpDown } from "lucide-react"
 import { Button } from './ui/button';
+import DataTableRowActions from './row-actions';
 
-export const userColumns: ColumnDef<User>[] = [
+interface UserColumnsProps {
+  onEdit: (user: User) => void;
+  onDelete: (user: User) => void;
+}
+
+export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<User>[] => [
   {
     accessorKey: "PHOTOURL",
     header: "Picture",
@@ -51,15 +57,12 @@ export const userColumns: ColumnDef<User>[] = [
     },
   },
   {
-    accessorKey: "LOA NO",
-    header: "LOA No",
-  },
-  {
-    accessorKey: "LICENSE NO.",
-    header: "License No",
-  },
-  {
     accessorKey: "INSTRUCTOR",
     header: "Instructor",
+  },
+  {
+    header: "Actions",
+    id: "actions",
+    cell: ({ row }) => <DataTableRowActions row={row} onEdit={onEdit} onDelete={onDelete} />,
   }
 ]

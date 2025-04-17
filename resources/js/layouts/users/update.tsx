@@ -1,11 +1,10 @@
-"use client"
 import { useEffect } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { toast } from "sonner"
-import { router } from '@inertiajs/react'
+import { router, usePage } from '@inertiajs/react'
 
 import { Button } from "@/components/ui/button"
 import {
@@ -17,6 +16,7 @@ import {
   FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
+import { User } from "@/types"
 
 // Skema validasi
 const FormSchema = z.object({
@@ -37,34 +37,31 @@ const FormSchema = z.object({
 })
 
 export function EditForm() {
+  const { user } = usePage<{ user: User }>().props;
+
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
-      _id: "",
-      ATTRIBUTE: "",
-      HUB: "",
-      STATUS: "",
-      "ID NO": "",
-      "LOA NO": "",
-      "LICENSE NO": "",
-      TYPE: "",
-      RANK: "",
-      "LICENSE EXPIRY": "",
-      NAME: "",
-      EMAIL: "",
+      _id: user._id || "",
+      ATTRIBUTE: user.ATTRIBUTE || "",
+      HUB: user.HUB || "",
+      STATUS: user.STATUS || "",
+      "ID NO": user["ID NO"]?.toString() || "",
+      "LOA NO": user["LOA NO"] || "",
+      "LICENSE NO": user["LICENSE NO."] || "",
+      TYPE: user.TYPE || "",
+      RANK: user.RANK || "",
+      "LICENSE EXPIRY": user.LICENSE_EXPIRY ? new Date(user.LICENSE_EXPIRY.value._seconds * 1000).toISOString().split('T')[0] : "",
+      NAME: user.NAME || "",
+      EMAIL: user.EMAIL || "",
     },
   })
-
-  useEffect(() => {
-    const generatedId = uuidv4()
-    form.setValue("_id", generatedId)
-  }, [form])
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
     router.post('/users', data, {
       onSuccess: () => {
         toast.success("User berhasil disimpan!");
-        form.reset(); // reset form setelah berhasil
+        form.reset();
       },
       onError: (errors) => {
         toast.error("Gagal menyimpan user!");
@@ -72,7 +69,7 @@ export function EditForm() {
       },
     });
   }
-  
+
 
   const inputField = (name: keyof z.infer<typeof FormSchema>, label: string, placeholder: string) => (
     <FormField
@@ -119,7 +116,7 @@ export function EditForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="ex: example@airasia.com" {...field} />
+                <Input placeholder={user.EMAIL} {...field} />
               </FormControl>
               <p className="text-sm text-muted-foreground">Only AirAsia email addresses are allowed.</p>
               <FormMessage />
