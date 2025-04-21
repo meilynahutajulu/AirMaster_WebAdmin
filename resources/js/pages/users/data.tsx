@@ -38,8 +38,8 @@ export default function UserData() {
 
 	const onDelete = useCallback(
 		async (user: User) => {
-			console.log(user['ID NO']);
-			await router.post(`/users/delete/${user['ID NO']}`);
+			console.log(user.id_number);
+			await router.post(`/users/delete/${user.id_number}`);
 		},
 		[],
 	);

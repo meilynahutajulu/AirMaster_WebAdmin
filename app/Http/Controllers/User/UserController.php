@@ -14,7 +14,9 @@ class UserController extends Controller
     public function index()
     {
         return Inertia::render('users/data', [
-            'users' => User::all(),
+            'users' => User::where('type', '<>', 'SUPERADMIN')->get(
+
+            ),
         ]);
     }
 
@@ -50,7 +52,7 @@ class UserController extends Controller
 
     public function delete($id)
     {
-        $user = User::where("id", $id)->first();
+        $user = User::where("id_number", (int) $id)->first();
         if (!$user) {
             return redirect('users')->with('error', 'User not found');
         }
@@ -61,18 +63,20 @@ class UserController extends Controller
 
     public function edit($id)
     {
+        
         $key = env('ENCRYPTION_KEY', '1234567890123456');
         $iv = env('ENCRYPTION_IV', 'abcdef9876543210');
-
+        
         $ciphertext_raw = base64_decode(strtr($id, '-_', '+/'));
         $decrypted = openssl_decrypt($ciphertext_raw, 'AES-128-CBC', $key, OPENSSL_RAW_DATA, $iv);
-
+        
         if (!$decrypted || !is_numeric($decrypted)) {
             abort(404);
         }
 
-        $user = DB::table('users')->where('id', '=', $decrypted)->first();
-
+        
+        $user = User::where('id_number', '114432156')->first();
+        
         return Inertia::render('users/edit', [
             'user' => $user,
         ]);

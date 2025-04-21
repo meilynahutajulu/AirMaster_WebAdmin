@@ -39,7 +39,7 @@ export interface User {
     attribute?: string;
     hub: string;
     status: string;
-    id_number: number;
+    id_number: string;
     name: string;
     loa_number: string;
     license_number: string;
