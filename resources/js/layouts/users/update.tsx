@@ -43,17 +43,19 @@ export function EditForm() {
     resolver: zodResolver(FormSchema),
     defaultValues: {
       _id: user._id || "",
-      ATTRIBUTE: user.ATTRIBUTE || "",
-      HUB: user.HUB || "",
-      STATUS: user.STATUS || "",
-      "ID NO": user["ID NO"]?.toString() || "",
-      "LOA NO": user["LOA NO"] || "",
-      "LICENSE NO": user["LICENSE NO."] || "",
-      TYPE: user.TYPE || "",
-      RANK: user.RANK || "",
-      "LICENSE EXPIRY": user.LICENSE_EXPIRY ? new Date(user.LICENSE_EXPIRY.value._seconds * 1000).toISOString().split('T')[0] : "",
-      NAME: user.NAME || "",
-      EMAIL: user.EMAIL || "",
+      ATTRIBUTE: user.attribute || "",
+      HUB: user.hub || "",
+      STATUS: user.status || "",
+      "ID NO": user['id_number']?.toString() || "",
+      "LOA NO": user["loa_number"] || "",
+      "LICENSE NO": typeof user["license_no"] === "string" ? user["license_no"] : "",
+      TYPE: user.type || "",
+      RANK: user.rank || "",
+      "LICENSE EXPIRY": user.license_expiry && user.license_expiry.value._seconds
+        ? new Date(user.license_expiry.value._seconds * 1000).toISOString().split('T')[0]
+        : "",
+      NAME: user.name || "",
+      EMAIL: user.email || "",
     },
   })
 
@@ -116,7 +118,7 @@ export function EditForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder={user.EMAIL} {...field} />
+                <Input placeholder={user.email} {...field} />
               </FormControl>
               <p className="text-sm text-muted-foreground">Only AirAsia email addresses are allowed.</p>
               <FormMessage />

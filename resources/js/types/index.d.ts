@@ -36,26 +36,25 @@ export interface SharedData {
 
 export interface User {
     _id: string;
-    ATTRIBUTE?: string;
-    HUB: string;
-    STATUS: string;
-    "ID NO": number;
-    NAME: string;
-    "LOA NO": string;
-    "LICENSE NO.": string;
-    TYPE: string;
-    LICENSE_EXPIRY: {
+    attribute?: string;
+    hub: string;
+    status: string;
+    id_number: number;
+    name: string;
+    loa_number: string;
+    license_number: string;
+    type: string;
+    license_expiry: {
         __datatype__: string;
         value: {
             _seconds: number;
             _nanoseconds: number;
         };
     };
-    INSTRUCTOR: string[];
-    PRIVILEGES: string[];
-    RANK: string;
-    EMAIL: string;
-    PHOTOURL?: string;
+    instructor: string[];
+    rank: string;
+    email: string;
+    photo_url?: string;
     __collections__?: Record<string, unknown>;
     [key: string]: unknown; // Untuk properti tambahan
 }

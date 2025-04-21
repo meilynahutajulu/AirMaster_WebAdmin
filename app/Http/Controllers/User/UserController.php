@@ -29,17 +29,17 @@ class UserController extends Controller
     {
         $validated = $request->validate([
             '_id' => 'required|string',
-            'ATTRIBUTE' => 'required|string',
-            'HUB' => 'required|string',
-            'STATUS' => 'required|string',
-            'ID NO' => 'required|string',
-            'LOA NO' => 'required|string',
-            'LICENSE NO' => 'required|string',
-            'TYPE' => 'required|string',
-            'RANK' => 'required|string',
-            'LICENSE EXPIRY' => 'required|string',
-            'NAME' => 'required|string',
-            'EMAIL' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
+            'attribute' => 'required|string',
+            'hub' => 'required|string',
+            'status' => 'required|string',
+            'id_number' => 'required|string',
+            'loa_number' => 'required|string',
+            'license_number' => 'required|string',
+            'type' => 'required|string',
+            'rank' => 'required|string',
+            'license_expiry' => 'required|string',
+            'name' => 'required|string',
+            'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
         ]);
 
         User::create($validated);

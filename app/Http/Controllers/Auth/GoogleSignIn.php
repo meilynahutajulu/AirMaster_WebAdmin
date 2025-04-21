@@ -63,10 +63,10 @@ class GoogleSignIn extends Controller
          */
         
 
-        $db_user = User::where('EMAIL', $email)->first();
+        $db_user = User::where('email', $email)->first();
 
         if ($db_user) {
-            if (!$db_user['TYPE'] == 'SUPERADMIN') {
+            if (!$db_user['type'] == 'SUPERADMIN') {
                 return redirect('/')->with('error', 'Your account is not allowed.');
             }
         } else {

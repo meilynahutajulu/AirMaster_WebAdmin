@@ -63,9 +63,9 @@ export function DataTable<TData extends User, TValue>({
         <div className="flex items-center py-4">
           <Input
             placeholder="Filter emails..."
-            value={(table.getColumn("EMAIL")?.getFilterValue() as string) ?? ""}
+            value={(table.getColumn("email")?.getFilterValue() as string) ?? ""}
             onChange={(event) =>
-              table.getColumn("EMAIL")?.setFilterValue(event.target.value)
+              table.getColumn("email")?.setFilterValue(event.target.value)
             }
             className="max-w-sm"
           />
@@ -92,11 +92,11 @@ export function DataTable<TData extends User, TValue>({
                 <TableRow key={row.id}>
                   {row.getVisibleCells().map((cell) => (
                     <TableCell key={cell.id}>
-                      {cell.column.id === "PHOTOURL" ? (
+                      {cell.column.id === "photo_url" ? (
                         <Avatar className="h-8 w-8 overflow-hidden rounded-full">
-                          <AvatarImage src={cell.getValue() as string} alt={row.original.NAME} />
+                          <AvatarImage src={cell.getValue() as string} alt={row.original.name} />
                           <AvatarFallback className="rounded-lg bg-neutral-200 text-black dark:bg-neutral-700 dark:text-white">
-                            {getInitials(row.original.NAME)}
+                            {row.original.name ? getInitials(row.original.name) : '??'}
                           </AvatarFallback>
                         </Avatar>
                       ) : (

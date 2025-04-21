@@ -11,11 +11,11 @@ interface UserColumnsProps {
 
 export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<User>[] => [
   {
-    accessorKey: "PHOTOURL",
+    accessorKey: "photo_url",
     header: "Picture",
   },
   {
-    accessorKey: "EMAIL",
+    accessorKey: "email",
     header: ({ column }) => {
       return (
         <Button
@@ -29,7 +29,7 @@ export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<U
     },
   },
   {
-    accessorKey: "NAME",
+    accessorKey: "name",
     header: ({ column }) => {
       return (
         <Button
@@ -43,7 +43,7 @@ export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<U
     },
   },
   {
-    accessorKey: "RANK",
+    accessorKey: "rank",
     header: ({ column }) => {
       return (
         <Button
@@ -57,7 +57,7 @@ export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<U
     },
   },
   {
-    accessorKey: "INSTRUCTOR",
+    accessorKey: "instructor",
     header: "Instructor",
   },
   {

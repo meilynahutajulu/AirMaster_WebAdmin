@@ -49,7 +49,7 @@ export default function UserData() {
 
 	const onEdit = useCallback(
 		(user: User) => {
-			const message = user['ID NO'].toString();
+			const message = user['id_number'].toString();
 			const encrypted = CryptoJS.AES.encrypt(message, key, {
 				iv: iv,
 				mode: CryptoJS.mode.CBC,

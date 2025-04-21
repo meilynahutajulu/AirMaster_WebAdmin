@@ -22,18 +22,19 @@ class User extends Authenticatable
      */
     protected $fillable = [
         '_id',
-        'ATTRIBUTE',
-        'HUB',
-        'STATUS',
-        "ID NO",
-        'NAME',
-        "LOA NO",
-        "LICENSE NO.",
-        'TYPE',
-        'LICENSE EXPIRY',
-        'RANK',
-        'EMAIL',
+        'atttribute',
+        'hub',
+        'status',
+        'id_number',
+        'name',
+        'loa_number',
+        'license_number',
+        'type',
+        'rank',
+        'license_expiry',
+        'email',
     ];
+ 
 
     protected $primaryKey = '_id';
 
