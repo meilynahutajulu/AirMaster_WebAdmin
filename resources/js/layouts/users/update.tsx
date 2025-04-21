@@ -51,9 +51,7 @@ export function EditForm() {
       "LICENSE NO": typeof user["license_no"] === "string" ? user["license_no"] : "",
       TYPE: user.type || "",
       RANK: user.rank || "",
-      "LICENSE EXPIRY": user.license_expiry && user.license_expiry.value._seconds
-        ? new Date(user.license_expiry.value._seconds * 1000).toISOString().split('T')[0]
-        : "",
+      "LICENSE EXPIRY": user.license_expiry ? new Date(user.license_expiry).toISOString().split('T')[0] : "",
       NAME: user.name || "",
       EMAIL: user.email || "",
     },

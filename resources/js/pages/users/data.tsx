@@ -58,7 +58,7 @@ export default function UserData() {
 
 			const urlSafeEncrypted = base64UrlEncode(encrypted);
 
-			console.log(`Edit ${urlSafeEncrypted}`);
+			console.log(`Edit ${message}`);
 			router.visit(`/users/edit/${urlSafeEncrypted}`);
 		},
 		[],

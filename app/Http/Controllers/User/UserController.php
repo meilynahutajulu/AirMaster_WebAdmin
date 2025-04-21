@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
 use Illuminate\Support\Facades\Log;
+use function Psy\debug;
 
 class UserController extends Controller
 {

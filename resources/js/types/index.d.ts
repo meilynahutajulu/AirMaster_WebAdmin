@@ -44,13 +44,7 @@ export interface User {
     loa_number: string;
     license_number: string;
     type: string;
-    license_expiry: {
-        __datatype__: string;
-        value: {
-            _seconds: number;
-            _nanoseconds: number;
-        };
-    };
+    license_expiry: string;
     instructor: string[];
     rank: string;
     email: string;
@@ -58,4 +52,3 @@ export interface User {
     __collections__?: Record<string, unknown>;
     [key: string]: unknown; // Untuk properti tambahan
 }
-
