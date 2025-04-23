@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
 use Illuminate\Support\Facades\Log;
-use function Psy\debug;
 
 class UserController extends Controller
 {
@@ -30,6 +29,7 @@ class UserController extends Controller
 
     public function store(Request $request)
     {
+        
         $validated = $request->validate([
             '_id' => 'required|string',
             'attribute' => 'required|string',
@@ -40,12 +40,19 @@ class UserController extends Controller
             'license_number' => 'required|string',
             'type' => 'required|string',
             'rank' => 'required|string',
-            'license_expiry' => 'required|string',
+            'license_expiry' => 'required|date',
             'name' => 'required|string',
             'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
         ]);
 
+        $validated['license_expiry'] = date('Y-m-d\TH:i:s\Z', strtotime($validated['license_expiry']));
+
+
+        var_dump($validated);
+        exit();
+                        
         User::create($validated);
+        
 
 
         return redirect('users')->with('success', 'User has been successfully saved');
@@ -53,10 +60,14 @@ class UserController extends Controller
 
     public function delete($id)
     {
-        $user = User::where("id_number", (int) $id)->first();
+        $user = User::where("id_number", $id)->first();
+        // dd($user);
+        
         if (!$user) {
             return redirect('users')->with('error', 'User not found');
         }
+
+
         $user->delete();
 
         return redirect('users')->with('success', 'User successfully deleted');
@@ -64,22 +75,41 @@ class UserController extends Controller
 
     public function edit($id)
     {
-        
-        $key = env('ENCRYPTION_KEY', '1234567890123456');
-        $iv = env('ENCRYPTION_IV', 'abcdef9876543210');
-        
-        $ciphertext_raw = base64_decode(strtr($id, '-_', '+/'));
-        $decrypted = openssl_decrypt($ciphertext_raw, 'AES-128-CBC', $key, OPENSSL_RAW_DATA, $iv);
-        
-        if (!$decrypted || !is_numeric($decrypted)) {
-            abort(404);
-        }
+        $user = User::where('id_number', $id)->first();
 
-        
-        $user = User::where('id_number', '114432156')->first();
-        
+
         return Inertia::render('users/edit', [
             'user' => $user,
         ]);
+    }
+    
+    public function update(Request $request, $id)
+    {
+        $user = User::where('id_number', $id)->first();
+
+        $validated = $request->validate([
+            'attribute' => 'required|string',
+            'hub' => 'required|string',
+            'status' => 'required|string',
+            'id_number' => 'primaryKey|string',
+            'loa_number' => 'required|string',
+            'license_number' => 'required|string',
+            'type' => 'required|string',
+            'rank' => 'required|string',
+            'license_expiry' => 'required|string',
+            'name' => 'required|string',
+            'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
+        ]);
+
+        // dd($validated);
+
+
+        if (!$user) {
+            return redirect('users')->with('error', 'User not found');
+        }
+
+        $user->update($validated);
+
+        return redirect('users')->with('success', 'User has been successfully updated');
     }
 }

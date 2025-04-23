@@ -17,6 +17,15 @@ import {
   FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
+import{
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+import { FormDatePicker } from "@/layouts/users/date"
+
 
 // Skema validasi
 const FormSchema = z.object({
@@ -29,7 +38,7 @@ const FormSchema = z.object({
   license_number: z.string().min(2, { message: "LICENSE NO is required." }),
   type: z.string().min(2, { message: "Type is required." }),
   rank: z.string().min(2, { message: "Rank is required." }),
-  license_expiry: z.string().min(2, { message: "LICENSE EXPIRY is required." }),
+  license_expiry: z.date({ message: "LICENSE EXPIRY is required." }),
   name: z.string().min(1, { message: "Name is required." }),
   email: z.string()
     .min(1, { message: "Email is required." })
@@ -49,7 +58,7 @@ export function InputForm() {
       license_number: "",
       type: "",
       rank: "",
-      license_expiry: "",
+      license_expiry: new Date(),
       name: "",
       email: "",
     },
@@ -82,7 +91,7 @@ export function InputForm() {
         <FormItem>
           <FormLabel>{label}</FormLabel>
           <FormControl>
-            <Input placeholder={placeholder} {...field} />
+            <Input placeholder={placeholder} {...field} value={field.value instanceof Date ? field.value.toISOString().split('T')[0] : field.value} />
           </FormControl>
           <FormMessage />
         </FormItem>
@@ -90,13 +99,80 @@ export function InputForm() {
     />
   )
 
-  return (
-    <Form {...form}>
+
+
+  const selectField = (
+    name: keyof z.infer<typeof FormSchema>,
+    label: string,
+    placeholder: string,
+    options: { label: string; value: string }[]
+  ) => (
+    <FormField
+      control={form.control}
+      name={name}
+      render={({ field }) => (
+        <FormItem>
+          <FormLabel>{label}</FormLabel>
+          <FormControl>
+            <Select onValueChange={field.onChange} defaultValue={field.value?.toString()}>
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder={placeholder} />
+              </SelectTrigger>
+              <SelectContent>
+                {options.map((option) => (
+                  <SelectItem key={option.value} value={option.value}>
+                    {option.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </FormControl>
+          <FormMessage />
+        </FormItem>
+      )}
+      />
+    )
+    
+    
+    return (
+      <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
-        <div className="grid grid-cols-3 gap-4">
-          {inputField("attribute", "Attribute", "ex: Trainee")}
-          {inputField("hub", "HUB", "ex: CGK")}
-          {inputField("status", "Status", "ex: NOT VALID")}
+        <FormField
+          control={form.control}
+          name="email"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Email</FormLabel>
+              <FormControl>
+                <Input placeholder="email@airasia.com" {...field} />
+              </FormControl>
+              {/* <p className="text-sm text-muted-foreground">Only AirAsia email addresses are allowed.</p> */}
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+
+        <div className="grid grid-cols-[3fr_1fr] gap-8">
+          {inputField("name", "Name", "Name")}
+          {selectField("rank", "RANK", "Rank",[
+            { label: "CAPT", value: "CAPT" },
+            { label: "FO", value: "FO" },
+            { label: "SFO", value: "SFO" },
+          ])}
+
+        </div>
+
+        <div className="grid grid-cols-[3fr_1fr] gap-4">
+          {inputField("attribute", "Attribute", "Attribute")}
+          <FormField
+            control={form.control}
+            name="license_expiry"
+            render={({ field }) => (
+              <FormDatePicker field={field} label="License Expiry" />
+            )}
+          />
+          
         </div>
 
         <div className="grid grid-cols-3 gap-4">
@@ -106,26 +182,23 @@ export function InputForm() {
         </div>
 
         <div className="grid grid-cols-3 gap-4">
-          {inputField("type", "TYPE", "ex: Instrucor")}
-          {inputField("rank", "RANK", "ex: CAPT")}
-          {inputField("license_expiry", "LICENSE EXPIRY", "ex: 2025-12-31")}
+          {selectField("type", "TYPE", "ex: Instrucor",[
+            { label: "Instructor", value: "Instructor" },
+            { label: "Trainee", value: "Trainee" },
+            { label: "Pilot", value: "Pilot" },
+          ])}
+          {selectField("hub", "HUB", "HUB",[
+            { label: "CGK", value: "CGK" },
+            { label: "KUL", value: "KUL" },
+            { label: "SIN", value: "SIN" },
+          ])}
+          {selectField("status", "Status", "ex: NOT VALID", [
+            { label: "NOT VALID", value: "NOT VALID" },
+            { label: "VALID", value: "VALID" },
+            { label: "EXPIRED", value: "EXPIRED" },
+            ])}
         </div>
 
-        {inputField("name", "Name", "ex: John Doe")}
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Email</FormLabel>
-              <FormControl>
-                <Input placeholder="ex: example@airasia.com" {...field} />
-              </FormControl>
-              <p className="text-sm text-muted-foreground">Only AirAsia email addresses are allowed.</p>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
 
         <Button type="submit">Submit</Button>
       </form>

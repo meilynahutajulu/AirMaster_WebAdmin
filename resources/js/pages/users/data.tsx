@@ -50,19 +50,12 @@ export default function UserData() {
 	const onEdit = useCallback(
 		(user: User) => {
 			const message = user['id_number'].toString();
-			const encrypted = CryptoJS.AES.encrypt(message, key, {
-				iv: iv,
-				mode: CryptoJS.mode.CBC,
-				padding: CryptoJS.pad.Pkcs7
-			}).toString();
-
-			const urlSafeEncrypted = base64UrlEncode(encrypted);
-
-			console.log(`Edit ${message}`);
-			router.visit(`/users/edit/${urlSafeEncrypted}`);
+				
+			router.visit(`/users/edit/${message}`);
 		},
-		[],
+		[]
 	);
+	
 
 
 	const columns = useMemo(() => userColumns({ onEdit, onDelete }), []);

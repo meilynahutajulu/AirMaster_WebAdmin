@@ -36,7 +36,7 @@ export interface SharedData {
 
 export interface User {
     _id: string;
-    attribute?: string;
+    attribute : string;
     hub: string;
     status: string;
     id_number: string;
@@ -44,7 +44,7 @@ export interface User {
     loa_number: string;
     license_number: string;
     type: string;
-    license_expiry: string;
+    license_expiry: Date;
     instructor: string[];
     rank: string;
     email: string;
