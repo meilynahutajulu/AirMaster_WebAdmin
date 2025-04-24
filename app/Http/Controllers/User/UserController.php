@@ -7,6 +7,9 @@ use DB;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
+use Carbon\Carbon;
+
+
 use Illuminate\Support\Facades\Log;
 
 class UserController extends Controller
@@ -15,7 +18,7 @@ class UserController extends Controller
     {
         return Inertia::render('users/data', [
             'users' => User::where('type', '<>', 'SUPERADMIN')->get(
-
+                
             ),
         ]);
     }
@@ -44,13 +47,10 @@ class UserController extends Controller
             'name' => 'required|string',
             'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
         ]);
+        
+        // $validated['license_expiry'] = Carbon::parse($validated['license_expiry']);
+        
 
-        $validated['license_expiry'] = date('Y-m-d\TH:i:s\Z', strtotime($validated['license_expiry']));
-
-
-        var_dump($validated);
-        exit();
-                        
         User::create($validated);
         
 
@@ -86,12 +86,12 @@ class UserController extends Controller
     public function update(Request $request, $id)
     {
         $user = User::where('id_number', $id)->first();
-
+        
         $validated = $request->validate([
             'attribute' => 'required|string',
             'hub' => 'required|string',
             'status' => 'required|string',
-            'id_number' => 'primaryKey|string',
+            'id_number' => 'required|unique:users,id_number'. $user->id_number,
             'loa_number' => 'required|string',
             'license_number' => 'required|string',
             'type' => 'required|string',
@@ -100,9 +100,9 @@ class UserController extends Controller
             'name' => 'required|string',
             'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
         ]);
-
+        
         // dd($validated);
-
+        // exit;
 
         if (!$user) {
             return redirect('users')->with('error', 'User not found');

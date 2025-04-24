@@ -34,6 +34,10 @@ class User extends Authenticatable
         'license_expiry',
         'email',
     ];
+
+    protected $cast = [
+        'license_expiry' => 'datetime',
+    ];
  
 
     protected $primaryKey = '_id';

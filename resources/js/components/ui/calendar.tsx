@@ -9,17 +9,14 @@ function Calendar({
   className,
   classNames,
   showOutsideDays = true,
-  captionLayout = "dropdown-buttons",
-  fromYear = new Date().getFullYear(),
-  toYear = new Date().getFullYear() + 10,
+  captionLayout = "label",
   ...props
 }: React.ComponentProps<typeof DayPicker>) {
   return (
     <DayPicker
       showOutsideDays={showOutsideDays}
       captionLayout={captionLayout}
-      fromYear={fromYear}
-      toYear={toYear}
+      fixedWeeks
       className={cn("p-3", className)}
       classNames={{
         months: "flex flex-col sm:flex-row gap-2",
@@ -67,15 +64,7 @@ function Calendar({
         day_hidden: "invisible",
         ...classNames,
       }}
-      components={{
-        IconLeft: ({ className, ...props }) => (
-          <ChevronLeft className={cn("size-4", className)} {...props} />
-        ),
-        IconRight: ({ className, ...props }) => (
-          <ChevronRight className={cn("size-4", className)} {...props} />
-        ),
-        CaptionLabel: () => null,
-      }}
+
       {...props}
     />
   )
