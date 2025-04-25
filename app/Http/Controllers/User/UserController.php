@@ -47,10 +47,10 @@ class UserController extends Controller
             'name' => 'required|string',
             'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
         ]);
-        
-        // $validated['license_expiry'] = Carbon::parse($validated['license_expiry']);
-        
 
+        $validated['license_expiry'] = date('Y-m-d\TH:i:s\Z', strtotime($validated['license_expiry']));
+
+     
         User::create($validated);
         
 
