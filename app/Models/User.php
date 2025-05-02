@@ -27,10 +27,11 @@ class User extends Authenticatable
         'rank',
         'license_expiry',
         'email',
+        'photo_url',
     ];
 
     protected $cast = [
-        'license_expiry' => 'datetime',
+        'license_expiry' => 'date',
     ];
  
 

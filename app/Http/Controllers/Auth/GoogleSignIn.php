@@ -87,9 +87,9 @@ class GoogleSignIn extends Controller
     */
     public function logout()
     {
-        Auth::logout();
-        Session::flush();
+        $cookie = Cookie::forget('google_id');
+        $cookie = Cookie::forget('name');
 
-        return redirect('/')->with('success', 'Logout succesfull.');
+        return redirect('/')->withCookie($cookie)->with('success', 'Logout succesfull.');
     }
 }

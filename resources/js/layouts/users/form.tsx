@@ -30,6 +30,7 @@ import { FormDatePicker } from "@/layouts/users/date"
 // Skema validasi
 const FormSchema = z.object({
   _id: z.string(),
+  photo_url: z.string().optional(),
   attribute: z.string().min(2, { message: "Attribute is required." }),
   hub: z.string().min(2, { message: "HUB is required." }),
   status: z.string().min(2, { message: "Status is required" }),
@@ -42,7 +43,7 @@ const FormSchema = z.object({
   name: z.string().min(1, { message: "Name is required." }),
   email: z.string()
     .min(1, { message: "Email is required." })
-    .regex(/^[\w.+-]+@airasia\.com$/, { message: "Email must be a valid airasia.com address." })
+    .regex(/^[\w.+-]+@airasia\.com$/, { message: "Email must be a valid airasia.com address." }), 
 })
 
 export function InputForm() {
@@ -50,6 +51,7 @@ export function InputForm() {
     resolver: zodResolver(FormSchema),
     defaultValues: {
       _id: "",
+      photo_url: "",
       attribute: "",
       hub: "",
       status: "",
@@ -157,6 +159,8 @@ export function InputForm() {
           {inputField("name", "Name", "Name")}
           {selectField("rank", "RANK", "Rank",[
             { label: "CAPT", value: "CAPT" },
+            { label: "OCC", value: "OCC" },
+            { label: "SFO", value: "SFO" },
             { label: "FO", value: "FO" },
             { label: "SFO", value: "SFO" },
           ])}
@@ -176,26 +180,28 @@ export function InputForm() {
         </div>
 
         <div className="grid grid-cols-3 gap-4">
-          {inputField("id_number", "ID NO", "ex: 11321012")}
-          {inputField("loa_number", "LOA NO", "ex: 21012")}
-          {inputField("license_number", "LICENSE NO", "ex: DEL 11321012")}
+          {inputField("id_number", "ID NO", "ID Number")}
+          {inputField("loa_number", "LOA NO", "LOA Number")}
+          {inputField("license_number", "LICENSE NO", "License Number")}
         </div>
 
         <div className="grid grid-cols-3 gap-4">
-          {selectField("type", "TYPE", "ex: Instrucor",[
-            { label: "Instructor", value: "Instructor" },
-            { label: "Trainee", value: "Trainee" },
-            { label: "Pilot", value: "Pilot" },
+          {selectField("type", "TYPE", "Type",[
+            { label: "Pilot Administrator", value: "Administrator" },
+            { label: "Pilot Instructor", value: "Instructor" },
+            { label: "Pilot Examinee", value: "Examinee" },
+            { label: "CPTS", value: "CPTS" },
+            { label: "Super Admin", value: "SUPERADMIN" },
           ])}
           {selectField("hub", "HUB", "HUB",[
             { label: "CGK", value: "CGK" },
             { label: "KUL", value: "KUL" },
             { label: "SIN", value: "SIN" },
           ])}
-          {selectField("status", "Status", "ex: NOT VALID", [
-            { label: "NOT VALID", value: "NOT VALID" },
-            { label: "VALID", value: "VALID" },
-            { label: "EXPIRED", value: "EXPIRED" },
+          {selectField("status", "Status", "Status", [
+            { label: "Invalid", value: "Invalid" },
+            { label: "Valid", value: "Valid" },
+            { label: "Expired", value: "Expired" },
             ])}
         </div>
 

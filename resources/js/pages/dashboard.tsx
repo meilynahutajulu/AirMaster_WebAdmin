@@ -1,10 +1,7 @@
-import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
 import AppLayout from '@/layouts/app-layout';
 import { type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/react';
-import * as React from "react"
 import { TrendingUp } from "lucide-react"
-import { Label, Pie, PieChart } from "recharts"
 import {
   Card,
   CardContent,
@@ -15,11 +12,11 @@ import {
 } from "@/components/ui/card"
 import {
   ChartConfig,
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
 } from "@/components/ui/chart"
-
+import { usePage } from '@inertiajs/react';
+import { Component } from '@/layouts/users/chart';
+import PieChartWithText from '@/layouts/users/pie';
+import { Link } from '@inertiajs/react';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -28,178 +25,143 @@ const breadcrumbs: BreadcrumbItem[] = [
     },
 ];
 
-const chartData = [
-  { role: "Pilot Instructor", visitors: 275, fill: "red" },
-  { role: "Pilot Administrator", visitors: 200, fill: "yellow" },
-  { role: "CPTS", visitors: 287, fill: "green" }, 
-  { role: "Pilot Examine", visitors: 173, fill: "orange" },
-//   { browser: "other", visitors: 190, fill: "var(--color-other)" },
-]
-
-const pilotStatus = [
-    {status: "Active", count: 275, fill: "red"},
-    {status: "Inactive", count: 200, fill: "yellow"},
-]
 const chartConfig = {
-  visitors: {
-    label: "Visitors",
-  },
-  chrome: {
-    label: "Chrome",
-    color: "hsl(var(--chart-1))",
-  },
-  safari: {
-    label: "Safari",
-    color: "hsl(var(--chart-2))",
-  },
-  firefox: {
-    label: "Firefox",
-    color: "hsl(var(--chart-3))",
-  },
-  edge: {
-    label: "Edge",
-    color: "hsl(var(--chart-4))",
-  },
-  other: {
-    label: "Other",
-    color: "hsl(var(--chart-5))",
-  },
+    visitors: {
+        label: "Visitors",
+    },
+    PilotInstructor: {
+        label: "Pilot Instructor",
+        color: "var(--color-chart-1)", 
+    },
+    PilotExaminee: {
+        label: "Pilot Examinee",
+        color: "var(--color-chart-2)",
+    },
+    PilotAdministrator: {
+        label: "Pilot Administrator",
+        color: "var(--color-chart-2)",
+    },
+    CPTS: {
+        label: "CPTS",
+        color: "var(--color-chart-4)",
+    },
+    Active:{
+        label: "Active",
+        color: "var(--color-chart-6)",
+    },
+    Inactive:{
+        label: "Inactive",
+        color: "var(--color-chart-7)",
+    },
+    other: {
+        label: "Other",
+        color: "var(--color-chart-5)",
+    },
 } satisfies ChartConfig
-const totalVisitors = chartData.reduce((acc, { visitors }) => acc + visitors, 0)
-
-const pilotStatusTotal = pilotStatus.reduce((acc, { count }) => acc + count, 0)
 
 
 export default function Dashboard() {
+    
+    // Data Pilot's Role Chart
+    const { countInstructor } = usePage().props as unknown as { countInstructor: number };
+    const { countExaminee } = usePage().props as unknown as { countExaminee: number };
+    const { countAdministrator } = usePage().props as unknown as { countAdministrator: number };
+    const { countCPTS } = usePage().props as unknown as { countCPTS: number };
+    
+    const charRole = [
+        { attribute: "Pilot Instructor", data: countInstructor, fill: chartConfig.PilotInstructor.color },
+        { attribute: "Pilot Examinee", data: countExaminee, fill: chartConfig.PilotExaminee.color },
+        { attribute: "Pilot Administrator", data: countAdministrator, fill: chartConfig.PilotAdministrator.color },
+        { attribute: "CPTS", data: countCPTS, fill: chartConfig.CPTS.color },
+    ]
+    
+    // Data Pilot's Status
+    const { countValid } = usePage().props as unknown as { countValid: number };
+    const { countInvalid } = usePage().props as unknown as { countInvalid: number };
+    
+    const pilotStatus = [
+        {attribute: "Active", data: countValid, fill: chartConfig.Active.color},
+        {attribute: "Inactive", data: countInvalid, fill: chartConfig.Inactive.color},
+    ]
+    const totalType =  countInstructor + countExaminee + countAdministrator + countCPTS;
+    const pilotStatusTotal = countValid + countInvalid;
+    
+    const today = new Date();
+    const { totalExpired } = usePage(). props as unknown as { totalExpired: number };
+    
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Dashboard" />
             <div className="flex h-full flex-1 flex-col gap-4 rounded-xl p-4">
                 <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-                    <div className="w-full border-sidebar-border/70 dark:border-sidebar-border relative overflow-hidden rounded-xl border">
-                        <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+
+                    {/* Total Users */}
+
+                    <div className="flex flex-col space-y-4">
+                        <Link href="/users" className="w-full">
+                            <div className="border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-sm hover:shadow-md transition-shadow relative aspect-[2/1.04] overflow-hidden rounded-xl flex flex-col items-center justify-center px-4 py-6">
+        
+                                {/* Icon with gradient background */}
+                                <div className="bg-gradient-to-r from-blue-500 to-indigo-500 p-3 rounded-full mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" className="w-8 h-8">
+                                    <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
+                                </svg>
+                                </div>
+
+                                {/* Animated Number (optional, React only) */}
+                                <div className="text-3xl font-bold text-gray-800 dark:text-white">{totalType}</div>
+                                <div className="text-sm text-gray-500 dark:text-gray-400">Total Users</div>
+                            </div>
+                        </Link>
+                        <Link href="/users/expired" className='w-full'>
+                            <div className="border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-sm hover:shadow-md transition-shadow relative aspect-[2/1.04] overflow-hidden rounded-xl flex flex-col items-center justify-center px-4 py-6">
+                                {/* Icon with gradient background */}
+                                <div className="bg-gradient-to-r from-blue-500 to-indigo-500 p-3 rounded-full mb-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" className="w-8 h-8">
+                                        <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
+                                    </svg>
+                                </div>
+
+                                    {/* Animated Number (optional, React only) */}
+                                <div className="text-3xl font-bold text-gray-800 dark:text-white">{totalExpired}</div>
+                                <div className="text-sm text-gray-500 dark:text-gray-400">Total Users Expired</div>
+                            </div>
+                        </Link>
+                    </div>
+
+
+                    {/* Pilot's Role Chart */}
+
+                    <div className="w-full border-sidebar-border/70 dark:border-sidebar-border relative overflow-hidden rounded-xl border hover:shadow-md transition-shadow">
                         <Card className="flex flex-col">
-                        <CardHeader className="items-center pb-0">
-                            <CardTitle>Pie Chart - Pilot IAA</CardTitle>
-                            <CardDescription>January - June 2024</CardDescription>
-                        </CardHeader>
-                        <CardContent className="flex-1 pb-0">
-                            <ChartContainer
-                            config={chartConfig}
-                            className="mx-auto aspect-square max-h-[250px]"
-                            >
-                            <PieChart>
-                                <ChartTooltip
-                                cursor={false}
-                                content={<ChartTooltipContent hideLabel />}
-                                />
-                                <Pie
-                                data={chartData}
-                                dataKey="visitors"
-                                nameKey="role"
-                                innerRadius={60}
-                                strokeWidth={5}
-                                >
-                                <Label
-                                    content={({ viewBox }) => {
-                                    if (viewBox && "cx" in viewBox && "cy" in viewBox) {
-                                        return (
-                                        <text
-                                            x={viewBox.cx}
-                                            y={viewBox.cy}
-                                            textAnchor="middle"
-                                            dominantBaseline="middle"
-                                        >
-                                            <tspan
-                                            x={viewBox.cx}
-                                            y={viewBox.cy}
-                                            className="fill-foreground text-3xl font-bold"
-                                            >
-                                            {totalVisitors.toLocaleString()}
-                                            </tspan>
-                                            <tspan
-                                            x={viewBox.cx}
-                                            y={(viewBox.cy || 0) + 24}
-                                            className="fill-muted-foreground"
-                                            >
-                                            Visitors
-                                            </tspan>
-                                        </text>
-                                        )
-                                    }
-                                    }}
-                                />
-                                </Pie>
-                            </PieChart>
-                            </ChartContainer>
-                        </CardContent>
-                        <CardFooter className="flex-col gap-2 text-sm">
-                            <div className="flex items-center gap-2 font-medium leading-none">
-                            Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-                            </div>
-                            <div className="leading-none text-muted-foreground">
-                            Showing total visitors for the last 6 months
-                            </div>
-                        </CardFooter>
+                            <CardHeader className="items-center pb-0">
+                                <CardTitle>Pie Chart - Donut with Text</CardTitle>
+                                <CardDescription>January - June 2024</CardDescription>
+                            </CardHeader>
+                            <CardContent className="flex-1 pb-0">
+                                <PieChartWithText chartData={charRole} chartConfig={chartConfig} countData={totalType} />
+                            </CardContent>
+                            <CardFooter className="flex-col gap-2 text-sm">
+                                <div className="flex items-center gap-2 font-medium leading-none">
+                                Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+                                </div>
+                                <div className="leading-none text-muted-foreground">
+                                Showing total visitors for the last 6 months
+                                </div>
+                            </CardFooter>
                         </Card>
                     </div>
 
-                    <div className="w-full border-sidebar-border/70 dark:border-sidebar-border relative overflow-hidden rounded-xl border">
-                        <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+                    {/* Pilot Invalid */}
+
+                    <div className="w-full border-sidebar-border/70 dark:border-sidebar-border relative overflow-hidden rounded-xl border hover:shadow-md transition-shadow">
                         <Card className="flex flex-col">
                         <CardHeader className="items-center pb-0">
                             <CardTitle>Pie Chart - Pilot IAA</CardTitle>
                             <CardDescription>January - June 2024</CardDescription>
                         </CardHeader>
                         <CardContent className="flex-1 pb-0">
-                            <ChartContainer
-                            config={chartConfig}
-                            className="mx-auto aspect-square max-h-[250px]"
-                            >
-                            <PieChart>
-                                <ChartTooltip
-                                cursor={false}
-                                content={<ChartTooltipContent hideLabel />}
-                                />
-                                <Pie
-                                data={pilotStatus}
-                                dataKey="count"
-                                nameKey="status"
-                                innerRadius={60}
-                                strokeWidth={5}
-                                >
-                                <Label
-                                    content={({ viewBox }) => {
-                                    if (viewBox && "cx" in viewBox && "cy" in viewBox) {
-                                        return (
-                                        <text
-                                            x={viewBox.cx}
-                                            y={viewBox.cy}
-                                            textAnchor="middle"
-                                            dominantBaseline="middle"
-                                        >
-                                            <tspan
-                                            x={viewBox.cx}
-                                            y={viewBox.cy}
-                                            className="fill-foreground text-3xl font-bold"
-                                            >
-                                            {pilotStatusTotal.toLocaleString()}
-                                            </tspan>
-                                            <tspan
-                                            x={viewBox.cx}
-                                            y={(viewBox.cy || 0) + 24}
-                                            className="fill-muted-foreground"
-                                            >
-                                            Visitors
-                                            </tspan>
-                                        </text>
-                                        )
-                                    }
-                                    }}
-                                />
-                                </Pie>
-                            </PieChart>
-                            </ChartContainer>
+                            <PieChartWithText chartData={pilotStatus} chartConfig={chartConfig} countData={pilotStatusTotal}/>
                         </CardContent>
                         <CardFooter className="flex-col gap-2 text-sm">
                             <div className="flex items-center gap-2 font-medium leading-none">
@@ -211,12 +173,9 @@ export default function Dashboard() {
                         </CardFooter>
                         </Card>
                     </div>
-                    <div className="border-sidebar-border/70 dark:border-sidebar-border relative aspect-video overflow-hidden rounded-xl border">
-                        <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
-                    </div>
                 </div>
-                <div className="border-sidebar-border/70 dark:border-sidebar-border relative min-h-[100vh] flex-1 overflow-hidden rounded-xl border md:min-h-min">
-                    <PlaceholderPattern className="absolute inset-0 size-full stroke-neutral-900/20 dark:stroke-neutral-100/20" />
+                <div className="border-sidebar-border/70 dark:border-sidebar-border relative min-h-[100vh] flex-1 overflow-hidden rounded-xl border md:min-h-min ">
+                    <Component/>
                 </div>
             </div>
         </AppLayout>

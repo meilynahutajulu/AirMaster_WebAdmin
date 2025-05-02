@@ -9,24 +9,17 @@ function Calendar({
   className,
   classNames,
   showOutsideDays = true,
-  captionLayout = "label",
   ...props
 }: React.ComponentProps<typeof DayPicker>) {
   return (
     <DayPicker
       showOutsideDays={showOutsideDays}
-      captionLayout={captionLayout}
-      fixedWeeks
       className={cn("p-3", className)}
       classNames={{
         months: "flex flex-col sm:flex-row gap-2",
         month: "flex flex-col gap-4",
         caption: "flex justify-center pt-1 relative items-center w-full",
         caption_label: "text-sm font-medium",
-        caption_dropdowns: "flex justify-center gap-2",
-        dropdown: "rounded-md border px-2 py-1 text-sm shadow-sm focus:outline-none",
-        dropdown_month: "w-[100px]",
-        dropdown_year: "w-[80px]",
         nav: "flex items-center gap-1",
         nav_button: cn(
           buttonVariants({ variant: "outline" }),
@@ -64,7 +57,14 @@ function Calendar({
         day_hidden: "invisible",
         ...classNames,
       }}
-
+      components={{
+        IconLeft: ({ className, ...props }) => (
+          <ChevronLeft className={cn("size-4", className)} {...props} />
+        ),
+        IconRight: ({ className, ...props }) => (
+          <ChevronRight className={cn("size-4", className)} {...props} />
+        ),
+      }}
       {...props}
     />
   )

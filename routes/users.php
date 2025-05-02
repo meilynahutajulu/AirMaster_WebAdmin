@@ -8,6 +8,7 @@ Route::middleware('auth')->group(function () {
     Route::get('users', [UserController::class, 'index']);
     Route::post('users/store', [UserController::class, 'store'])->name('store');
     Route::get('users/index', [UserController::class, 'index']);
+    Route::get('users/expired', [UserController::class, 'expired']);
     Route::get('users/add', [UserController::class,'create']);
     Route::get('users/edit/{id}', [UserController::class, 'edit']);
     Route::post('users/update/{id}', [UserController::class,'update'])->name('update');

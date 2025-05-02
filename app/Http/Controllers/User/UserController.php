@@ -17,9 +17,7 @@ class UserController extends Controller
     public function index()
     {
         return Inertia::render('users/data', [
-            'users' => User::where('type', '<>', 'SUPERADMIN')->get(
-                
-            ),
+            'users' => User::where('type', '<>', 'SUPERADMIN')->get(),
         ]);
     }
 
@@ -35,6 +33,7 @@ class UserController extends Controller
         
         $validated = $request->validate([
             '_id' => 'required|string',
+            'photo_url' => 'nullable|string',
             'attribute' => 'required|string',
             'hub' => 'required|string',
             'status' => 'required|string',
@@ -46,12 +45,26 @@ class UserController extends Controller
             'license_expiry' => 'required|date',
             'name' => 'required|string',
             'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
+            
         ]);
+        
+        // $validated['license_expiry'] = Carbon::parse($validated['license_expiry']);
+        
 
-        $validated['license_expiry'] = date('Y-m-d\TH:i:s\Z', strtotime($validated['license_expiry']));
-
-     
-        User::create($validated);
+        User::create([
+            'id_number' => $validated['id_number'],
+            'photo_url' => $validated['photo_url'],
+            'attribute' => $validated['attribute'],
+            'hub' => $validated['hub'],
+            'status' => $validated['status'],
+            'loa_number' => $validated['loa_number'],
+            'license_number' => $validated['license_number'],
+            'type' => $validated['type'],
+            'rank' => $validated['rank'],
+            'license_expiry' => Carbon::parse($request->license_expiry),
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+        ]);
         
 
 
@@ -111,5 +124,13 @@ class UserController extends Controller
         $user->update($validated);
 
         return redirect('users')->with('success', 'User has been successfully updated');
+    }
+
+    public function expired()
+    {
+        return Inertia::render('users/data', [
+            'users' => User::where('type', '<>', 'SUPERADMIN')
+                    -> where('license_expiry', '<', now())->get(),
+        ]);
     }
 }
