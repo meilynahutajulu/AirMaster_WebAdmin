@@ -32,10 +32,6 @@ export default function UserData() {
 		}
 	}, [flash])
 
-
-	const key = CryptoJS.enc.Utf8.parse('1234567890123456');
-	const iv = CryptoJS.enc.Utf8.parse('abcdef9876543210');
-
 	const onDelete = useCallback(
 		async (user: User) => {
 			console.log(user.id_number);
@@ -43,9 +39,6 @@ export default function UserData() {
 		},
 		[],
 	);
-
-	const base64UrlEncode = (base64: string) =>
-		base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 
 	const onEdit = useCallback(
 		(user: User) => {

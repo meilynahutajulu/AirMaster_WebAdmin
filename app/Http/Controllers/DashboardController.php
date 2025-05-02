@@ -20,8 +20,8 @@ class DashboardController extends Controller
         $countAdministrator = User:: where('type', '=', 'Administrator')->count();
         $countCPTS = User:: where('type', '=', 'CPTS')->count();
 
-        $countValid = User:: where('status', '=', 'VALID')->count();
-        $countInvalid = User:: where('status', '=', 'INVALID')->count();
+        $countValid = User:: where([['status', '=', 'VALID'], ['type', '<>', 'SUPERADMIN']])->count();
+        $countInvalid = User:: where([['status', '=', 'INVALID'], ['type', '<>', 'SUPERADMIN']])->count();
         
         $userExpired = User::where('type', '<>', 'SUPERADMIN')
                     ->where('license_expiry', '<', now())
