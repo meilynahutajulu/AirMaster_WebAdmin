@@ -160,7 +160,6 @@ export function InputForm() {
           {selectField("rank", "RANK", "Rank",[
             { label: "CAPT", value: "CAPT" },
             { label: "OCC", value: "OCC" },
-            { label: "SFO", value: "SFO" },
             { label: "FO", value: "FO" },
             { label: "SFO", value: "SFO" },
           ])}
@@ -199,9 +198,8 @@ export function InputForm() {
             { label: "SIN", value: "SIN" },
           ])}
           {selectField("status", "Status", "Status", [
-            { label: "Invalid", value: "Invalid" },
-            { label: "Valid", value: "Valid" },
-            { label: "Expired", value: "Expired" },
+            { label: "Invalid", value: "INVALID" },
+            { label: "Valid", value: "VALID" },
             ])}
         </div>
 

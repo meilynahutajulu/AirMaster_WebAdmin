@@ -116,10 +116,20 @@ export default function Dashboard() {
                         <Link href="/users/expired" className='w-full'>
                             <div className="border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden rounded-xl flex flex-col items-center justify-center h-50">
                                 {/* Icon with gradient background */}
-                                <div className="bg-gradient-to-r from-blue-500 to-indigo-500 p-3 rounded-full mb-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" className="w-8 h-8">
+                                <div className="relative inline-block mb-3">
+                                    {/* Lingkaran biru dengan ikon user */}
+                                    <div className="bg-gradient-to-r from-red-500 to-red-600 p-3 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" className="w-8 h-8">
                                         <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
-                                    </svg>
+                                        </svg>
+                                    </div>
+
+                                    {/* Badge jam di sudut kanan bawah */}
+                                    <div className="absolute -bottom-1 -right-1 bg-black p-1 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                    </div>
                                 </div>
 
                                 {/* Animated Number (optional, React only) */}
@@ -132,43 +142,86 @@ export default function Dashboard() {
 
                     {/* Pilot's Role Chart */}
 
-                    <Card className="flex flex-col">
-                        <CardHeader className="items-center pb-0">
-                            <CardTitle>Pie Chart - Donut with Text</CardTitle>
-                            <CardDescription>January - June 2024</CardDescription>
-                        </CardHeader>
-                        <CardContent className="pb-0">
-                            <PieChartWithText chartData={charRole} chartConfig={chartConfig} countData={totalType} />
-                        </CardContent>
-                        <CardFooter className="flex-col gap-2 text-sm">
-                            <div className="flex items-center gap-2 font-medium leading-none">
-                                Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-                            </div>
-                            <div className="leading-none text-muted-foreground">
-                                Showing total visitors for the last 6 months
-                            </div>
-                        </CardFooter>
-                    </Card>
+                    { totalType === 0 ? (
+                        <Card className="flex flex-col">
+                            <CardHeader className="items-center pb-0">
+                                <CardTitle>Pie Chart - IAA Pilot Role</CardTitle>
+                                <CardDescription>
+                                    {new Date(new Date().setMonth(new Date().getMonth() - 6)).toLocaleDateString('en-GB', {
+                                        day: '2-digit',
+                                        month: 'short',
+                                        year: 'numeric'
+                                    })} - {new Date().toLocaleDateString('en-GB', {
+                                        day: '2-digit',
+                                        month: 'short',
+                                        year: 'numeric'
+                                    })}
+                                </CardDescription>
+                            </CardHeader>
+                            <p className="text-center text-lg font-semibold text-muted-foreground italic flex items-center justify-center h-full tracking-wide">
+                                No Data Available
+                            </p>
+                        </Card>
+                        ) : (
+                            <Card className="flex flex-col">
+                                <CardHeader className="items-center pb-0">
+                                    <CardTitle>Pie Chart - IAA Pilot Role</CardTitle>
+                                    <CardDescription>January - June 2025</CardDescription>
+                                </CardHeader>
+                                <CardContent className="pb-0">
+                                    <PieChartWithText chartData={charRole} chartConfig={chartConfig} countData={totalType} />
+                                </CardContent>
+                                <CardFooter className="flex-col gap-2 text-sm">
+                                    <div className="leading-none text-muted-foreground">
+                                        ??
+                                    </div>
+                                </CardFooter>
+                            </Card>
+                        )}
+
 
                     {/* Pilot Invalid */}
 
-                    <Card className="flex flex-col">
-                        <CardHeader className="items-center pb-0">
-                            <CardTitle>Pie Chart - Pilot IAA</CardTitle>
-                            <CardDescription>January - June 2024</CardDescription>
-                        </CardHeader>
-                        <CardContent className="pb-0">
-                            <PieChartWithText chartData={pilotStatus} chartConfig={chartConfig} countData={pilotStatusTotal} />
-                        </CardContent>
-                        <CardFooter className="flex-col gap-2 text-sm">
-                            <div className="flex items-center gap-2 font-medium leading-none">
-                                Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-                            </div>
-                            <div className="leading-none text-muted-foreground">
-                                Showing total visitors for the last 6 months
-                            </div>
-                        </CardFooter>
-                    </Card>
+                    { pilotStatusTotal === 0 ? (
+                        <Card className="flex flex-col">
+                            <CardHeader className="items-center pb-0">
+                                <CardTitle>Pie Chart - IAA Pilot Status</CardTitle>
+                                <CardDescription>
+                                {new Date(new Date().setMonth(new Date().getMonth() - 6)).toLocaleDateString('en-GB', {
+                                    day: '2-digit',
+                                    month: 'short',
+                                    year: 'numeric'
+                                })} - {new Date().toLocaleDateString('en-GB', {
+                                    day: '2-digit',
+                                    month: 'short',
+                                    year: 'numeric'
+                                })}
+                            </CardDescription>
+                            </CardHeader>
+                            <p className="text-center text-lg font-semibold text-muted-foreground italic flex items-center justify-center h-full tracking-wide">
+                                No Data Available
+                            </p>
+                        </Card>
+                        ) : (
+                            <Card className="flex flex-col">
+                                <CardHeader className="items-center pb-0">
+                                    <CardTitle>Pie Chart - IAA Pilot Status</CardTitle>
+                                    <CardDescription>January - June 2024</CardDescription>
+                                </CardHeader>
+                                <CardContent className="pb-0">
+                                    <PieChartWithText chartData={pilotStatus} chartConfig={chartConfig} countData={pilotStatusTotal} />
+                                </CardContent>
+                                <CardFooter className="flex-col gap-2 text-sm">
+                                    <div className="flex items-center gap-2 font-medium leading-none">
+                                        Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+                                    </div>
+                                    <div className="leading-none text-muted-foreground">
+                                        Showing total visitors for the last 6 months
+                                    </div>
+                                </CardFooter>
+                            </Card>
+                        )}
+
 
                 </div>
                 <div className="border-sidebar-border/70 dark:border-sidebar-border relative min-h-[100vh] flex-1 overflow-hidden rounded-xl border md:min-h-min ">

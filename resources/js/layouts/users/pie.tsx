@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Label, Pie, PieChart } from "recharts"
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
+import { text } from "stream/consumers";
 
 // Komponen PieChart yang reusable
 interface PieChartWithTextProps {
@@ -26,42 +27,36 @@ const PieChartWithText: React.FC<PieChartWithTextProps> = ({ chartData, chartCon
           <Label
             content={({ viewBox }) => {
               if (viewBox && "cx" in viewBox && "cy" in viewBox) {
-                return (
-                  <text
-                    x={viewBox.cx}
-                    y={viewBox.cy}
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                  >
-                    <tspan
+                  return (
+                    <text
                       x={viewBox.cx}
                       y={viewBox.cy}
-                      className="fill-foreground text-3xl font-bold"
+                      textAnchor="middle"
+                      dominantBaseline="middle"
                     >
-                      {totalVisitors.toLocaleString()}
-                    </tspan>
-
-                    {totalVisitors == 1 ? (
-                        <tspan
-                            x={viewBox.cx}
-                            y={(viewBox.cy || 0) + 24}
-                            className="fill-muted-foreground"
-                        >
-                            Pilot
-                        </tspan>
-                    ) : (
-                        <tspan
-                          x={viewBox.cx}
-                          y={(viewBox.cy || 0) + 24}
-                          className="fill-muted-foreground"
-                        >
-                          Pilots
-                        </tspan>
-                    )}
-
-                  </text>
-                )
-              }
+                      <tspan
+                        x={viewBox.cx}
+                        y={viewBox.cy}
+                        className="fill-foreground text-3xl font-bold"
+                      >
+                        {totalVisitors.toLocaleString()}
+                      </tspan>
+  
+                      <tspan
+                        x={viewBox.cx}
+                        y={(viewBox.cy || 0) + 24}
+                        className="fill-muted-foreground"
+                      >
+                        {totalVisitors === 0
+                          ? "No Pilot"
+                          : totalVisitors === 1
+                          ? "Pilot"
+                          : "Pilots"}
+                      </tspan>
+  
+                    </text>
+                  )
+                }
             }}
           />
         </Pie>
