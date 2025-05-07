@@ -67,4 +67,21 @@ class AuthController extends Controller
         }
 
     }
+
+    public function isTokenValid(Request $request)
+    {
+        $user = User::where([['email', '=', $request->email], ['token', '=', $request->token]])->exists();
+
+        if ($user) {
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Token is valid.'
+            ], 200);
+        } else {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Token is not valid.',
+            ], 403);
+        }
+    }
 }
