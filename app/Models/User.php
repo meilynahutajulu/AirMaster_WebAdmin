@@ -28,6 +28,7 @@ class User extends Authenticatable
         'license_expiry',
         'email',
         'photo_url',
+        'last_login',
     ];
 
     protected $cast = [

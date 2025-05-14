@@ -7,6 +7,7 @@ use DB;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
+use App\Models\userLogin as UserLogin;
 use Carbon\Carbon;
 
 
@@ -45,8 +46,13 @@ class UserController extends Controller
             'license_expiry' => 'required|date',
             'name' => 'required|string',
             'email' => 'required|email|regex:/^[\w.+-]+@airasia\.com$/',
+            'last_login' => 'nullable|date',
             
         ]);
+
+        if(User::where('email', '=', $validated['email'])->exists()) {
+            return redirect('users/add')->with('error', 'Email already exists');
+        }
         
         // $validated['license_expiry'] = Carbon::parse($validated['license_expiry']);
         
@@ -66,6 +72,9 @@ class UserController extends Controller
             'email' => $validated['email'],
         ]);
         
+        userLogin::create([
+            'login_date' => now(),
+        ]);
 
 
         return redirect('users')->with('success', 'User has been successfully saved');
@@ -90,9 +99,8 @@ class UserController extends Controller
     {
         $user = User::where('id_number', $id)->first();
 
-
         return Inertia::render('users/edit', [
-            'user' => $user,
+            'user' => $user,    
         ]);
     }
     

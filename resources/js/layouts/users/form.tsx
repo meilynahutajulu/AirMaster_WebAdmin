@@ -24,23 +24,29 @@ import{
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { FormDatePicker } from "@/layouts/users/date"
+import ResponsiveDatePickers from "./date"
+import dayjs from "dayjs"
 
 
 // Skema validasi
 const FormSchema = z.object({
   _id: z.string(),
   photo_url: z.string().optional(),
-  attribute: z.string().min(2, { message: "Attribute is required." }),
+  attribute: z.string().min(2, { message: "Attribute is required." })
+    .regex(/^[a-zA-Z\s]+$/, { message: "Attribute must contain only letters and spaces." }),
   hub: z.string().min(2, { message: "HUB is required." }),
   status: z.string().min(2, { message: "Status is required" }),
-  id_number: z.string().min(2, { message: "ID NO is required." }),
-  loa_number: z.string().min(2, { message: "LOA NO is required." }),
-  license_number: z.string().min(2, { message: "LICENSE NO is required." }),
+  id_number: z.string().min(2, { message: "ID NO is required." })
+    .regex(/^[a-zA-Z0-9]+$/, { message: "ID NO must contain only letters and numbers." }),
+  loa_number: z.string().min(2, { message: "LOA NO is required." })
+    .regex(/^[a-zA-Z0-9]+$/, { message: "LOA NO must contain only letters and numbers." }),
+  license_number: z.string().min(2, { message: "LICENSE NO is required." })
+    .regex(/^[a-zA-Z0-9]+$/, { message: "LICENSE NO must contain only letters and numbers." }),
   type: z.string().min(2, { message: "Type is required." }),
   rank: z.string().min(2, { message: "Rank is required." }),
   license_expiry: z.date({ message: "LICENSE EXPIRY is required." }),
-  name: z.string().min(1, { message: "Name is required." }),
+  name: z.string().min(1, { message: "Name is required." })
+    .regex(/^[a-zA-Z\s]+$/, { message: "Name must contain only letters and spaces." }),
   email: z.string()
     .min(1, { message: "Email is required." })
     .regex(/^[\w.+-]+@airasia\.com$/, { message: "Email must be a valid airasia.com address." }), 
@@ -49,6 +55,7 @@ const FormSchema = z.object({
 export function InputForm() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
+    mode: "onChange",
     defaultValues: {
       _id: "",
       photo_url: "",
@@ -74,11 +81,10 @@ export function InputForm() {
   function onSubmit(data: z.infer<typeof FormSchema>) {
     router.post('store', data, {
       onSuccess: () => {
-        toast.success("User berhasil disimpan!");
         form.reset(); // reset form setelah berhasil
       },
       onError: (errors) => {
-        toast.error("Gagal menyimpan user!");
+        form.reset(); // reset form jika ada error
         console.error(errors)
       },
     });
@@ -99,9 +105,7 @@ export function InputForm() {
         </FormItem>
       )}
     />
-  )
-
-
+  )  
 
   const selectField = (
     name: keyof z.infer<typeof FormSchema>,
@@ -116,7 +120,7 @@ export function InputForm() {
         <FormItem>
           <FormLabel>{label}</FormLabel>
           <FormControl>
-            <Select onValueChange={field.onChange} defaultValue={field.value?.toString()}>
+          <Select value={field.value instanceof Date ? field.value.toISOString() : field.value} onValueChange={field.onChange}>
               <SelectTrigger className="w-full">
                 <SelectValue placeholder={placeholder} />
               </SelectTrigger>
@@ -172,9 +176,19 @@ export function InputForm() {
             control={form.control}
             name="license_expiry"
             render={({ field }) => (
-              <FormDatePicker field={field} label="License Expiry" />
+              <FormItem>
+                <FormLabel>License Expiry</FormLabel>
+                <FormControl>
+                  <ResponsiveDatePickers
+                    value={field.value ? dayjs(field.value) : null}
+                    onChange={(val) => field.onChange(val ? val.toDate() : null)}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
             )}
           />
+
           
         </div>
 

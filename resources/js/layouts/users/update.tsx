@@ -22,7 +22,8 @@ import{
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { FormDatePicker } from "@/layouts/users/date"
+import ResponsiveDatePickers from "./date"
+import dayjs from "dayjs"
 
 // Skema validasi
 const FormSchema = z.object({
@@ -35,7 +36,8 @@ const FormSchema = z.object({
   type: z.string().min(2, { message: "Type is required." }),
   rank: z.string().min(2, { message: "Rank is required." }),
   license_expiry: z.date({ message: "LICENSE EXPIRY is required." }),
-  name: z.string().min(1, { message: "Name is required." }),
+  name: z.string().min(1, { message: "Name is required." })
+    .regex(/^[a-zA-Z\s]+$/, { message: "Name must contain only letters and spaces." }),
   email: z.string()
     .min(1, { message: "Email is required." })
     .regex(/^[\w.+-]+@airasia\.com$/, { message: "Email must be a valid airasia.com address." })
@@ -46,6 +48,7 @@ export function EditForm() {
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
+    mode: "onChange",
     defaultValues: {
       attribute: user.attribute || "",
       hub: user.hub || "",
@@ -155,6 +158,7 @@ export function EditForm() {
             {inputField("name", "Name", "Name")}
             {selectField("rank", "RANK", "Rank",[
               { label: "CAPT", value: "CAPT" },
+              { label: "OCC", value: "OCC" },
               { label: "FO", value: "FO" },
               { label: "SFO", value: "SFO" },
             ])}
@@ -167,7 +171,10 @@ export function EditForm() {
               control={form.control}
               name="license_expiry"
               render={({ field }) => (
-                <FormDatePicker field={field} label="License Expiry" />
+                <ResponsiveDatePickers
+                  value={field.value ? dayjs(field.value) : null}
+                  onChange={(val) => field.onChange(val?.toISOString())}
+                />
               )}
             />
             
@@ -181,9 +188,11 @@ export function EditForm() {
   
           <div className="grid grid-cols-3 gap-4">
             {selectField("type", "TYPE", "ex: Instrucor",[
-              { label: "Instructor", value: "Instructor" },
-              { label: "Trainee", value: "Trainee" },
-              { label: "Pilot", value: "Pilot" },
+              { label: "Pilot Administrator", value: "Administrator" },
+              { label: "Pilot Instructor", value: "Instructor" },
+              { label: "Pilot Examinee", value: "Examinee" },
+              { label: "CPTS", value: "CPTS" },
+              { label: "Super Admin", value: "SUPERADMIN" },
             ])}
             {selectField("hub", "HUB", "HUB",[
               { label: "CGK", value: "CGK" },
@@ -191,9 +200,8 @@ export function EditForm() {
               { label: "SIN", value: "SIN" },
             ])}
             {selectField("status", "Status", "ex: NOT VALID", [
-              { label: "NOT VALID", value: "NOT VALID" },
-              { label: "VALID", value: "VALID" },
-              { label: "EXPIRED", value: "EXPIRED" },
+              { label: "Invalid", value: "INVALID" },
+              { label: "Valid", value: "VALID" },
               ])}
           </div>
   

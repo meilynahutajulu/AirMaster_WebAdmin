@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Dashboard;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Inertia\Inertia;
 use App\Models\User;
+use App\Models\userLogin as UserLogin;
 
 
 class DashboardController extends Controller
@@ -29,8 +30,23 @@ class DashboardController extends Controller
 
         $totalExpired = $userExpired->count();
 
-        // dd($userExpired);
-        // dd($totalExpired);
+        $loginData = UserLogin::all()
+            ->map(function (UserLogin $item) {
+                $item->formatted_date = $item->login_date->format('Y-m-d');
+                return $item;
+            })
+            ->groupBy('formatted_date')
+            ->map(function ($group) {
+                return [
+                    'date' => $group->first()->formatted_date,
+                    'mobile' => $group->count(),
+                ];
+            })
+            ->values();
+
+            // dd($loginData); 
+    
+    
         
         return Inertia::render('dashboard', [
             'countInstructor' => $countInstructor,
@@ -41,6 +57,7 @@ class DashboardController extends Controller
             'countInvalid' => $countInvalid,
             'userExpired' => $userExpired,
             'totalExpired' => $totalExpired,
+            'loginData' => $loginData,          
             
         ]);
     }

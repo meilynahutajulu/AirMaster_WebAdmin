@@ -14,7 +14,7 @@ import {
     ChartConfig,
 } from "@/components/ui/chart"
 import { usePage } from '@inertiajs/react';
-import { Component } from '@/layouts/users/chart';
+import DashboardChart from '@/layouts/users/chart';
 import PieChartWithText from '@/layouts/users/pie';
 import { Link } from '@inertiajs/react';
 
@@ -39,7 +39,7 @@ const chartConfig = {
     },
     PilotAdministrator: {
         label: "Pilot Administrator",
-        color: "var(--color-chart-2)",
+        color: "var(--color-chart-4)",
     },
     CPTS: {
         label: "CPTS",
@@ -60,7 +60,7 @@ const chartConfig = {
 } satisfies ChartConfig
 
 
-export default function Dashboard() {
+export default function DashboardPage() {
 
     // Data Pilot's Role Chart
     const { countInstructor } = usePage().props as unknown as { countInstructor: number };
@@ -88,6 +88,8 @@ export default function Dashboard() {
 
     const today = new Date();
     const { totalExpired } = usePage().props as unknown as { totalExpired: number };
+
+    const { loginData } = usePage().props as unknown as { loginData: { date: string; mobile: number }[] };
 
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
@@ -158,7 +160,7 @@ export default function Dashboard() {
                                     })}
                                 </CardDescription>
                             </CardHeader>
-                            <p className="text-center text-lg font-semibold text-muted-foreground italic flex items-center justify-center h-full tracking-wide">
+                            <p className="text-lg font-semibold text-muted-foreground italic flex items-center justify-center h-full tracking-wide">
                                 No Data Available
                             </p>
                         </Card>
@@ -166,7 +168,17 @@ export default function Dashboard() {
                             <Card className="flex flex-col">
                                 <CardHeader className="items-center pb-0">
                                     <CardTitle>Pie Chart - IAA Pilot Role</CardTitle>
-                                    <CardDescription>January - June 2025</CardDescription>
+                                    <CardDescription>
+                                        {new Date(new Date().setMonth(new Date().getMonth() - 6)).toLocaleDateString('en-GB', {
+                                            day: '2-digit',
+                                            month: 'short',
+                                            year: 'numeric'
+                                        })} - {new Date().toLocaleDateString('en-GB', {
+                                            day: '2-digit',
+                                            month: 'short',
+                                            year: 'numeric'
+                                        })}
+                                    </CardDescription>
                                 </CardHeader>
                                 <CardContent className="pb-0">
                                     <PieChartWithText chartData={charRole} chartConfig={chartConfig} countData={totalType} />
@@ -198,7 +210,7 @@ export default function Dashboard() {
                                 })}
                             </CardDescription>
                             </CardHeader>
-                            <p className="text-center text-lg font-semibold text-muted-foreground italic flex items-center justify-center h-full tracking-wide">
+                            <p className="text-lg font-semibold text-muted-foreground italic flex items-center justify-center h-full tracking-wide">
                                 No Data Available
                             </p>
                         </Card>
@@ -206,7 +218,17 @@ export default function Dashboard() {
                             <Card className="flex flex-col">
                                 <CardHeader className="items-center pb-0">
                                     <CardTitle>Pie Chart - IAA Pilot Status</CardTitle>
-                                    <CardDescription>January - June 2024</CardDescription>
+                                    <CardDescription>
+                                        {new Date(new Date().setMonth(new Date().getMonth() - 6)).toLocaleDateString('en-GB', {
+                                            day: '2-digit',
+                                            month: 'short',
+                                            year: 'numeric'
+                                        })} - {new Date().toLocaleDateString('en-GB', {
+                                            day: '2-digit',
+                                            month: 'short',
+                                            year: 'numeric'
+                                        })}
+                                    </CardDescription>
                                 </CardHeader>
                                 <CardContent className="pb-0">
                                     <PieChartWithText chartData={pilotStatus} chartConfig={chartConfig} countData={pilotStatusTotal} />
@@ -225,7 +247,7 @@ export default function Dashboard() {
 
                 </div>
                 <div className="border-sidebar-border/70 dark:border-sidebar-border relative min-h-[100vh] flex-1 overflow-hidden rounded-xl border md:min-h-min ">
-                    <Component />
+                    <DashboardChart loginData={loginData} />
                 </div>
             </div>
         </AppLayout>

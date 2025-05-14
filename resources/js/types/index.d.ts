@@ -51,4 +51,5 @@ export interface User {
     photo_url?: string;
     __collections__?: Record<string, unknown>;
     [key: string]: unknown; // Untuk properti tambahan
+    last_login?: Date;
 }

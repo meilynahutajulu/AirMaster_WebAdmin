@@ -1,78 +1,26 @@
-import * as React from "react"
-import { format, addDays } from "date-fns"
-import { Calendar as CalendarIcon } from "lucide-react"
+import * as React from 'react';
+import dayjs from 'dayjs';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker';
 
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import { Calendar } from "@/components/ui/calendar"
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
-
-import { FormField, FormItem, FormLabel, FormControl, FormMessage } from "@/components/ui/form"
-import { ControllerRenderProps } from "react-hook-form"
-
-type FormDatePickerProps = {
-  field: ControllerRenderProps<any, any>
-  label?: string
+interface ResponsiveDatePickersProps {
+  value: dayjs.Dayjs | null;
+  onChange: (date: dayjs.Dayjs | null) => void;
 }
 
-export function FormDatePicker({ field, label }: FormDatePickerProps) {
-  const date = field.value
-
+export default function ResponsiveDatePickers({ value, onChange }: ResponsiveDatePickersProps) {
   return (
-    <FormItem className="flex flex-col">
-      {label && <FormLabel>{label}</FormLabel>}
-      <FormControl>
-        <Popover>
-          <PopoverTrigger asChild>
-            <Button
-              variant="outline"
-              className={cn(
-                "w-[280px] justify-start text-left font-normal",
-                !date && "text-muted-foreground"
-              )}
-            >
-              <CalendarIcon className="mr-2 h-4 w-4" />
-              {date ? format(new Date(date), "PPP") : <span>Pick a date</span>}
-            </Button>
-          </PopoverTrigger>
-          <PopoverContent className="flex w-auto flex-col space-y-2 p-2">
-            <Select
-              onValueChange={(value) =>
-                field.onChange(addDays(new Date(), parseInt(value)))
-              }
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Select" />
-              </SelectTrigger>
-              <SelectContent position="popper">
-                <SelectItem value="0">Today</SelectItem>
-                <SelectItem value="1">Tomorrow</SelectItem>
-                <SelectItem value="3">In 3 days</SelectItem>
-                <SelectItem value="7">In a week</SelectItem>
-              </SelectContent>
-            </Select>
-            <div className="rounded-md border">
-              <Calendar
-                mode="single"
-                selected={date}
-                onSelect={field.onChange}
-              />
-            </div>
-          </PopoverContent>
-        </Popover>
-      </FormControl>
-      <FormMessage />
-    </FormItem>
-  )
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <MobileDatePicker
+        value={value}
+        onChange={onChange}
+        slotProps={{
+          textField: {
+            size: 'small' // atau width: '100%', '20rem', dll
+          },
+        }}
+      />
+    </LocalizationProvider>
+  );
 }
