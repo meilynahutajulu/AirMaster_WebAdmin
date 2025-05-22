@@ -4,7 +4,6 @@ namespace App\Http\Controllers\API\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
-use DB;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller
@@ -13,6 +12,7 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         date_default_timezone_set('Asia/Jakarta');
+
         $email = $request->email;
 
         /*
@@ -70,18 +70,25 @@ class AuthController extends Controller
 
     public function isTokenValid(Request $request)
     {
-        $user = User::where([['email', '=', $request->email], ['token', '=', $request->token]])->exists();
-
-        if ($user) {
-            return response()->json([
-                'status' => 'success',
-                'message' => 'Token is valid.'
-            ], 200);
-        } else {
+        try {
+            $user = User::where([['email', '=', $request->email], ['token', '=', $request->token]])->exists();
+            if ($user) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Token is valid.'
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Token is not valid.',
+                ], 403);
+            }
+        } catch (\Throwable $th) {
             return response()->json([
                 'status' => 'error',
-                'message' => 'Token is not valid.',
-            ], 403);
+                'message' => 'An error occurred while validating the token.',
+                'error' => $th->getMessage(),
+            ], 500);
         }
     }
 }
