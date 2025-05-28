@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\API\TS_1\Home;
 
 use App\Http\Controllers\Controller;
-use App\Models\User;
 use DB;
 use Illuminate\Http\Request;
 
