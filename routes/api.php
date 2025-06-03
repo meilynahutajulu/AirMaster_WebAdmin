@@ -26,6 +26,10 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-devices', [EFBDevicesController::class, 'get_devices']);
         Route::get('get-device-by-id', [EFBDevicesController::class, 'get_device_by_id']);
         Route::get('get-device-by-name', [EFBDevicesController::class, 'get_device_by_name']);
+        Route::get('get-confirmation-status', [EFBDevicesController::class, 'get_confirmation_status']);
+        Route::get('get-pilot-devices', [EFBDevicesController::class, 'get_pilot_devices']);
+        Route::get('check-request', [EFBDevicesController::class, 'check_request']);
         Route::post('submit-request', [EFBDevicesController::class, 'submit_request']);
+        Route::delete('cancel-request', [EFBDevicesController::class, 'cancel_request']);
     });
 });
