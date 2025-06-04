@@ -24,8 +24,10 @@ class EFBDevicesController extends Controller
 
         try {
             $exist = DB::table('pilot_devices')
-                ->where([['hub', '=', $request->query('hub')], ['request_user', '=', $request->query('request_user')]])
+                ->where([['hub', '=', $request->query('hub')], ['request_user', '=', $request->query('request_user')], ['status', '<>', 'returned']])
                 ->exists();
+
+            echo $exist;
 
             if ($exist) {
                 return response()->json([
