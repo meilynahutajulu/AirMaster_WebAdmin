@@ -23,6 +23,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::prefix('efb')->group(function () {
         Route::get('get-count-devices', [EFBHomeController::class, 'get_count_devices']);
+        Route::get('get-user-by-id', [EFBDevicesController::class, 'get_user_by_id']);
         Route::get('get-devices', [EFBDevicesController::class, 'get_devices']);
         Route::get('get-device-by-id', [EFBDevicesController::class, 'get_device_by_id']);
         Route::get('get-device-by-name', [EFBDevicesController::class, 'get_device_by_name']);

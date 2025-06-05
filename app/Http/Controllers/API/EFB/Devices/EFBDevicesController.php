@@ -8,6 +8,42 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 class EFBDevicesController extends Controller
 {
+    public function get_user_by_id(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'id' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed.',
+            ], 422);
+        }
+
+        try {
+            $user = DB::table('users')
+                ->where('id_number', '=', $request->query('id'))
+                ->get();
+
+            if ($user) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'User fetched successfully.',
+                    'data' => $user,
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'User not found.',
+                ], 404);
+            }
+
+        } catch (\Throwable $th) {
+            echo 'Failed to fetch devices: '.$th->getMessage();
+            return response()->json(['error' => 'Failed to fetch device'], 500);
+        }
+    }
     public function check_request(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -27,8 +63,6 @@ class EFBDevicesController extends Controller
                 ->where([['hub', '=', $request->query('hub')], ['request_user', '=', $request->query('request_user')], ['status', '<>', 'returned']])
                 ->exists();
 
-            echo $exist;
-
             if ($exist) {
                 return response()->json([
                     'status' => 'error',
@@ -42,7 +76,6 @@ class EFBDevicesController extends Controller
             }
 
         } catch (\Throwable $th) {
-            echo 'Failed to fetch devices: '.$th->getMessage();
             return response()->json(['error' => 'Failed to fetch device'], 500);
         }
     }
