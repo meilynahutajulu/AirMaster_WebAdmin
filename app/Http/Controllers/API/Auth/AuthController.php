@@ -44,7 +44,7 @@ class AuthController extends Controller
                     'token_type' => 'Bearer Token',
                 ]);
 
-                $user = User::where('email', operator: $email)->first();
+                $user = User::where('email', '=', $email)->first();
 
                 return response()->json([
                     'status' => 'success',

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82c21b521fd206f660d2eac228eddb09",
+    "content-hash": "e884a0a657d9d966973ffb0eb5f856db",
     "packages": [
         {
             "name": "brick/math",
@@ -1993,6 +1993,51 @@
                 "source": "https://github.com/thephpleague/flysystem/tree/3.29.1"
             },
             "time": "2024-10-08T08:58:34+00:00"
+        },
+        {
+            "name": "league/flysystem-gridfs",
+            "version": "3.29.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-gridfs.git",
+                "reference": "ae4942de2674729165b8d3990193565f5ceb5bfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-gridfs/zipball/ae4942de2674729165b8d3990193565f5ceb5bfe",
+                "reference": "ae4942de2674729165b8d3990193565f5ceb5bfe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongodb": "^1.3",
+                "league/flysystem": "^3.10.0",
+                "mongodb/mongodb": "^1.2",
+                "php": "^8.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\GridFS\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                },
+                {
+                    "name": "MongoDB PHP",
+                    "email": "driver-php@mongodb.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/thephpleague/flysystem-gridfs/tree/3.29.0"
+            },
+            "time": "2024-08-09T22:03:31+00:00"
         },
         {
             "name": "league/flysystem-local",
