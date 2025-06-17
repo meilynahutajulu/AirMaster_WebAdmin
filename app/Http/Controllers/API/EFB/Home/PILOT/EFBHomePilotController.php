@@ -9,6 +9,10 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 class EFBHomePilotController extends Controller
 {
+    public function __construct()
+    {
+        date_default_timezone_set('Asia/Jakarta');
+    }
     public function get_user_by_id(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -434,10 +438,15 @@ class EFBHomePilotController extends Controller
                     'q21' => $decoded['q21'],
                     'q22' => $decoded['q22'],
                     'q23' => $decoded['q23'],
+                    'feedback_date' => date('Y-m-d H:i:s'),
                 ]);
 
                 DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
                     'feedback' => true,
+                ]);
+            } else {
+                DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
+                    'feedback' => false,
                 ]);
             }
 
@@ -521,10 +530,15 @@ class EFBHomePilotController extends Controller
                     'q21' => $decoded['q21'],
                     'q22' => $decoded['q22'],
                     'q23' => $decoded['q23'],
+                    'feedback_date' => date('Y-m-d H:i:s'),
                 ]);
 
                 DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
                     'feedback' => true,
+                ]);
+            } else {
+                DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
+                    'feedback' => false,
                 ]);
             }
 

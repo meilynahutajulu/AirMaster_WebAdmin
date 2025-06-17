@@ -42,7 +42,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-count-devices', [EFBHomeOccController::class, 'get_count_devices']);
         Route::get('get-confirmation-occ', action: [EFBHomeOccController::class, 'get_confirmation']);
         Route::get('reject-request-device', action: [EFBHomeOccController::class, 'reject_request']);
-        Route::get('approve-request-device', action: [EFBHomeOccController::class, 'approve_request']);
+        Route::post('approve-request-device', action: [EFBHomeOccController::class, 'approve_request']);
         Route::post('confirm-return', action: [EFBHomeOccController::class, 'confirm_return']);
     })->name('efb_home_occ');
 
@@ -55,7 +55,9 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::prefix('efb')->group(function () {
         Route::get('get-history-occ', [EFBHistoryOccController::class, 'get_history']);
         Route::get('get-device-image', [EFBHistoryOccController::class, 'get_device_image']);
+        Route::get('get-signature-image', [EFBHistoryOccController::class, 'get_signature_image']);
         Route::get('get-feedback-detail', [EFBHistoryOccController::class, 'get_feedback_detail']);
-        Route::get('get-feedback-format-pdf', [EFBHistoryOccController::class, 'get_feedback_format_pdf']);
+        Route::get('get-format-pdf', [EFBHistoryOccController::class, 'get_format_pdf']);
+        Route::post('update-format-pdf', [EFBHistoryOccController::class, 'update_format_pdf']);
     })->name('efb_history_occ');
 });

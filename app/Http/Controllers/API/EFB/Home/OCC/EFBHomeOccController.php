@@ -122,6 +122,9 @@ class EFBHomeOccController extends Controller
         $validator = Validator::make($request->all(), [
             'request_id' => 'required',
             'approved_by' => 'required',
+            'approved_user_name' => 'required',
+            'approved_user_hub' => 'required',
+            'approved_user_rank' => 'required',
             'approved_at' => 'required',
         ]);
 
@@ -143,9 +146,14 @@ class EFBHomeOccController extends Controller
                 ], 404);
             }
 
+            $confirm_user = DB::table('users')->where('id_number', $request->approved_by)->first();
+
             DB::table('pilot_devices')->where('id', $request->request_id)->update([
                 'status' => 'used',
                 'approved_by' => $request->approved_by,
+                'approved_user_name' => $confirm_user->name,
+                'approved_user_hub' => $confirm_user->hub,
+                'approved_user_rank' => $confirm_user->rank,
                 'approved_at' => $request->approved_at,
             ]);
 
@@ -208,10 +216,13 @@ class EFBHomeOccController extends Controller
                 'receive_remark' => $request->remark,
                 'received_by' => $request->received_by,
                 'received_user_name' => $confirm_user->name,
+                'received_user_hub' => $confirm_user->hub,
+                'received_user_rank' => $confirm_user->rank,
                 'received_at' => $request->received_at,
                 'received_signature' => $signature_img_name,
                 'returned_device_picture' => $returned_device_img_name,
             ]);
+            echo 'After search device';
 
             DB::table('devices')->where('id', $request->deviceno)->update(['status' => true]);
 
