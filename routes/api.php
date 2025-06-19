@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\API\Auth\AuthController;
 use App\Http\Controllers\API\EFB\History\OCC\EFBHistoryOccController;
+use App\Http\Controllers\API\EFB\History\PILOT\EFBHistoryPilotController;
 use App\Http\Controllers\API\EFB\Home\OCC\EFBHomeOccController;
 use App\Http\Controllers\API\EFB\Home\Pilot\EFBHomePilotController;
 use App\Http\Controllers\API\TS_1\Home\TS1HomeController;
@@ -28,12 +29,14 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-device-by-id', [EFBHomePilotController::class, 'get_device_by_id']);
         Route::get('get-device-by-name', [EFBHomePilotController::class, 'get_device_by_name']);
         Route::get('get-confirmation-status', [EFBHomePilotController::class, 'get_confirmation_status']);
+        Route::get('get-handover-device', [EFBHomePilotController::class, 'get_handover_device']);
+        Route::get('get-handover-device-detail', [EFBHomePilotController::class, 'get_handover_device_detail']);
         Route::get('get-pilot-devices', [EFBHomePilotController::class, 'get_pilot_devices']);
         Route::get('check-request', [EFBHomePilotController::class, 'check_request']);
         Route::post('submit-request', [EFBHomePilotController::class, 'submit_request']);
         Route::delete('cancel-request', [EFBHomePilotController::class, 'cancel_request']);
-
         Route::post('pilot-handover', [EFBHomePilotController::class, 'pilot_handover']);
+        Route::post('confirm-pilot-handover', [EFBHomePilotController::class, 'confirm_pilot_handover']);
         Route::post('occ-return', [EFBHomePilotController::class, 'occ_return']);
     })->name('efb_home_pilot');
 
@@ -54,6 +57,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::prefix('efb')->group(function () {
         Route::get('get-history-occ', [EFBHistoryOccController::class, 'get_history']);
+        Route::get('get-history-other', [EFBHistoryPilotController::class, 'get_other_history']);
         Route::get('get-device-image', [EFBHistoryOccController::class, 'get_device_image']);
         Route::get('get-signature-image', [EFBHistoryOccController::class, 'get_signature_image']);
         Route::get('get-feedback-detail', [EFBHistoryOccController::class, 'get_feedback_detail']);

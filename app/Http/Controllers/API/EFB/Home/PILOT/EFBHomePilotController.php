@@ -7,6 +7,8 @@ use DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
+use MongoDB\BSON\ObjectId;
+
 class EFBHomePilotController extends Controller
 {
     public function __construct()
@@ -64,21 +66,39 @@ class EFBHomePilotController extends Controller
         }
 
         try {
-            $exist = DB::table('pilot_devices')
-                ->where([['hub', '=', $request->query('hub')], ['request_user', '=', $request->query('request_user')]])
-                ->whereNotIn('status', ['returned', 'rejected'])
+            $check_handover = DB::table('pilot_devices')
+                ->where([
+                    ['hub', '=', $request->query('hub')],
+                    ['handover_to', '=', $request->query('request_user')],
+                    ['status', '=', 'handover_confirmation'],
+                ])
                 ->exists();
 
-            if ($exist) {
+            if ($check_handover) {
                 return response()->json([
                     'status' => 'error',
                     'message' => 'Request already exists.',
                 ], 409);
             } else {
-                return response()->json([
-                    'status' => 'success',
-                    'message' => 'No existing request found.',
-                ], 200);
+                $exist = DB::table('pilot_devices')
+                    ->where([
+                        ['hub', '=', $request->query('hub')],
+                        ['request_user', '=', $request->query('request_user')],
+                    ])
+                    ->whereNotIn('status', ['returned', 'rejected', 'handover'])
+                    ->exists();
+
+                if ($exist) {
+                    return response()->json([
+                        'status' => 'error',
+                        'message' => 'Request already exists.',
+                    ], 409);
+                } else {
+                    return response()->json([
+                        'status' => 'success',
+                        'message' => 'No existing request found.',
+                    ], 200);
+                }
             }
 
         } catch (\Throwable $th) {
@@ -125,7 +145,7 @@ class EFBHomePilotController extends Controller
                 'status' => $request->input('status'),
             ]);
 
-            $update = DB::table('devices')
+            DB::table('devices')
                 ->where('deviceno', '=', $request->input('deviceno'))
                 ->update(['status' => false]);
 
@@ -288,9 +308,9 @@ class EFBHomePilotController extends Controller
         try {
             $devices = DB::table('pilot_devices')
                 ->where([['hub', '=', $request->query('hub')], ['status', '=', $request->query('status')], ['request_user', '=', $request->query('request_user')]])
-                ->get();
+                ->first();
 
-            if ($devices->isNotEmpty()) {
+            if ($devices) {
                 return response()->json([
                     'status' => 'success',
                     'message' => 'Fetched data successfully.',
@@ -305,6 +325,227 @@ class EFBHomePilotController extends Controller
         } catch (\Throwable $th) {
             echo 'Failed to fetch devices: '.$th->getMessage();
             return response()->json(['error' => 'Failed to fetch device'], 500);
+        }
+    }
+
+    public function get_handover_device(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'hub' => 'required',
+            'request_user' => 'required',
+            'status' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed.',
+            ], 422);
+        }
+
+        try {
+            $devices = DB::table('pilot_devices')
+                ->where([
+                    ['hub', '=', $request->query('hub')],
+                    ['status', '=', $request->query('status')],
+                    ['handover_to', '=', $request->query('request_user')]])
+                ->first();
+
+            if ($devices) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Fetched data successfully.',
+                    'data' => $devices,
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'No waiting devices found.',
+                ], 404);
+            }
+        } catch (\Throwable $th) {
+            echo 'Failed to fetch devices: '.$th->getMessage();
+            return response()->json(['error' => 'Failed to fetch device'], 500);
+        }
+    }
+
+    public function get_handover_device_detail(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'request_id' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed.',
+            ], 422);
+        }
+
+        try {
+            $devices = DB::connection('mongodb')
+                ->getMongoDB()
+                ->selectCollection('pilot_devices')
+                ->aggregate([
+                    [
+                        '$match' => [
+                            '_id' => new ObjectId($request->query('request_id')),
+                        ]
+                    ],
+                    [
+                        '$lookup' => [
+                            'from' => 'users',
+                            'localField' => 'request_user',
+                            'foreignField' => 'id_number',
+                            'as' => 'user_info'
+                        ]
+                    ],
+                    [
+                        '$unwind' => [
+                            'path' => '$user_info',
+                            'preserveNullAndEmptyArrays' => true
+                        ]
+                    ],
+                    [
+                        '$project' => [
+                            '_id' => 1,
+                            'deviceno' => 1,
+                            'ios_version' => 1,
+                            'fly_smart' => 1,
+                            'doc_version' => 1,
+                            'lido_version' => 1,
+                            'hub' => 1,
+                            'category' => 1,
+                            'remark' => 1,
+                            'request_date' => 1,
+                            'status' => 1,
+                            'approved_at' => 1,
+                            'approved_by' => 1,
+                            'approved_user_hub' => 1,
+                            'approved_user_name' => 1,
+                            'approved_user_rank' => 1,
+                            'feedback' => 1,
+                            'receive_category' => 1,
+                            'receive_remark' => 1,
+                            'received_at' => 1,
+                            'received_by' => 1,
+                            'received_user_name' => 1,
+                            'received_user_hub' => 1,
+                            'received_signature' => 1,
+                            'returned_device_picture' => 1,
+                            'handover_date' => 1,
+                            'handover_to' => 1,
+                            'handover_user_name' => 1,
+                            'handover_user_hub' => 1,
+                            'handover_user_rank' => 1,
+                            'isHandover' => 1,
+
+                            'request_user' => '$user_info.id_number',
+                            'request_user_name' => '$user_info.name',
+                            'request_user_email' => '$user_info.email',
+                            'request_user_photo' => '$user_info.photo_url',
+                            'request_user_hub' => '$user_info.hub',
+                            'request_user_rank' => '$user_info.rank',
+                            'request_user_signature' => 1,
+                        ]]
+                ]);
+
+            if ($devices) {
+                $devices = iterator_to_array($devices);
+
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Fetched data successfully.',
+                    'data' => $devices[0],
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'No waiting devices found.',
+                ], 404);
+            }
+        } catch (\Throwable $th) {
+            echo 'Failed to fetch devices: '.$th->getMessage();
+            return response()->json(['error' => 'Failed to fetch device'], 500);
+        }
+    }
+
+    public function confirm_pilot_handover(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'request_id' => 'required',
+            'deviceno' => 'required',
+            'handover_to' => 'required',
+            'handover_date' => 'required',
+            'handover_device_category' => 'required',
+            'signature' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            echo 'Validation failed: '.$validator->errors();
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed.',
+            ], 422);
+        }
+
+        try {
+            $signature_img_name = null;
+            if ($request->hasFile('signature')) {
+                $signature_img_name = $request->handover_to.'_'.$request->request_id.'.'.$request->signature->getClientOriginalExtension();
+                Storage::disk('signatures')->put($signature_img_name, file_get_contents($request->signature));
+            }
+
+            $device = DB::table('pilot_devices')
+                ->where('deviceno', '=', $request->deviceno)->first();
+
+            $user = DB::table('users')
+                ->where('id_number', '=', $request->handover_to)->first();
+
+            if ($request->damage_img) {
+                $dmg_img_name = $request->deviceno.'_'.$request->request_id.'_damage.'.$request->damage_img->getClientOriginalExtension();
+                Storage::disk('device_pictures')->put($dmg_img_name, file_get_contents($request->damage_img));
+                DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
+                    'damage_img' => $dmg_img_name,
+                ]);
+            }
+
+            $update = DB::table('pilot_devices')->where([['id', '=', $request->request_id]])
+                ->update([
+                    'status' => 'handover',
+                    'handover_date' => $request->handover_date,
+                    'handover_signature' => $signature_img_name,
+                ]);
+
+            DB::table('pilot_devices')->insert([
+                'deviceno' => $request->deviceno,
+                'ios_version' => $device->ios_version,
+                'fly_smart' => $device->fly_smart,
+                'doc_version' => $device->doc_version,
+                'lido_version' => $device->lido_version,
+                'hub' => $device->hub,
+                'category' => $request->handover_device_category,
+                'remark' => $request->handover_device_remark,
+                'request_user' => $request->handover_to,
+                'request_user_name' => $user->name,
+                'request_date' => $request->handover_date,
+                'status' => 'used',
+            ]);
+
+            if ($update) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Request updated successfully.',
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Failed to update request or request not found.',
+                ], 404);
+            }
+
+        } catch (\Throwable $th) {
+            return response()->json(['error' => 'Failed to update request'], 500);
         }
     }
 
@@ -391,6 +632,7 @@ class EFBHomePilotController extends Controller
             'request_id' => 'required',
             'request_user' => 'required',
             'handover_to' => 'required',
+            'handover_date' => 'required',
             'signature' => 'required',
         ]);
 
@@ -450,10 +692,16 @@ class EFBHomePilotController extends Controller
                 ]);
             }
 
+            $user = DB::table('users')->where('id_number', $request->handover_to)->first();
+
             $update = DB::table('pilot_devices')->where([['id', '=', $request->request_id]])->update([
-                'status' => 'handover',
+                'status' => 'handover_confirmation',
+                'isHandover' => true,
                 'handover_to' => $request->handover_to,
-                'handover_date' => date('Y-m-d H:i:s'),
+                'handover_user_name' => $user->name,
+                'handover_user_hub' => $user->hub,
+                'handover_user_rank' => $user->rank,
+                'handover_date' => $request->handover_date,
                 'request_user_signature' => $img_name,
             ]);
 
@@ -544,12 +792,13 @@ class EFBHomePilotController extends Controller
 
             if ($request->remark) {
                 DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
-                    'remark' => $request->remark,
+                    'return_remark_via_fo' => $request->remark,
                 ]);
             }
 
             $update = DB::table('pilot_devices')->where([['id', '=', $request->request_id]])->update([
                 'status' => 'occ_returned',
+                'isHandover' => false,
                 'request_user_signature' => $img_name,
             ]);
 

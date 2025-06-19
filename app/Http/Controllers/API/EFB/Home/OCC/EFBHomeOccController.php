@@ -122,9 +122,6 @@ class EFBHomeOccController extends Controller
         $validator = Validator::make($request->all(), [
             'request_id' => 'required',
             'approved_by' => 'required',
-            'approved_user_name' => 'required',
-            'approved_user_hub' => 'required',
-            'approved_user_rank' => 'required',
             'approved_at' => 'required',
         ]);
 
