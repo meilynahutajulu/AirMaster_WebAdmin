@@ -53,19 +53,20 @@ class EFBHistoryOccController extends Controller
                     ]
                 ]);
 
-            if ($history) {
-                $history = iterator_to_array($history);
+            $history = iterator_to_array($history);
 
+            if (! empty($history)) {
                 return response()->json([
                     'status' => 'success',
-                    'message' => 'History fetched successfully.',
+                    'message' => 'Fetched data successfully.',
                     'data' => $history,
                 ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'No waiting devices found.',
+                ], 404);
             }
-            return response()->json([
-                'status' => 'success',
-                'message' => 'No history found.',
-            ], 404);
         } catch (\Throwable $th) {
             return response()->json([
                 'status' => 'error',

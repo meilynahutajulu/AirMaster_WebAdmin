@@ -52,7 +52,7 @@ class EFBHomeOccController extends Controller
                 ->aggregate([
                     [
                         '$match' => [
-                            'status' => $request->query('status'),
+                            'status' => $request->status,
                         ]
                     ],
                     [
@@ -86,19 +86,20 @@ class EFBHomeOccController extends Controller
                     ]
                 ]);
 
-            if ($devices) {
-                $devices = iterator_to_array($devices);
+            $devices = iterator_to_array($devices);
 
+            if (! empty($devices)) {
                 return response()->json([
                     'status' => 'success',
-                    'message' => 'History fetched successfully.',
+                    'message' => 'Fetched data successfully.',
                     'data' => $devices,
                 ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'No waiting devices found.',
+                ], 404);
             }
-            return response()->json([
-                'status' => 'success',
-                'message' => 'No history found.',
-            ], 404);
         } catch (\Throwable $th) {
             return response()->json([
                 'status' => 'error',

@@ -68,7 +68,6 @@ class EFBHomePilotController extends Controller
         try {
             $check_handover = DB::table('pilot_devices')
                 ->where([
-                    ['hub', '=', $request->query('hub')],
                     ['handover_to', '=', $request->query('request_user')],
                     ['status', '=', 'handover_confirmation'],
                 ])
@@ -415,8 +414,6 @@ class EFBHomePilotController extends Controller
 
                     [
                         '$addFields' => [
-                            'request_user' => '$user_info.id_number',
-                            'request_user_name' => '$user_info.name',
                             'request_user_email' => '$user_info.email',
                             'request_user_photo' => '$user_info.photo_url',
                             'request_user_hub' => '$user_info.hub',
@@ -430,8 +427,9 @@ class EFBHomePilotController extends Controller
                     ]
                 ]);
 
-            if ($devices) {
-                $devices = iterator_to_array($devices);
+            $devices = iterator_to_array($devices);
+
+            if (! empty($devices)) {
                 return response()->json([
                     'status' => 'success',
                     'message' => 'Fetched data successfully.',
@@ -443,6 +441,7 @@ class EFBHomePilotController extends Controller
                     'message' => 'No waiting devices found.',
                 ], 404);
             }
+
         } catch (\Throwable $th) {
             return response()->json(['error' => 'Failed to fetch device'], 500);
         }
@@ -451,7 +450,6 @@ class EFBHomePilotController extends Controller
     public function get_handover_device(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'hub' => 'required',
             'request_user' => 'required',
             'status' => 'required',
         ]);
@@ -464,18 +462,52 @@ class EFBHomePilotController extends Controller
         }
 
         try {
-            $devices = DB::table('pilot_devices')
-                ->where([
-                    ['hub', '=', $request->query('hub')],
-                    ['status', '=', $request->query('status')],
-                    ['handover_to', '=', $request->query('request_user')]])
-                ->first();
+            $devices = DB::connection('mongodb')
+                ->getMongoDB()
+                ->selectCollection('pilot_devices')
+                ->aggregate([
+                    [
+                        '$match' => [
+                            'handover_to' => $request->query('request_user'),
+                            'status' => $request->query('status'),
+                        ]
+                    ],
+                    [
+                        '$lookup' => [
+                            'from' => 'users',
+                            'localField' => 'request_user',
+                            'foreignField' => 'id_number',
+                            'as' => 'user_info'
+                        ]
+                    ],
+                    [
+                        '$unwind' => [
+                            'path' => '$user_info',
+                            'preserveNullAndEmptyArrays' => true
+                        ]
+                    ],
+                    [
+                        '$addFields' => [
+                            'request_user_email' => '$user_info.email',
+                            'request_user_photo' => '$user_info.photo_url',
+                            'request_user_hub' => '$user_info.hub',
+                            'request_user_rank' => '$user_info.rank',
+                        ]
+                    ],
+                    [
+                        '$project' => [
+                            'user_info' => 0
+                        ]
+                    ]
+                ]);
 
-            if ($devices) {
+            $devices = iterator_to_array($devices);
+
+            if (! empty($devices)) {
                 return response()->json([
                     'status' => 'success',
                     'message' => 'Fetched data successfully.',
-                    'data' => $devices,
+                    'data' => $devices[0],
                 ], 200);
             } else {
                 return response()->json([
@@ -484,7 +516,6 @@ class EFBHomePilotController extends Controller
                 ], 404);
             }
         } catch (\Throwable $th) {
-            echo 'Failed to fetch devices: '.$th->getMessage();
             return response()->json(['error' => 'Failed to fetch device'], 500);
         }
     }
@@ -527,52 +558,23 @@ class EFBHomePilotController extends Controller
                         ]
                     ],
                     [
-                        '$project' => [
-                            '_id' => 1,
-                            'deviceno' => 1,
-                            'ios_version' => 1,
-                            'fly_smart' => 1,
-                            'doc_version' => 1,
-                            'lido_version' => 1,
-                            'hub' => 1,
-                            'category' => 1,
-                            'remark' => 1,
-                            'request_date' => 1,
-                            'status' => 1,
-                            'approved_at' => 1,
-                            'approved_by' => 1,
-                            'approved_user_hub' => 1,
-                            'approved_user_name' => 1,
-                            'approved_user_rank' => 1,
-                            'feedback' => 1,
-                            'receive_category' => 1,
-                            'receive_remark' => 1,
-                            'received_at' => 1,
-                            'received_by' => 1,
-                            'received_user_name' => 1,
-                            'received_user_hub' => 1,
-                            'received_signature' => 1,
-                            'returned_device_picture' => 1,
-                            'handover_date' => 1,
-                            'handover_to' => 1,
-                            'handover_user_name' => 1,
-                            'handover_user_hub' => 1,
-                            'handover_user_rank' => 1,
-                            'isHandover' => 1,
-
-                            'request_user' => '$user_info.id_number',
-                            'request_user_name' => '$user_info.name',
+                        '$addFields' => [
                             'request_user_email' => '$user_info.email',
                             'request_user_photo' => '$user_info.photo_url',
                             'request_user_hub' => '$user_info.hub',
                             'request_user_rank' => '$user_info.rank',
-                            'request_user_signature' => 1,
-                        ]]
+                        ]
+                    ],
+                    [
+                        '$project' => [
+                            'user_info' => 0
+                        ]
+                    ]
                 ]);
 
-            if ($devices) {
-                $devices = iterator_to_array($devices);
+            $devices = iterator_to_array($devices);
 
+            if (! empty($devices)) {
                 return response()->json([
                     'status' => 'success',
                     'message' => 'Fetched data successfully.',
@@ -585,7 +587,6 @@ class EFBHomePilotController extends Controller
                 ], 404);
             }
         } catch (\Throwable $th) {
-            echo 'Failed to fetch devices: '.$th->getMessage();
             return response()->json(['error' => 'Failed to fetch device'], 500);
         }
     }
@@ -594,10 +595,8 @@ class EFBHomePilotController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'request_id' => 'required',
-            'deviceno' => 'required',
             'handover_to' => 'required',
             'handover_date' => 'required',
-            'handover_device_category' => 'required',
             'signature' => 'required',
         ]);
 
@@ -616,17 +615,68 @@ class EFBHomePilotController extends Controller
                 Storage::disk('signatures')->put($signature_img_name, file_get_contents($request->signature));
             }
 
-            $device = DB::table('pilot_devices')
-                ->where('deviceno', '=', $request->deviceno)->first();
-
-            $user = DB::table('users')
-                ->where('id_number', '=', $request->handover_to)->first();
-
             if ($request->damage_img) {
                 $dmg_img_name = $request->deviceno.'_'.$request->request_id.'_damage.'.$request->damage_img->getClientOriginalExtension();
                 Storage::disk('device_pictures')->put($dmg_img_name, file_get_contents($request->damage_img));
                 DB::table('pilot_devices')->where('id', '=', $request->request_id)->update([
                     'damage_img' => $dmg_img_name,
+                ]);
+            }
+
+            $user = DB::table('users')
+                ->where('id_number', '=', $request->handover_to)->first();
+
+            if ($request->isFoRequest) {
+                echo '<pre>';
+                print_r($request->all());
+                echo '</pre>';
+
+                $firstDevice = DB::table('devices')
+                    ->where('deviceno', '=', $request->mainDeviceNo)->first();
+                $secondDevice = DB::table('devices')
+                    ->where('deviceno', '=', $request->backupDeviceNo)->first();
+
+                DB::table('pilot_devices')->insert([
+                    'isFoRequest' => true,
+                    'mainDeviceNo' => $firstDevice->deviceno,
+                    'mainDeviceiOSVersion' => $firstDevice->iosver,
+                    'mainDeviceFlySmart' => $firstDevice->flysmart,
+                    'mainDeviceDocuVersion' => $firstDevice->docuversion,
+                    'mainDeviceLidoVersion' => $firstDevice->lidoversion,
+                    'mainDeviceHub' => $firstDevice->hub,
+                    'mainDeviceCategory' => $request->input('main_device_category'),
+                    'mainDeviceRemark' => $request->input('main_device_remark', null),
+                    'backupDeviceNo' => $secondDevice->deviceno,
+                    'backupDeviceiOSVersion' => $secondDevice->iosver,
+                    'backupDeviceFlySmart' => $secondDevice->flysmart,
+                    'backupDeviceDocuVersion' => $secondDevice->docuversion,
+                    'backupDeviceLidoVersion' => $secondDevice->lidoversion,
+                    'backupDeviceHub' => $secondDevice->hub,
+                    'backupDeviceCategory' => $request->input('backup_device_category'),
+                    'backupDeviceRemark' => $request->input('backup_device_remark', null),
+                    'request_user' => $request->handover_to,
+                    'request_user_name' => $user->name,
+                    'request_date' => $request->handover_date,
+                    'status' => 'used',
+                ]);
+            } else {
+                $device = DB::table('devices')
+                    ->where('deviceno', '=', $request->deviceno)->first();
+
+                DB::table('pilot_devices')->insert([
+                    'isFoRequest' => false,
+                    'deviceno' => $request->deviceno,
+                    'ios_version' => $device->iosver,
+                    'fly_smart' => $device->flysmart,
+                    'doc_version' => $device->docuversion,
+                    'lido_version' => $device->lidoversion,
+                    'hub' => $device->hub,
+                    'category' => $request->handover_device_category,
+                    'remark' => $request->handover_device_remark,
+                    'request_user' => $request->handover_to,
+                    'request_user_name' => $user->name,
+                    'request_date' => $request->handover_date,
+                    'status' => 'used',
                 ]);
             }
 
@@ -636,21 +686,6 @@ class EFBHomePilotController extends Controller
                     'handover_date' => $request->handover_date,
                     'handover_signature' => $signature_img_name,
                 ]);
-
-            DB::table('pilot_devices')->insert([
-                'deviceno' => $request->deviceno,
-                'ios_version' => $device->ios_version,
-                'fly_smart' => $device->fly_smart,
-                'doc_version' => $device->doc_version,
-                'lido_version' => $device->lido_version,
-                'hub' => $device->hub,
-                'category' => $request->handover_device_category,
-                'remark' => $request->handover_device_remark,
-                'request_user' => $request->handover_to,
-                'request_user_name' => $user->name,
-                'request_date' => $request->handover_date,
-                'status' => 'used',
-            ]);
 
             if ($update) {
                 return response()->json([
@@ -665,6 +700,7 @@ class EFBHomePilotController extends Controller
             }
 
         } catch (\Throwable $th) {
+            echo 'Failed to update request: '.$th->getMessage();
             return response()->json(['error' => 'Failed to update request'], 500);
         }
     }
@@ -709,8 +745,6 @@ class EFBHomePilotController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'request_id' => 'required',
-            'mainDeviceNo' => 'required',
-            'backupDeviceNo' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -727,13 +761,20 @@ class EFBHomePilotController extends Controller
                 ])
                 ->delete();
 
-            DB::table('devices')
-                ->where('deviceno', '=', $request->input('mainDeviceNo'))
-                ->update(['status' => true]);
+            if ($request->isFoRequest) {
+                DB::table('devices')
+                    ->where('deviceno', '=', $request->input('mainDeviceNo'))
+                    ->update(['status' => true]);
 
-            DB::table('devices')
-                ->where('deviceno', '=', $request->input('backupDeviceNo'))
-                ->update(['status' => true]);
+                DB::table('devices')
+                    ->where('deviceno', '=', $request->input('backupDeviceNo'))
+                    ->update(['status' => true]);
+            } else {
+                DB::table('devices')
+                    ->where('deviceno', '=', $request->input('deviceno'))
+                    ->update(['status' => true]);
+            }
+
 
             if ($delete) {
                 return response()->json([
@@ -778,7 +819,7 @@ class EFBHomePilotController extends Controller
 
 
             if ($request->input('feedback')) {
-                $decoded = json_decode($request->feedback, true); // true -> associative array
+                $decoded = json_decode($request->feedback, true);
 
                 DB::table('feedback')->insert([
                     'request_id' => $request->request_id,
