@@ -34,6 +34,7 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-pilot-devices', [EFBHomePilotController::class, 'get_pilot_devices']);
         Route::get('check-request', [EFBHomePilotController::class, 'check_request']);
         Route::post('submit-request', [EFBHomePilotController::class, 'submit_request']);
+        Route::post('fo-submit-request', [EFBHomePilotController::class, 'fo_submit_request']);
         Route::delete('cancel-request', [EFBHomePilotController::class, 'cancel_request']);
         Route::post('pilot-handover', [EFBHomePilotController::class, 'pilot_handover']);
         Route::post('confirm-pilot-handover', [EFBHomePilotController::class, 'confirm_pilot_handover']);

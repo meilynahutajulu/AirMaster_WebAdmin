@@ -35,7 +35,7 @@ class EFBHomeOccController extends Controller
     public function get_confirmation(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'hub' => 'required',
+            'status' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -46,22 +46,59 @@ class EFBHomeOccController extends Controller
         }
 
         try {
-            $devices = DB::table('pilot_devices')
-                ->where([['hub', '=', $request->query('hub')], ['status', '=', $request->query('status')]])
-                ->get();
+            $devices = DB::connection('mongodb')
+                ->getMongoDB()
+                ->selectCollection('pilot_devices')
+                ->aggregate([
+                    [
+                        '$match' => [
+                            'status' => $request->query('status'),
+                        ]
+                    ],
+                    [
+                        '$lookup' => [
+                            'from' => 'users',
+                            'localField' => 'request_user',
+                            'foreignField' => 'id_number',
+                            'as' => 'user_info'
+                        ]
+                    ],
+                    [
+                        '$unwind' => [
+                            'path' => '$user_info',
+                            'preserveNullAndEmptyArrays' => true
+                        ]
+                    ],
+                    [
+                        '$addFields' => [
+                            'request_user' => '$user_info.id_number',
+                            'request_user_name' => '$user_info.name',
+                            'request_user_email' => '$user_info.email',
+                            'request_user_photo' => '$user_info.photo_url',
+                            'request_user_hub' => '$user_info.hub',
+                            'request_user_rank' => '$user_info.rank',
+                        ]
+                    ],
+                    [
+                        '$project' => [
+                            'user_info' => 0
+                        ]
+                    ]
+                ]);
 
-            if ($devices->isNotEmpty()) {
+            if ($devices) {
+                $devices = iterator_to_array($devices);
+
                 return response()->json([
                     'status' => 'success',
-                    'message' => 'Fetched data successfully.',
+                    'message' => 'History fetched successfully.',
                     'data' => $devices,
                 ], 200);
-            } else {
-                return response()->json([
-                    'status' => 'error',
-                    'message' => 'No waiting devices found.',
-                ], 404);
             }
+            return response()->json([
+                'status' => 'success',
+                'message' => 'No history found.',
+            ], 404);
         } catch (\Throwable $th) {
             return response()->json([
                 'status' => 'error',
@@ -73,10 +110,10 @@ class EFBHomeOccController extends Controller
     public function reject_request(Request $request)
     {
         $validator = Validator::make($request->all(), [
+            'isFoRequest' => 'required',
             'request_id' => 'required',
             'rejected_by' => 'required',
             'rejected_at' => 'required',
-            'deviceno' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -103,7 +140,13 @@ class EFBHomeOccController extends Controller
                 'rejected_at' => $request->rejected_at,
             ]);
 
-            DB::table('devices')->where('id', $request->deviceno)->update(['status' => true]);
+            if ($request->isFoRequest == 'true') {
+                DB::table('devices')->where('id', $request->mainDeviceNo)->update(['status' => true]);
+                DB::table('devices')->where('id', $request->backupDeviceNo)->update(['status' => true]);
+
+            } else {
+                DB::table('devices')->where('id', $request->deviceno)->update(['status' => true]);
+            }
 
             return response()->json([
                 'status' => 'success',
@@ -169,10 +212,10 @@ class EFBHomeOccController extends Controller
     public function confirm_return(Request $request)
     {
         $validator = Validator::make($request->all(), [
+            'isFoRequest' => 'required',
             'request_id' => 'required',
             'received_by' => 'required',
             'received_at' => 'required',
-            'deviceno' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -186,6 +229,15 @@ class EFBHomeOccController extends Controller
             $signature_img_name = null;
             $returned_device_img_name = null;
 
+            $device = DB::table('pilot_devices')->where('id', $request->request_id)->exists();
+
+            if (! $device) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Device not found.',
+                ], 404);
+            }
+
             if ($request->hasFile('signature')) {
                 $signature_img_name = $request->received_by.'_'.$request->request_id.'.'.$request->signature->getClientOriginalExtension();
                 Storage::disk('signatures')->put($signature_img_name, file_get_contents($request->signature));
@@ -196,14 +248,6 @@ class EFBHomeOccController extends Controller
                 Storage::disk('device_pictures')->put($returned_device_img_name, file_get_contents($request->returned_device));
             }
 
-            $device = DB::table('pilot_devices')->where('id', $request->request_id)->exists();
-
-            if (! $device) {
-                return response()->json([
-                    'status' => 'error',
-                    'message' => 'Device not found.',
-                ], 404);
-            }
 
             $confirm_user = DB::table('users')->where('id_number', $request->received_by)->first();
 
@@ -219,9 +263,14 @@ class EFBHomeOccController extends Controller
                 'received_signature' => $signature_img_name,
                 'returned_device_picture' => $returned_device_img_name,
             ]);
-            echo 'After search device';
 
-            DB::table('devices')->where('id', $request->deviceno)->update(['status' => true]);
+            if ($request->isFoRequest == 'true') {
+                DB::table('devices')->where('id', $request->mainDeviceNo)->update(['status' => true]);
+                DB::table('devices')->where('id', $request->backupDeviceNo)->update(['status' => true]);
+            } else {
+                DB::table('devices')->where('id', $request->deviceno)->update(['status' => true]);
+            }
+
 
             return response()->json([
                 'status' => 'success',
