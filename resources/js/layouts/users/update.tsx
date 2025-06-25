@@ -171,10 +171,16 @@ export function EditForm() {
               control={form.control}
               name="license_expiry"
               render={({ field }) => (
-                <ResponsiveDatePickers
-                  value={field.value ? dayjs(field.value) : null}
-                  onChange={(val) => field.onChange(val?.toISOString())}
-                />
+                <FormItem>
+                <FormLabel>License Expiry</FormLabel>
+                <FormControl>
+                  <ResponsiveDatePickers
+                    value={field.value ? dayjs(field.value) : null}
+                    onChange={(val) => field.onChange(val ? val.toDate() : null)}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
               )}
             />
             

@@ -31,6 +31,8 @@ class DashboardController extends Controller
         $totalExpired = $userExpired->count();
 
         $loginData = UserLogin::all()
+
+
             ->map(function (UserLogin $item) {
                 $item->formatted_date = $item->login_date->format('Y-m-d');
                 return $item;

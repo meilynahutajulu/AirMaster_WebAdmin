@@ -37,11 +37,11 @@ const FormSchema = z.object({
   hub: z.string().min(2, { message: "HUB is required." }),
   status: z.string().min(2, { message: "Status is required" }),
   id_number: z.string().min(2, { message: "ID NO is required." })
-    .regex(/^[a-zA-Z0-9]+$/, { message: "ID NO must contain only letters and numbers." }),
+    .regex(/^[a-zA-Z0-9\s]+$/, { message: "ID NO must contain only letters, numbers, and spaces." }),
   loa_number: z.string().min(2, { message: "LOA NO is required." })
-    .regex(/^[a-zA-Z0-9]+$/, { message: "LOA NO must contain only letters and numbers." }),
+    .regex(/^[a-zA-Z0-9\s]+$/, { message: "LOA NO must contain only letters, numbers, and spaces." }),
   license_number: z.string().min(2, { message: "LICENSE NO is required." })
-    .regex(/^[a-zA-Z0-9]+$/, { message: "LICENSE NO must contain only letters and numbers." }),
+    .regex(/^[a-zA-Z0-9\s]+$/, { message: "LICENSE NO must contain only letters, numbers, and spaces." }),
   type: z.string().min(2, { message: "Type is required." }),
   rank: z.string().min(2, { message: "Rank is required." }),
   license_expiry: z.date({ message: "LICENSE EXPIRY is required." }),
