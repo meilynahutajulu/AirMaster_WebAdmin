@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\Auth\AuthController;
+use App\Http\Controllers\API\EFB\Analytics\OCC\EFBAnalyticsOccController;
 use App\Http\Controllers\API\EFB\History\OCC\EFBHistoryOccController;
 use App\Http\Controllers\API\EFB\History\PILOT\EFBHistoryPilotController;
 use App\Http\Controllers\API\EFB\Home\OCC\EFBHomeOccController;
@@ -69,6 +70,12 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-format-pdf', [EFBHistoryOccController::class, 'get_format_pdf']);
         Route::post('update-format-pdf', [EFBHistoryOccController::class, 'update_format_pdf']);
     })->name('efb_history_occ');
+
+    Route::prefix('efb')->group(function () {
+        Route::get('get-hub', [EFBAnalyticsOccController::class, 'get_hub']);
+        Route::get('get-count-hub', [EFBAnalyticsOccController::class, 'get_count_hub']);
+        Route::get('get-all-pilot-devices', [EFBAnalyticsOccController::class, 'get_all_pilot_devices']);
+    })->name('efb_analytics_occ');
 
     Route::prefix('tc')->group(function () {
         Route::get('get-training-cards', [TC_HomeController::class, 'get_training_cards']);
