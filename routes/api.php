@@ -6,12 +6,12 @@ use App\Http\Controllers\API\EFB\History\PILOT\EFBHistoryPilotController;
 use App\Http\Controllers\API\EFB\Home\OCC\EFBHomeOccController;
 use App\Http\Controllers\API\EFB\Home\Pilot\EFBHomePilotController;
 use App\Http\Controllers\API\TS_1\Home\TS1HomeController;
+use App\Http\Controllers\API\TC\Training\TC_TrainingController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\TC\Home\Instructor\TC_InstructorHomeController;
 use App\Http\Controllers\API\TC\Home\Examinee\TC_ExamineeHomeController;
 use App\Http\Controllers\API\TC\Home\TC_HomeController;
-use App\Http\Controllers\API\TC\Training\TC_TrainingController;
 
 Route::get('/user', function (Request $request) {
     return $request->user();
