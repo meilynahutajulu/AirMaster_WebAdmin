@@ -77,6 +77,12 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-all-pilot-devices', [EFBAnalyticsOccController::class, 'get_all_pilot_devices']);
     })->name('efb_analytics_occ');
 
+    Route::prefix('efb')->group(function () {
+        Route::get('get-hub', [EFBAnalyticsOccController::class, 'get_hub']);
+        Route::get('get-count-hub', [EFBAnalyticsOccController::class, 'get_count_hub']);
+        Route::get('get-all-pilot-devices', [EFBAnalyticsOccController::class, 'get_all_pilot_devices']);
+    })->name('efb_analytics_occ');
+
     Route::prefix('tc')->group(function () {
         Route::get('get-training-cards', [TC_HomeController::class, 'get_training_cards']);
         Route::post('new-training-card', [TC_TrainingController::class, 'new_training_card']);
