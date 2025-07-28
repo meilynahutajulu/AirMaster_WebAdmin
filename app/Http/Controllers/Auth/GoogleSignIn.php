@@ -63,10 +63,10 @@ class GoogleSignIn extends Controller
          */
         
 
-        $db_user = User::where('EMAIL', $email)->first();
+        $db_user = User::where('email', $email)->first();
 
         if ($db_user) {
-            if (!$db_user['TYPE'] == 'SUPERADMIN') {
+            if (!$db_user['type'] == 'SUPERADMIN') {
                 return redirect('/')->with('error', 'Your account is not allowed.');
             }
         } else {
@@ -87,9 +87,9 @@ class GoogleSignIn extends Controller
     */
     public function logout()
     {
-        Auth::logout();
-        Session::flush();
+        $cookie = Cookie::forget('google_id');
+        $cookie = Cookie::forget('name');
 
-        return redirect('/')->with('success', 'Logout succesfull.');
+        return redirect('/')->withCookie($cookie)->with('success', 'Logout succesfull.');
     }
 }

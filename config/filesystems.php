@@ -38,6 +38,24 @@ return [
             'report' => false,
         ],
 
+        'signatures' => [
+            'driver' => 'gridfs',
+            'connection' => 'mongodb',
+            'database' => env('MONGODB_DATABASE', 'airmaster'),
+            'bucket' => 'signatures',
+            'read-only' => false,
+            'throw' => true,
+        ],
+
+        'device_pictures' => [
+            'driver' => 'gridfs',
+            'connection' => 'mongodb',
+            'database' => env('MONGODB_DATABASE', 'airmaster'),
+            'bucket' => 'device_pictures',
+            'read-only' => false,
+            'throw' => true,
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),

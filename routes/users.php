@@ -1,13 +1,16 @@
 <?php
 
-use App\Http\Controllers\Settings\PasswordController;
-use App\Http\Controllers\Settings\ProfileController;
 use App\Http\Controllers\User\UserController;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 Route::middleware('auth')->group(function () {
 
-    Route::get('users', [UserController::class,'index']); 
-    Route::get('users/index', [UserController::class,'index']);
+    Route::get('users', [UserController::class, 'index']);
+    Route::post('users/store', [UserController::class, 'store'])->name('store');
+    Route::get('users/index', [UserController::class, 'index']);
+    Route::get('users/expired', [UserController::class, 'expired']);
+    Route::get('users/add', [UserController::class,'create']);
+    Route::get('users/edit/{id}', [UserController::class, 'edit']);
+    Route::post('users/update/{id}', [UserController::class,'update'])->name('update');
+    Route::post('users/delete/{id}', [UserController::class, 'delete'])->name('user.delete');
 });

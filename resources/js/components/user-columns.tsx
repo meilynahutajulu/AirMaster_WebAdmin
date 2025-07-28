@@ -2,14 +2,20 @@ import { User } from '@/types';
 import { ColumnDef } from '@tanstack/react-table';
 import { ArrowUpDown } from "lucide-react"
 import { Button } from './ui/button';
+import DataTableRowActions from './row-actions';
 
-export const userColumns: ColumnDef<User>[] = [
+interface UserColumnsProps {
+  onEdit: (user: User) => void;
+  onDelete: (user: User) => Promise<void>;
+}
+
+export const userColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnDef<User>[] => [
   {
-    accessorKey: "PHOTOURL",
+    accessorKey: "photo_url",
     header: "Picture",
   },
   {
-    accessorKey: "EMAIL",
+    accessorKey: "email",
     header: ({ column }) => {
       return (
         <Button
@@ -23,7 +29,7 @@ export const userColumns: ColumnDef<User>[] = [
     },
   },
   {
-    accessorKey: "NAME",
+    accessorKey: "name",
     header: ({ column }) => {
       return (
         <Button
@@ -37,7 +43,7 @@ export const userColumns: ColumnDef<User>[] = [
     },
   },
   {
-    accessorKey: "RANK",
+    accessorKey: "rank",
     header: ({ column }) => {
       return (
         <Button
@@ -51,15 +57,12 @@ export const userColumns: ColumnDef<User>[] = [
     },
   },
   {
-    accessorKey: "LOA NO",
-    header: "LOA No",
-  },
-  {
-    accessorKey: "LICENSE NO.",
-    header: "License No",
-  },
-  {
-    accessorKey: "INSTRUCTOR",
+    accessorKey: "instructor",
     header: "Instructor",
+  },
+  {
+    header: "Actions",
+    id: "actions",
+    cell: ({ row }) => <DataTableRowActions row={row} onEdit={onEdit} onDelete={async (user) => await onDelete(user)} />,
   }
 ]
