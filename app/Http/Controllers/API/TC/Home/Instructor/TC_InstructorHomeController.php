@@ -100,4 +100,48 @@ class TC_InstructorHomeController extends Controller
             ], 500);
         }
     }
+
+    public function check_trainee_score (Request $request)
+    {
+        $validated = Validator::make(
+            $request->all(),
+            [
+                'idattendance' => 'required|string',
+            ]
+        );
+        if ($validated->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Validation failed.',
+                'errors' => $validated->errors(),
+            ], status: 422);
+        }
+
+        try {
+            $data = DB::table('attendance-detail')
+                ->where('idattendance', $request->input('idattendance'))
+                ->where('score',  "PASS")
+                ->count();
+
+            if ($data > 0) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Trainee has passed the training.',
+                    'score' => $data
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Trainee has not passed the training.',
+                    'score' => 0
+                ], 200);
+            }
+        } catch (\Throwable $th) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Failed to check trainee score.',
+                'error' => $th->getMessage(),
+            ], 500);
+        }
+    }
 }

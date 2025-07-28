@@ -161,173 +161,198 @@ class TC_TrainingController extends Controller
             ], 422);
         }
 
-        try {
-            $pending = DB::connection('mongodb')
-                ->getMongoDB()
-                ->selectCollection('attendance')
-                ->aggregate([
-                    [
-                        '$match' => [
-                            'subject' => ['$in' => [$request->input('subject')]],
-                            'status' => ['$in' => ['pending']],
-                        ]
-                    ],
-                    [
-                        '$lookup' => [
-                            'from' => 'users',
-                            'localField' => 'instructor',
-                            'foreignField' => 'id_number',
-                            'as' => 'user_info'
-                        ]
-                    ],
-                    [
-                        '$unwind' => [
-                            'path' => '$user_info',
-                            'preserveNullAndEmptyArrays' => true
-                        ]
-                    ],
-                    [
-                        '$project' => [
-                            '_id' => 1,
-                            'date' => 1,
-                            'trainingType' => 1,
-                            'venue' => 1,
-                            'subject' => 1,
-                            'idTrainingType' => 1,
-                            'room' => 1,
-                            'is_delete' => 1,
-                            'instructor' => 1,
-                            'department' => 1,
-                            'keyAttendance' => 1,
-                            'status' => 1,
+        if ($request->input('subject') == 'ALL') {
+            $attendanceList = DB::table('attendance')
+                ->where([['is_delete', false], ['status', 'pending']])
+                ->get();
 
-                            'user_id' => '$user_info.id_number',
-                            'user_name' => '$user_info.name',
-                            'user_email' => '$user_info.email',
-                            'user_photo' => '$user_info.PHOTOURL',
-                            'user_rank' => '$user_info.rank'
-                        ]
-                    ]
-                ]);
-
-            $confirmed = DB::connection('mongodb')
-                ->getMongoDB()
-                ->selectCollection('attendance')
-                ->aggregate([
-                    [
-                        '$match' => [
-                            'subject' => ['$in' => [$request->input('subject')]],
-                            'status' => ['$in' => ['confirmation']],
-                        ]
-                    ],
-                    [
-                        '$lookup' => [
-                            'from' => 'users',
-                            'localField' => 'instructor',
-                            'foreignField' => 'id_number',
-                            'as' => 'user_info'
-                        ]
-                    ],
-                    [
-                        '$unwind' => [
-                            'path' => '$user_info',
-                            'preserveNullAndEmptyArrays' => true
-                        ]
-                    ],
-                    [
-                        '$project' => [
-                            '_id' => 1,
-                            'date' => 1,
-                            'trainingType' => 1,
-                            'venue' => 1,
-                            'subject' => 1,
-                            'idTrainingType' => 1,
-                            'room' => 1,
-                            'is_delete' => 1,
-                            'instructor' => 1,
-                            'department' => 1,
-                            'keyAttendance' => 1,
-                            'status' => 1,
-
-                            'user_id' => '$user_info.id_number',
-                            'user_name' => '$user_info.name',
-                            'user_email' => '$user_info.email',
-                            'user_photo' => '$user_info.PHOTOURL',
-                            'user_rank' => '$user_info.rank',
-                            'user_loaNo' => '$user_info.loa_number'
-                        ]
-                    ]
-                ]);
-
-            $done = DB::connection('mongodb')
-                ->getMongoDB()
-                ->selectCollection('attendance')
-                ->aggregate([
-                    [
-                        '$match' => [
-                            'subject' => ['$in' => [$request->input('subject')]],
-                            'status' => ['$in' => ['done']],
-                        ]
-                    ],
-                    [
-                        '$lookup' => [
-                            'from' => 'users',
-                            'localField' => 'instructor',
-                            'foreignField' => 'id_number',
-                            'as' => 'user_info'
-                        ]
-                    ],
-                    [
-                        '$unwind' => [
-                            'path' => '$user_info',
-                            'preserveNullAndEmptyArrays' => true
-                        ]
-                    ],
-                    [
-                        '$project' => [
-                            '_id' => 1,
-                            'date' => 1,
-                            'trainingType' => 1,
-                            'venue' => 1,
-                            'subject' => 1,
-                            'idTrainingType' => 1,
-                            'room' => 1,
-                            'is_delete' => 1,
-                            'instructor' => 1,
-                            'department' => 1,
-                            'keyAttendance' => 1,
-                            'status' => 1,
-
-                            'user_id' => '$user_info.id_number',
-                            'user_name' => '$user_info.name',
-                            'user_email' => '$user_info.email',
-                            'user_photo' => '$user_info.PHOTOURL',
-                            'user_rank' => '$user_info.rank'
-                        ]
-                    ]
-                ]);
-
-            if ($pending || $confirmed || $done) {
-                $pending = iterator_to_array($pending);
-                $confirmed = iterator_to_array($confirmed);
-                $done = iterator_to_array($done);
-
+            if ($attendanceList->isEmpty()) {
                 return response()->json([
                     'status' => 'success',
-                    'message' => 'History fetched successfully.',
-                    'data' => ['pending' => $pending, 'confirmed' => $confirmed, 'done' => $done],
-                ], 200);
+                    'message' => 'No attendance found.',
+                ], 404);
             }
+
             return response()->json([
                 'status' => 'success',
-                'message' => 'No history found.',
-            ], 404);
-        } catch (\Throwable $th) {
-            return response()->json([
-                'status' => 'error',
-                'message' => 'Failed to fetch history.',
-                'error' => $th->getMessage(),
-            ], 500);
+                'message' => 'Attendance list retrieved successfully.',
+                'data' => $attendanceList,
+            ], 200);
+        } else {
+
+
+            try {
+                $pending = DB::connection('mongodb')
+                    ->getMongoDB()
+                    ->selectCollection('attendance')
+                    ->aggregate([
+                        [
+                            '$match' => [
+                                'subject' => ['$in' => [$request->input('subject')]],
+                                'status' => ['$in' => ['pending']],
+                            ]
+                        ],
+                        [
+                            '$lookup' => [
+                                'from' => 'users',
+                                'localField' => 'instructor',
+                                'foreignField' => 'id_number',
+                                'as' => 'user_info'
+                            ]
+                        ],
+                        [
+                            '$unwind' => [
+                                'path' => '$user_info',
+                                'preserveNullAndEmptyArrays' => true
+                            ]
+                        ],
+                        [
+                            '$project' => [
+                                '_id' => 1,
+                                'date' => 1,
+                                'trainingType' => 1,
+                                'venue' => 1,
+                                'subject' => 1,
+                                'idTrainingType' => 1,
+                                'room' => 1,
+                                'is_delete' => 1,
+                                'instructor' => 1,
+                                'department' => 1,
+                                'keyAttendance' => 1,
+                                'status' => 1,
+
+                                'instructor_id' => '$user_info.id_number',
+                                'instructor_name' => '$user_info.name',
+                                'instructor_email' => '$user_info.email',
+                                'instructor_photo' => '$user_info.photo_url',
+                                'instructor_rank' => '$user_info.rank'
+                            ]
+                        ]
+                    ]);
+
+                $confirmed = DB::connection('mongodb')
+                    ->getMongoDB()
+                    ->selectCollection('attendance')
+                    ->aggregate([
+                        [
+                            '$match' => [
+                                'subject' => ['$in' => [$request->input('subject')]],
+                                'status' => ['$in' => ['confirmation']],
+                            ]
+                        ],
+                        [
+                            '$lookup' => [
+                                'from' => 'users',
+                                'localField' => 'instructor',
+                                'foreignField' => 'id_number',
+                                'as' => 'user_info'
+                            ]
+                        ],
+                        [
+                            '$unwind' => [
+                                'path' => '$user_info',
+                                'preserveNullAndEmptyArrays' => true
+                            ]
+                        ],
+                        [
+                            '$project' => [
+                                '_id' => 1,
+                                'date' => 1,
+                                'trainingType' => 1,
+                                'venue' => 1,
+                                'subject' => 1,
+                                'idTrainingType' => 1,
+                                'room' => 1,
+                                'is_delete' => 1,
+                                'instructor' => 1,
+                                'department' => 1,
+                                'keyAttendance' => 1,
+                                'status' => 1,
+
+                                'instructor_id' => '$user_info.id_number',
+                                'instructor_name' => '$user_info.name',
+                                'instructor_email' => '$user_info.email',
+                                'instructor_photo' => '$user_info.photo_url',
+                                'instructor_rank' => '$user_info.rank',
+                                'instructor_loaNo' => '$user_info.loa_number'
+                            ]
+                        ]
+                    ]);
+
+                $done = DB::connection('mongodb')
+                    ->getMongoDB()
+                    ->selectCollection('attendance')
+                    ->aggregate([
+                        [
+                            '$match' => [
+                                'subject' => ['$in' => [$request->input('subject')]],
+                                'status' => ['$in' => ['done']],
+                            ]
+                        ],
+                        [
+                            '$lookup' => [
+                                'from' => 'users',
+                                'localField' => 'instructor',
+                                'foreignField' => 'id_number',
+                                'as' => 'user_info'
+                            ]
+                        ],
+                        [
+                            '$unwind' => [
+                                'path' => '$user_info',
+                                'preserveNullAndEmptyArrays' => true
+                            ]
+                        ],
+                        [
+                            '$project' => [
+                                '_id' => 1,
+                                'date' => 1,
+                                'trainingType' => 1,
+                                'venue' => 1,
+                                'subject' => 1,
+                                'idTrainingType' => 1,
+                                'attendanceType' => 1,
+                                'room' => 1,
+                                'is_delete' => 1,
+                                'instructor' => 1,
+                                'idPilotAdministrator' => 1,
+                                'department' => 1,
+                                'keyAttendance' => 1,
+                                'status' => 1,
+                                'signatureInstructor' => 1,
+                                'signaturePilotAdministrator' => 1,
+
+                                'instructor_name' => '$user_info.name',
+                                'instructor_email' => '$user_info.email',
+                                'instructor_photo' => '$user_info.PHOTOURL',
+                                'instructor_rank' => '$user_info.rank',
+                                'instructor_loaNo' => '$user_info.loa_number'
+                            ]
+                        ]
+                    ]);
+
+                if ($pending || $confirmed || $done) {
+                    $pending = iterator_to_array($pending);
+                    $confirmed = iterator_to_array($confirmed);
+                    $done = iterator_to_array($done);
+
+                    return response()->json([
+                        'status' => 'success',
+                        'message' => 'History fetched successfully.',
+                        'data' => ['pending' => $pending, 'confirmed' => $confirmed, 'done' => $done],
+                    ], 200);
+                }
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'No history found.',
+                ], 404);
+            } catch (\Throwable $th) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Failed to fetch history.',
+                    'error' => $th->getMessage(),
+                ], 500);
+            }
         }
     }
 
@@ -420,7 +445,7 @@ class TC_TrainingController extends Controller
                     ]
                 ]);
 
-                $confirmed = DB::connection('mongodb')
+            $confirmed = DB::connection('mongodb')
                 ->getMongoDB()
                 ->selectCollection('attendance')
                 ->aggregate([
@@ -457,6 +482,7 @@ class TC_TrainingController extends Controller
                             'department' => 1,
                             'keyAttendance' => 1,
                             'status' => 1,
+                            'attendanceType' => 1,
 
                             'user_id' => '$user_info.id_number',
                             'user_name' => '$user_info.name',
@@ -476,12 +502,12 @@ class TC_TrainingController extends Controller
                     'message' => 'Status confirmation fetched successfully.',
                     'data' => ['pending' => $pending, 'confirmed' => $confirmed],
                 ], 200);
-            } 
+            }
             return response()->json([
                 'status' => 'success',
                 'message' => 'No status confirmation found.',
             ], 404);
-        }catch (\Throwable $th) {
+        } catch (\Throwable $th) {
             return response()->json([
                 'status' => 'error',
                 'message' => 'Failed to fetch status confirmation.',

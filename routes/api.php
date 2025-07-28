@@ -6,6 +6,7 @@ use App\Http\Controllers\API\EFB\History\OCC\EFBHistoryOccController;
 use App\Http\Controllers\API\EFB\History\PILOT\EFBHistoryPilotController;
 use App\Http\Controllers\API\EFB\Home\OCC\EFBHomeOccController;
 use App\Http\Controllers\API\EFB\Home\Pilot\EFBHomePilotController;
+use App\Http\Controllers\API\TC\Home\Administrator\TC_AdministratorHomeController;
 use App\Http\Controllers\API\TS_1\Home\TS1HomeController;
 use App\Http\Controllers\API\TC\Training\TC_TrainingController;
 use Illuminate\Http\Request;
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\TC\Home\Instructor\TC_InstructorHomeController;
 use App\Http\Controllers\API\TC\Home\Examinee\TC_ExamineeHomeController;
 use App\Http\Controllers\API\TC\Home\TC_HomeController;
+use App\Http\Controllers\API\TC\Home\CPTS\TC_CPTSHomeController;
 
 Route::get('/user', function (Request $request) {
     return $request->user();
@@ -100,6 +102,44 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('get-class-open', [TC_ExamineeHomeController::class, 'get_class_open']);
         Route::get('check-class-password', [TC_ExamineeHomeController::class, 'check_class_password']);
 
+        Route::post('create-attendance-detail', action: [TC_ExamineeHomeController::class, 'create_attendance_detail']);
+        Route::get('get-attendance', [TC_ExamineeHomeController::class, 'get_attendance']);
+        Route::get('get-trainee-details', [TC_ExamineeHomeController::class, 'get_trainee_details']);
+
+        Route::get('trainee-details', [TC_ExamineeHomeController::class, 'trainee_details']);
+        Route::post('save-trainee-score', [TC_ExamineeHomeController::class, 'save_trainee_score']);
+        Route::post('confirm-attendance', [TC_ExamineeHomeController::class, 'confirm_attendance']);
+
+        // Administrator Routes
+        Route::get('get-total-participant', [TC_AdministratorHomeController::class, 'get_total_participant']);
+        Route::get('get-pilot-list', [TC_AdministratorHomeController::class, 'get_pilot_list']);
+        Route::get('recurrent-date-training', [TC_AdministratorHomeController::class, 'recurrent_date_training']);
+        Route::post('confirm-class-attendance', [TC_AdministratorHomeController::class, 'confirm_class_attendance']);
+        Route::get('get-absent-participant', [TC_AdministratorHomeController::class, 'get_absent_participant']);
+        Route::get('get-total-absent-trainee', [TC_AdministratorHomeController::class, 'get_total_absent_trainee']);
+        Route::get('get-attendance-detail-done', [TC_AdministratorHomeController::class, 'get_attendance_detail_done']);
+        Route::get('get-administrator-data', [TC_AdministratorHomeController::class, 'get_administrator_data']);
+        Route::get('get-participant-detail', [TC_AdministratorHomeController::class, 'get_participant_detail']);
+        Route::get('get-tc-signature', [TC_AdministratorHomeController::class, 'getSignature']);
+        Route::get('get-participant-history', [TC_AdministratorHomeController::class, 'get_participant_history']);
+        Route::get('get-participant-training-history', [TC_AdministratorHomeController::class, 'get_participant_training_history']);
+        Route::get('get-instructor-training', [TC_AdministratorHomeController::class, 'get_instructor_training']);
+        Route::get('get-trainee-training', [TC_AdministratorHomeController::class, 'get_trainee_training']);
+        Route::get('check-trainee-score', [TC_InstructorHomeController::class, 'check_trainee_score']);
+        Route::get('get-history-training-trainee', [TC_AdministratorHomeController::class, 'get_history_training_trainee']);
+        Route::get('get-training-remarks', [TC_AdministratorHomeController::class, 'get_training_remarks']);
+        Route::get('get-all-pilot', [TC_AdministratorHomeController::class, 'get_all_pilot']);
+
+        // examinee routes
+        Route::get('get-need-feedback', [TC_ExamineeHomeController::class, 'get_need_feedback']);
+        Route::post('examinee-feedback', [TC_ExamineeHomeController::class, 'examinee_feedback']);
+        Route::get('check-feedback', [TC_ExamineeHomeController::class, 'check_feedback']);
+        Route::get('get-trainee-profile', [TC_ExamineeHomeController::class, 'get_trainee_profile']);
+
+        // CPTS Home
+        Route::get('get-pilot-only', [TC_CPTSHomeController::class, 'get_pilot_only']);
+        Route::get('get-pilot-detail', [TC_CPTSHomeController::class, 'get_pilot_detail']);
+        Route::get('get-attendance-list-cpts', [TC_CPTSHomeController::class, 'get_attendance_list_cpts']);
     });
 
 
